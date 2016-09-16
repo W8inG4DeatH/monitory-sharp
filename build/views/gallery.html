@@ -1,0 +1,47 @@
+    <h1 class="outsite">Art Store Gallery</h1>
+    <div class="container">
+        <h2 class="outsite">{{galleryData[activeCategoryID].name | capitalize}} Gallery</h2>
+        <div class="container-gallery">
+            <div class="row gallery-show-1">
+                <div class="row-gallery">
+                    <div class="gallery-title text-center">
+                        <div class="gallery-title-element gallery-title-line gallery-title-left-line"></div><div class="gallery-title-element gallery-title-text">{{galleryData[activeCategoryID].name | uppercase}}<br>{{activeArt}}/{{galleryData[activeCategoryID].arts.length}}</div><div class="gallery-title-element gallery-title-line gallery-title-right-line"></div>
+                    </div>            
+                </div>                            
+            </div>
+            <div class="row gallery-show-2">
+                <div class="row-gallery">
+                    <hr>                
+                </div>
+            </div>
+            <div class="row gallery-show-3">
+                <div class="row-gallery">
+                    <article>
+                    <h3 class="outsite">{{galleryData[activeCategoryID].arts[activeArt-1].title | capitalize}} Art</h3>
+                        <img class="img-responsive gallery-art-img" ng-srcset="img/arts/{{galleryData[activeCategoryID].name}}-{{activeArt}}.jpg"/>
+                        <div class="gallery-art-location-desc"><b>ART</b> in <b>{{galleryData[activeCategoryID].name | uppercase}}</b></div>
+                        <div class="gallery-art-title"><h4></h4></div>
+                        <div class="gallery-art-desc"><p></p></div>
+                    </article>
+                </div>                
+            </div>
+            <div class="row gallery-show-4">
+                <div class="row-gallery">
+                    <hr>                
+                </div>
+            </div>
+            <div class="row gallery-show-5">
+                <div class="gallery-art-panel col-xs-6 text-left">
+                    <div ng-show="activeArt > 1" class="arrow-btn" ng-click="PreviousArt()" ng-mouseenter="SlideUpAndDownChildByClass($event,'.btn-icon')">
+                        <svg class="btn-icon rotate-90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 5.1 3.3" style="enable-background:new 0 0 5.1 3.3;" xml:space="preserve"><path d="M5.1,0L2.5,3.3L0,0.1l2.6,1.5L5.1,0z"></path></svg>
+                    </div>
+                </div>
+                <div class="col-xs-6 text-right">
+                    <div ng-show="activeArt < galleryData[activeCategoryID].arts.length" class="arrow-btn" ng-click="NextArt()" ng-mouseenter="SlideUpAndDownChildByClass($event,'.btn-icon')">
+                        <svg class="btn-icon rotate-270" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 5.1 3.3" style="enable-background:new 0 0 5.1 3.3;" xml:space="preserve"><path d="M5.1,0L2.5,3.3L0,0.1l2.6,1.5L5.1,0z"></path></svg>
+                    </div>                  
+                </div>
+            </div>
+        </div>
+    </div>
+
