@@ -10,41 +10,21 @@
                 templateUrl: 'views/home.html',
                 label: 'Welcome'
             })
-            .when('/gallery/:categoryAlias/:artAlias', {
-                controller: 'galleryController',
-                templateUrl: 'views/gallery.html',
-                label: 'Gallery'
+            .when('/products/:categoryAlias/:productAlias', {
+                controller: 'productsController',
+                templateUrl: 'views/products.html',
+                label: 'Products'
             })
-            .when('/gallery/:categoryAlias', {
-                controller: 'galleryController',
-                templateUrl: 'views/gallery.html',
-                label: 'Gallery'
+            .when('/products/:categoryAlias', {
+                controller: 'productsController',
+                templateUrl: 'views/products.html',
+                label: 'Products'
             })
-            .when('/gallery', {
-                controller: 'galleryController',
-                templateUrl: 'views/gallery.html',
-                label: 'Gallery'
+            .when('/products', {
+                controller: 'productsController',
+                templateUrl: 'views/products.html',
+                label: 'Products'
             })
-            .when('/registration', {
-                controller: 'registrationController',
-                templateUrl: 'views/registration.html',
-                label: 'Registration'
-            })
-            .when('/activation/:code', {
-                controller: 'activationController',
-                templateUrl: 'views/activation.html',
-                label: 'Activation'
-            })
-            .when('/login', {
-                controller: 'loginController',
-                templateUrl: 'views/login.html',
-                label: 'Login'
-            })
-            .when('/password-recovery', {
-                controller: 'passwordRecoveryController',
-                templateUrl: 'views/password-recovery.html',
-                label: 'Password Recovery'
-            })            
             .otherwise({
                 redirectTo: '/home'
             });            
@@ -54,106 +34,56 @@
             
     }]);
 
-    app.controller('myController', ['$scope', '$http', '$window', '$location', '$anchorScroll', 'mainService', function($scope, $http, $window, $location, $anchorScroll, mainService) {
+    app.controller('myController', ['$scope', '$http', '$window', '$location', '$anchorScroll', 'mainService', 'getWWWData', function($scope, $http, $window, $location, $anchorScroll, mainService, getWWWData) {
 
-        // LOG SYSTEM
+        getWWWData('www_data', function (data) {
+            $scope.wwwData = data;
+            $scope.WWWInit();
+        });
 
-        $scope.user = [];
-        $scope.user[13] = "";
+        $scope.WWWInit = function() {
 
-        $scope.userLogged = false;
-        $scope.userAccess = 0;
-        $scope.menuRight = false;
-        $scope.activeCategoryID = 0;
-        $scope.activeArt = 1;
-
-        $scope.HttpPost = function(phppath,phpdata,endMassage) {
-            $http.post(phppath, { "data" : phpdata })
-            .
-            success(function(data, status) {
-                $scope.status = status;
-                $scope.data = data;
-                $scope.result = data; // Show result from server in our <pre></pre> element
-                if (endMassage) {
-                    alert(endMassage);
-                }
-            })
-            .
-            error(function(data, status) {
-                $scope.data = data || "Request failed";
-                $scope.status = status;
+            $scope.products = [];
+            angular.forEach($scope.wwwData.categories, function(category, categoryKey) {
+                $scope.products[category.name] = [];
             });
-        };        
-
-        $scope.getUsers = function(id, email) {
-            $scope.users = [];
-            $scope.phpAtt = "";
-            if (id) {
-                $scope.phpAtt = "?id="+id;
-            } else if (email) {
-                $scope.phpAtt = "?email="+email;            
-            }
-            $http.get("../../php/users-getusers.php"+$scope.phpAtt).success(function(data) {
-                $scope.users = data;
+            angular.forEach($scope.wwwData.products, function(product, productKey) {
+                $scope.products[product.category].push(product);
             });
-        };
 
-        $scope.Logout = function() {
-            $scope.user = [];
-            $scope.user[13] = "Anonymous";
-            $scope.userAccess = 0;
-            mainService.setCookie('Logged','','1','/','arts-store.flash-developer.pl',false);             
-            $scope.userLogged = false;
-        };
-
-        // Earlier logged user detection
-        $scope.CheckUserCookie = function() {
-            $scope.userCookie = mainService.getCookie('Logged');
-            if ($scope.userCookie !== null) {
-                $scope.users = [];
-                $scope.phpAtt = "?email='"+$scope.userCookie+"'";
-                $http.get("../../php/users-getusers.php"+$scope.phpAtt).success(function(data) {
-                    $scope.users = data;
-                    if ($scope.users[0] !== undefined) {
-                        $scope.user = $scope.users[0];
-                        $scope.userAccess = $scope.user[9];
-                        $scope.userLogged = true;
-                        mainService.setCookie('Logged',$scope.user[1],'1','/','arts-store.flash-developer.pl',false);            
-                    } 
+            // SLIDER
+            $scope.colorsForSlider = ['#1e3557','#37342d','#83293b'];
+            $scope.sliderCategoriesColors = [];
+            $scope.sliderCategoriesImageNumbers = [];
+            $scope.randomSlider = function() {
+                angular.forEach($scope.wwwData.categories, function(category, categoryKey) {
+                    //$scope.sliderCategoriesColors[categoryKey] = $scope.colorsForSlider[mainService.GetRandomInt(0,$scope.colorsForSlider.length-1)];
+                    //$scope.sliderCategoriesImageNumbers[categoryKey] = mainService.GetRandomInt(1,$scope.products[category.name].length);
                 });
-            }
+            };
+            $scope.randomSlider();            
         };
-        $scope.CheckUserCookie();
 
-        // ARTS - STORE
-
-        $scope.galleryData = mainService.getGalleryData();
-        $scope.colorsForSlider = ['#1e3557','#37342d','#83293b'];
-        $scope.sliderCategoriesColors = [];
-        $scope.sliderCategoriesImageNumbers = [];
-        $scope.randomSlider = function() {
-            for (var i=0; i<$scope.galleryData.length; i++) {
-                $scope.sliderCategoriesColors[i] = $scope.colorsForSlider[mainService.GetRandomInt(0,$scope.colorsForSlider.length-1)];
-                $scope.sliderCategoriesImageNumbers[i] = mainService.GetRandomInt(1,$scope.galleryData[i].arts.length);
-            }
-        };
-        $scope.randomSlider();
+        $scope.menuCenterDropdownMenu = false;
+        $scope.menuCenterDropdownMenuActiveCategory = "";
+        $scope.menuMobileMenu = false;
+        $scope.menuMobileActiveCategory = "";
 
         // START //
 
         $scope.showWebsiteData = {
-            a1 : {mode: "AnimateWord", selector: ".logo > h1", word: "A R T S", stepTime: 75, delayTime: 0, fade: true},
-            a2 : {mode: "AnimateWord", selector: ".logo > p", word: "S T O R E", stepTime: 33, delayTime: 0, fade: true},
+            a1 : {mode: "FadeIn", selector: ".logo > h1", stepTime: 500, delayTime: 0},
+            a2 : {mode: "AnimateWord", selector: ".logo > p", word: "M O N I T O R Y", stepTime: 33, delayTime: 0, fade: true},
             a3 : {mode: "FadeIn", selector: ".menu-center", stepTime: 500, delayTime: 0},
             a4 : {mode: "FadeIn", selector: ".menu-right", stepTime: 500, delayTime: 0},
             a5 : {mode: "FadeIn", selector: ".w8-slider", stepTime: 500, delayTime: 0},
-            a6 : {mode: "FadeIn", selector: ".art-store-gallerries", stepTime: 500, delayTime: 0}
+            a6 : {mode: "FadeIn", selector: ".product-store-gallerries", stepTime: 500, delayTime: 0}
         };
 
         $(window).load(function() {
             $('.siteLoader').hide();
             mainService.StartTooltip();
-            mainService.StartSlider("w8-slider1",$scope.galleryData.length,4000,1000);
+            //mainService.StartSlider("w8-slider1",$scope.wwwData.categories.length,4000,1000);
             mainService.ShowWebsite($scope.showWebsiteData);
         });
 
@@ -162,10 +92,27 @@
             $anchorScroll();
         };
 
-        $scope.GoToArt = function (categoryName,artNumber) {
-            $scope.$parent.activeArt = artNumber;
-            $location.path('/gallery/'+categoryName+'/'+$scope.$parent.activeArt);
-            console.log('/gallery/'+categoryName+'/'+$scope.$parent.activeArt);
+        $scope.ShowDropdownMenu = function(category) {
+            if ($scope.menuCenterDropdownMenuActiveCategory == category) {
+                $scope.menuCenterDropdownMenu = !$scope.menuCenterDropdownMenu;
+            } else {
+                $scope.menuCenterDropdownMenu = true;
+            }
+            $scope.menuCenterDropdownMenuActiveCategory = category; 
+        };
+        $scope.ShowMobileMenu = function(category) {
+            if ($scope.menuMobileMenuActiveCategory == category) {
+                $scope.menuMobileMenu = !$scope.menuMobileMenu;
+            } else {
+                $scope.menuMobileMenu = true;
+            }
+            $scope.menuMobileMenuActiveCategory = category;
+        };
+
+        $scope.GoToProduct = function (categoryName,productNumber) {
+            $scope.$parent.activeProduct = productNumber;
+            $location.path('/products/'+categoryName+'/'+$scope.$parent.activeProduct);
+            console.log('/products/'+categoryName+'/'+$scope.$parent.activeProduct);
         };        
 
         $scope.SlideUpAndDownByClass = function(elementClass) {
@@ -199,59 +146,59 @@
     }]);
 
     /////////////
-    // GALLERY //
+    // PRODUCTS //
     /////////////   
 
-    app.controller('galleryController', ['$scope', '$routeParams', 'mainService', function($scope, $routeParams, mainService){
+    app.controller('productsController', ['$scope', '$routeParams', 'mainService', function($scope, $routeParams, mainService){
 
         $scope.$parent.menuRight = false;
 
-        $scope.SetActiveCategory = function (categoryAlias, artAlias) {
+        $scope.SetActiveCategory = function (categoryAlias, productAlias) {
             if (categoryAlias) {
-                for (var i = 0; i < $scope.galleryData.length; i ++) {
-                    if ($scope.galleryData[i].name === categoryAlias) {
+                for (var i = 0; i < $scope.wwwData.length; i ++) {
+                    if ($scope.wwwData[i].name === categoryAlias) {
                         $scope.$parent.activeCategoryID = i;
                     }
                 }
             } else {
                 $scope.$parent.activeCategoryID = 1;                
             }
-            if (artAlias) {
-                $scope.$parent.activeArt = artAlias;
+            if (productAlias) {
+                $scope.$parent.activeProduct = productAlias;
             } else {
-                $scope.$parent.activeArt = 1;
+                $scope.$parent.activeProduct = 1;
             }
         };
-        $scope.SetActiveCategory($routeParams.categoryAlias,$routeParams.artAlias);
+        $scope.SetActiveCategory($routeParams.categoryAlias,$routeParams.productAlias);
 
-        $scope.AnimateGallery = function () {
-            var showGalleryData = {
-                a1 : {mode: "FadeIn", selector: ".gallery-show-1", stepTime: 500, delayTime: 0},
-                a2 : {mode: "FadeIn", selector: ".gallery-show-2", stepTime: 500, delayTime: 0},
-                a3 : {mode: "FadeIn", selector: ".gallery-show-3", stepTime: 500, delayTime: 0},
-                a4 : {mode: "FadeIn", selector: ".gallery-show-4", stepTime: 500, delayTime: 0},
-                a5 : {mode: "FadeIn", selector: ".gallery-show-5", stepTime: 500, delayTime: 0},
-                a6 : {mode: "AnimateWord", selector: ".gallery-art-title > h4", word: $scope.$parent.galleryData[$scope.$parent.activeCategoryID].arts[$scope.$parent.activeArt-1].title, stepTime: 10, delayTime: 500, fade: false},
-                a7 : {mode: "AnimateWord", selector: ".gallery-art-desc > p", word: $scope.$parent.galleryData[$scope.$parent.activeCategoryID].arts[$scope.$parent.activeArt-1].desc, stepTime: 1, delayTime: 500, fade: false}
+        $scope.AnimateProducts = function () {
+            var showProductsData = {
+                a1 : {mode: "FadeIn", selector: ".products-show-1", stepTime: 500, delayTime: 0},
+                a2 : {mode: "FadeIn", selector: ".products-show-2", stepTime: 500, delayTime: 0},
+                a3 : {mode: "FadeIn", selector: ".products-show-3", stepTime: 500, delayTime: 0},
+                a4 : {mode: "FadeIn", selector: ".products-show-4", stepTime: 500, delayTime: 0},
+                a5 : {mode: "FadeIn", selector: ".products-show-5", stepTime: 500, delayTime: 0},
+                a6 : {mode: "AnimateWord", selector: ".products-product-title > h4", word: $scope.$parent.wwwData[$scope.$parent.activeCategoryID].products[$scope.$parent.activeProduct-1].title, stepTime: 10, delayTime: 500, fade: false},
+                a7 : {mode: "AnimateWord", selector: ".products-product-desc > p", word: $scope.$parent.wwwData[$scope.$parent.activeCategoryID].products[$scope.$parent.activeProduct-1].desc, stepTime: 1, delayTime: 500, fade: false}
             };
-            mainService.ShowWebsite(showGalleryData);
+            mainService.ShowWebsite(showProductsData);
         };
 
-        $scope.NextArt = function () {
-            if ($scope.$parent.activeArt < $scope.$parent.galleryData[$scope.$parent.activeCategoryID].arts.length) {
-                $scope.$parent.activeArt++;
+        $scope.NextProduct = function () {
+            if ($scope.$parent.activeProduct < $scope.$parent.wwwData[$scope.$parent.activeCategoryID].products.length) {
+                $scope.$parent.activeProduct++;
             }
-            $scope.AnimateGallery();
+            $scope.AnimateProducts();
         };
-        $scope.PreviousArt = function () {
-            if ($scope.$parent.activeArt > 1) {
-                $scope.$parent.activeArt--;
+        $scope.PreviousProduct = function () {
+            if ($scope.$parent.activeProduct > 1) {
+                $scope.$parent.activeProduct--;
             }
-            $scope.AnimateGallery();
+            $scope.AnimateProducts();
         };
 
         angular.element(document).ready(function() {
-            $scope.AnimateGallery();
+            $scope.AnimateProducts();
         });
 
     }]);
@@ -343,7 +290,7 @@
             $scope.$parent.user = $scope.$parent.users[index];
             $scope.$parent.userAccess = $scope.$parent.users[index][9];
             $scope.$parent.userLogged = true;
-            mainService.setCookie('Logged',$scope.$parent.user[1],'1','/','arts-store.flash-developer.pl',false);            
+            mainService.setCookie('Logged',$scope.$parent.user[1],'1','/','products-store.flash-developer.pl',false);            
             $location.path('#');
         };
 

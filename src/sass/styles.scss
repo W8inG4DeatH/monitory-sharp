@@ -1,5 +1,6 @@
 @import "mixins";
 
+$color-sharp: #d82c38;
 $color-global: #555555; 
 $color-medium: #a0a0a0;
 $color-light: #e8e8e8;
@@ -86,6 +87,7 @@ underline {
 /////////////////////////////////////////////////////////////
 
 .logo {
+	color: $color-sharp;
 	font-weight: bold;
 }
 
@@ -184,74 +186,74 @@ underline {
 /////////////////////////////////////////////////////////////
 // GALLERY //
 
-.container-gallery {
+.container-products {
 	background-color: #ffffff;
 	margin: 2% 3%;
 	padding: 1% 2%;
 }
-.row-gallery {
+.row-products {
 	margin: 2% 0;
 }
  
-.gallery-title {
+.products-title {
 	position: relative;
 	width: 100%;
 	height: 2rem;
 }
-.gallery-title-element {
+.products-title-element {
 	position: absolute;
 	display: inline-block;
 	margin: auto;
 	top: 0;
 	bottom: 0;
 }
-.gallery-title-text {
+.products-title-text {
 	left: 0;
 	right: 0;
 	font-size: 2rem;
 	font-weight: bold;
 }
-.gallery-title-line {
+.products-title-line {
 	width: 35%;
 	height: 1px;
 	background-color: $color-light;
 }
-.gallery-title-left-line {
+.products-title-left-line {
 	left: 0;
 }
-.gallery-title-right-line {
+.products-title-right-line {
 	right: 0;
 }
 
-.gallery-img {
+.products-img {
 	@include transition();
 	@include filter(grayscale(75%));
 	cursor: pointer;
 }
-.gallery-img-nogray {
+.products-img-nogray {
 	@include filter(grayscale(0%));
 	@include prefix(transform, scale(1.05), webkit moz o ms);
 }
 
-.gallery-art-location-desc {
+.products-art-location-desc {
 	color: $color-medium;
 	font-size: 1.2rem;
 	margin: 20px 0;
 }
-.gallery-art-title {
+.products-art-title {
 	font-size: 2rem;
 	margin: 15px 0;
 }
-.gallery-art-desc {
+.products-art-desc {
 	color: $color-medium;
 	font-size: 1.5rem;
 	margin: 15px 0;
 }
-.gallery-art-panel {
+.products-art-panel {
 	height: 40px;
 	margin-bottom: 20px;
 }
-.gallery-btn {
+.products-btn {
 	display: inline-block;
 	height: 35px;
 	@include border-radius($color-light,1px,solid,20px,20px);

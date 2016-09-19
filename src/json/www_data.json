@@ -1,0 +1,5530 @@
+{
+
+
+
+
+
+	"categories": [
+		{
+			"name": "interactive_models",
+			"label": "Modele interaktywne"
+		},
+		{
+			"name": "uhd_models",
+			"label": "Modele 4K-UHD"
+		},
+		{
+			"name": "big_format_momitors",
+			"label": "Monitory wielkoformatowe"
+		},
+		{
+			"name": "telebims",
+			"label": "Telebimy"
+		}
+	],
+
+
+
+
+
+	"products": [
+
+
+
+		{
+
+
+			"name": "PN-70TB3",
+
+
+			"category": "interactive_models",
+
+
+			"details": [
+				"Monitor BIG PAD dla biur i sal konferencyjnych",
+				"Ekran o przekątnej 70 cali (176,6 cm) i rozdzielczości 1920 x 1080 pikseli",
+				"Szybki i niezawodny 10-punktowy system wykrywania dotyku w podczerwieni - umożliwia jednoczesną pracę nawet 4 użytkowników",
+				"Program SHARP Display Connect do spontanicznej współpracy bezprzewodowej",
+				"Unikatowa technologia UV2A LCD firmy Sharp pozwalająca uzyskać czysty obraz",
+				"Oprogramowanie SHARP Pen Software umożliwiające intuicyjne pisanie, rysowanie i nanoszenie notatek",
+				"Wysoki kontrast 3000:1 zapewniający ergonomię i dobrą widoczność",
+				"Gładka, trwała i odporna na zarysowania powłoka antyrefleksyjna"
+			],
+
+
+			"description" : [
+				"Nowy zaawansowany 70-calowy monitor LCD BIG PAD firmy Sharp jest przeznaczony do bezproblemowej komunikacji w rozmaitych środowiskach. Firma Sharp - poprzez integrację monitora LCD o przekątnej ekranu 176,6 cm, równoczesnego rozpoznawania do dziesięciu punktów dotyku, możliwości równoczesnego pisanie przez 4 użytkowników, nowego oprogramowania pióra dotykowego SHARP Pen Software i wbudowanego oprogramowania SHARP Display Connect - stworzyła model PN-70TB3, doskonałe narzędzie do wykorzystania podczas narad, wideokonferencji i zajęć lekcyjnych."
+			],
+
+
+			"sections": [
+
+				{
+
+					"name": "download",
+
+					"label": "Do pobrania",
+
+					"elements": [
+						{
+							"name": "booklets",
+							"label": "Broszury",
+							"elements": [
+								{
+									"label": "Broszura BIG PAD Profesjonalny monitor LCD z ekranem dotykowym",
+									"description": "PN-70TA3/PN-70TB3/PN-60TA3/PN-60TB3 Profesjonalny monitor LCD z ekranem dotykowym",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Brochure/BIGPAD_PN-70TA3_PN-70TB3_PN-60TA3_PN-60TB3_PL_view.pdf"
+								}
+							]
+						},
+						{
+							"name": "user_manuals",
+							"label": "Instrukcje obsługi",
+							"elements": [
+								{
+									"label": "Sterowanie monitorami przez interfejs RS-232C",
+									"description": "PN-60TA3 / PN-60TB3 / PN-70TA3 / PN-70TB3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Operational_manuals/RS232_BIGPAD_PL.pdf"
+								}
+							]
+						},
+						{
+							"name": "product_cards",
+							"label": "Karty produktowe",
+							"elements": [
+								{
+									"label": "Dane techniczne PN70TB3",
+									"description": "",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PN70TB3_pl_pl.pdf"
+								}
+							]
+						},
+						{
+							"name": "software",
+							"label": "Oprogramowanie",
+							"elements": [
+								{
+									"label": "Cloud Portal Office Connector",
+									"description": "Software option for PenSoftware CPO Version 2.0.15",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/CPOMeetingRoom-2.0.15-EUPROD2-setup.exe"
+								},
+								{
+									"label": "Pen Software Updater Version 3.4.2.4",
+									"description": "PN-xxTA3 Series / PN-xxTB3 Series / PN-70SC3 / PN-80TC3 / PN-L602B / PN-L702B / PN-L802B / PN-K322B / LL-S242A / LL-P202V / LL-S201A",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/PenSoftware-3.4.2.4-updater.zip"
+								},
+								{
+									"label": "Sharp Digital Signage Software Setup",
+									"description": "SDSS Version 4.6.2.1 PNSS01 / PNSS02 / PNSS05 / PNSW05 / PNSV01",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/sdss__4_6_2_1_Setup.zip"
+								},
+								{
+									"label": "Display Management Tool Ver.1.13.2.0",
+									"description": "Controll Software",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/DMT-V1.13.2.0.zip"
+								},
+								{
+									"label": "Touch Display Link (TDL) 2.0.10",
+									"description": "* Host and Client setup * only Client setup * Manuals",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/Touch-Display-Link_V2_0_10.zip"
+								},
+								{
+									"label": "Firmware Update Manual (USB)",
+									"description": "PN70TA3 / PN60TA3 PN70TB3 / PN60TB3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/PNxxTA3-TB3-firmware-update-manual.pdf"
+								},
+								{
+									"label": "Firmware Update 1.100 main (USB)",
+									"description": "only for PN-70TB3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/PN-70TB3-firmware-1.100-main.zip"
+								}
+							]
+						},
+						{
+							"name": "drivers",
+							"label": "Sterowniki",
+							"elements": [
+								{
+									"label": "Touch Pen Utility 2.1.2.3",
+									"description": "only for PN60TA3 / PN60TB3 / PN60TW3 / PN70TA3 / PN70TB3 / PN70TW3 / PN80TC3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Drivers/TouchPenUtility-2.1.2.3.zip"
+								},
+								{
+									"label": "Touch Panel Driver for MAC Version 1.6.2.0",
+									"description": "for OS 10.10 / 10.11 >>> PN60TA3 / PN60TB3 / PN70TA3 / PN70TB3 / PN80TC3 / PN70TW3 PN70SC3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Drivers/MAC-driver-1.6.2.0.zip"
+								},
+								{
+									"label": "Touch Panel Setting Tool",
+									"description": "Version 2.0.2.8 PN-70TA3 / PN-70TB3 / PN-70TW3 PN-60TA3 / PN-60TB3 / PN-60TW3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Drivers/Touch-Panel-Settings-Tool_v2_0_2_8wM.zip"
+								},
+								{
+									"label": "Touch Panel Driver for MAC Version 1.4.2.3",
+									"description": "for OS 10.7 / 10.8 / 10.9 / 10.10 >>> PN60TA3 / PN60TB3 / PN70TA3 / PN70TB3 / PN80TC3 / PN70TW3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Drivers/TATB-Series-MAC-TPDriver-V1.4.2.3.zip"
+								}
+							]
+						}
+					]
+
+				},
+
+				{
+
+					"name": "technical_data",
+
+					"label": "Dane techniczne",
+
+					"elements": [
+						{
+							"name": "display_module_data",
+							"label": "Dane modułu wyświetlającego",
+							"elements": [
+								{
+									"label": "Technologia panelu",
+									"value": "UV2A LCD"
+								},
+								{
+									"label": "Rozdzielczość znamionowa (piksele)",
+									"value": "1.920 x 1.080"
+								},
+								{
+									"label": "Przekątna (cale/cm)",
+									"value": "70/176,6"
+								},
+								{
+									"label": "Proporcje obrazu",
+									"value": "16:9"
+								},
+								{
+									"label": "Technologia podświetlenia",
+									"value": "LED, podświetlenie krawędziowe"
+								},
+								{
+									"label": "Jasność (cd/m2)",
+									"value": "300"
+								},
+								{
+									"label": "Współczynnik kontrastu",
+									"value": "3.000:1"
+								},
+								{
+									"label": "Wyświetlane kolory",
+									"value": "1,06 mld."
+								},
+								{
+									"label": "Czas odpowiedzi (szary-do-szarego, średni) ms",
+									"value": "6"
+								},
+								{
+									"label": "Liczba pikseli na cal (ppi)",
+									"value": "-"
+								},
+								{
+									"label": "Kąt obserwacji (w pionie/w poziomie) 0 CR >10",
+									"value": "160/160"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "basic_technical_data",
+							"label": "Podstawowe dane techniczne",
+							"elements": [
+								{
+									"label": "Certyfikat pracy w trybie 24/7",
+									"value": true
+								},
+								{
+									"label": "Lokalne przyciemnianie",
+									"value": false
+								},
+								{
+									"label": "Wewnętrzne głośniki (W)",
+									"value": "10W + 10W"
+								},
+								{
+									"label": "Wejście komputera - Plug and Play",
+									"value": true
+								},
+								{
+									"label": "Zarządzanie zasilaniem",
+									"value": true
+								},
+								{
+									"label": "Kolor obudowy",
+									"value": "Czarny"
+								},
+								{
+									"label": "Konstrukcja bez wentylatora",
+									"value": true
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "touch_interface_technical_data",
+							"label": "Dane techniczne interfejsu dotykowego",
+							"elements": [
+								{
+									"label": "Technologia",
+									"value": "Podczerwień"
+								},
+								{
+									"label": "Liczba punktów dotyku",
+									"value": "10"
+								},
+								{
+									"label": "Liczba równoczesnych użytkowników",
+									"value": "Up to 4"
+								},
+								{
+									"label": "Powłoka ochronna / filtr",
+									"value": "AR and AG"
+								},
+								{
+									"label": "Twardość ekranu (H)",
+									"value": "-"
+								},
+								{
+									"label": "Kompatybilne systemy operacyjne",
+									"value": "Windows7 (32/64bit), Windows8/8.1 (32/64bit)"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "power_source_and_work_environment",
+							"label": "Źródło zasilania i środowisko pracy",
+							"elements": [
+								{
+									"label": "Napięcie podczas pracy (V, prąd zmienny) / częstotliwość (Hz)",
+									"value": "100-240, 50/60"
+								},
+								{
+									"label": "Pobór mocy (W) (maksymalne obciążenie)",
+									"value": "225"
+								},
+								{
+									"label": "Pobór mocy (W) (w trybie czuwania)",
+									"value": "-"
+								},
+								{
+									"label": "Temperatura podczas pracy (oC)",
+									"value": "5-35"
+								},
+								{
+									"label": "Wilgotność (%)",
+									"value": "20-80"
+								},
+								{
+									"label": "Ilość odprowadzanego ciepła (BTU/h) - maksymalna",
+									"value": "-"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "safety_and_environment_(europe)",
+							"label": "Bezpieczeństwo i środowisko (EUROPA)",
+							"elements": [
+								{
+									"label": "Energy Star",
+									"value": false
+								},
+								{
+									"label": "CE, raport CB",
+									"value": true
+								},
+								{
+									"label": "Zawartość rtęci (mg)",
+									"value": "0"
+								},
+								{
+									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
+									"value": false
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "weights_and_dimensions",
+							"label": "Masy i wymiary",
+							"elements": [
+								{
+									"label": "Wymiary ramki (lewa/prawa) mm",
+									"value": "26/26"
+								},
+								{
+									"label": "Wymiary ramki (góra/dół) mm",
+									"value": "26/59"
+								},
+								{
+									"label": "Wymiary produktu (szer./wys./gł.) mm",
+									"value": "1.647 x 1.010 x 94"
+								},
+								{
+									"label": "Masa produktu bez podstawy (kg)",
+									"value": "59"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "installation",
+							"label": "Instalacja",
+							"elements": [
+								{
+									"label": "Orientacja pozioma",
+									"value": true
+								},
+								{
+									"label": "Orientacja pionowa",
+									"value": false
+								},
+								{
+									"label": "Ustawienie w poziomie",
+									"value": false
+								},
+								{
+									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
+									"value": "4 / 400 x 200"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "input_sockets_(audio_video)",
+							"label": "Gniazda wejściowe (audio/wideo)",
+							"elements": [
+								{
+									"label": "HDMI",
+									"value": "3"
+								},
+								{
+									"label": "DVI-D",
+									"value": "-"
+								},
+								{
+									"label": "DVI-I",
+									"value": "-"
+								},
+								{
+									"label": "DisplayPort",
+									"value": "1"
+								},
+								{
+									"label": "SDI",
+									"value": "-"
+								},
+								{
+									"label": "HDSDI",
+									"value": "-"
+								},
+								{
+									"label": "VGA",
+									"value": "1"
+								},
+								{
+									"label": "Component",
+									"value": "1 (Via VGA port)"
+								},
+								{
+									"label": "Composite",
+									"value": "-"
+								},
+								{
+									"label": "S-Video",
+									"value": "-"
+								},
+								{
+									"label": "3,5 mm jack audio",
+									"value": "2"
+								},
+								{
+									"label": "Audio RCA (L/P)",
+									"value": "-"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "output_sockets_(audio_video)",
+							"label": "Gniazda wyjściowe (audio/wideo)",
+							"elements": [
+								{
+									"label": "HDMI",
+									"value": "-"
+								},
+								{
+									"label": "DVI-D",
+									"value": "-"
+								},
+								{
+									"label": "DVI-I",
+									"value": "-"
+								},
+								{
+									"label": "DisplayPort",
+									"value": "1"
+								},
+								{
+									"label": "SDI",
+									"value": "-"
+								},
+								{
+									"label": "HDSDI",
+									"value": "-"
+								},
+								{
+									"label": "VGA",
+									"value": "-"
+								},
+								{
+									"label": "Component",
+									"value": "-"
+								},
+								{
+									"label": "Composite",
+									"value": "-"
+								},
+								{
+									"label": "S-Video",
+									"value": "-"
+								},
+								{
+									"label": "3,5 mm jack audio/słuchawkowe",
+									"value": "1"
+								},
+								{
+									"label": "Audio RCA (L/P)",
+									"value": "-"
+								},
+								{
+									"label": "Głośnik zewnętrzny",
+									"value": "10W + 10W"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "sockets_(control_serial_data)",
+							"label": "Gniazda (sterowanie/dane szeregowe)",
+							"elements": [
+								{
+									"label": "RS232C IN",
+									"value": "-"
+								},
+								{
+									"label": "RS232C OUT",
+									"value": "-"
+								},
+								{
+									"label": "Port LAN",
+									"value": "1"
+								},
+								{
+									"label": "USB",
+									"value": "-"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "equipment",
+							"label": "Wyposażenie",
+							"elements": [
+								{
+									"label": "Oprogramowanie",
+									"value": "SHARP Pen Software, SHARP Display Connect"
+								},
+								{
+									"label": "Sterowanie komputerem",
+									"value": "-"
+								},
+								{
+									"label": "Bezprzewodowy punkt dostępowy",
+									"value": "-"
+								},
+								{
+									"label": "Panel dotykowy",
+									"value": "-"
+								},
+								{
+									"label": "Półka na pisaki",
+									"value": "STD"
+								},
+								{
+									"label": "Pisak",
+									"value": "STD"
+								},
+								{
+									"label": "Gumka",
+									"value": "STD"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						}
+					]
+
+				}
+
+			]
+
+
+		},
+
+
+
+		{
+
+
+			"name": "PN-VC651B",
+
+
+			"category": "interactive_models",
+
+
+			"details": [
+				"Interaktywny płaski ekran przeznaczony do sal lekcyjnych i sal spotkań",
+				"Ekran o przekątnej 65 cali (163,9cm) i rozdzielczości 1920 x 1080 pikseli",
+				"Szybki i niezawodny 6-punktowy system wykrywania dotyku w podczerwieni - umożliwia jednoczesną pracę nawet 2 użytkowników",
+				"DWA WEWNĘTRZNE GŁOŚNIKI STEREO (2X15 W) ZAPEWNIAJĄ WYRAŹNE I EFEKTYWNE NAGŁOŚNIENIE DUŻYCH SAL LEKCYJNYCH",
+				"Wyposażony we wszechstronne oprogramowanie Oktopus Annotation, które zawiera zaawansowane narzędzia edukacyjne"
+			],
+
+
+			"description" : [
+				"Monitor PN-VC651B firmy Sharp został opracowany i zoptymalizowany z myślą o zastosowaniu w salach lekcyjnych, salach wykładowych wyższych oraz przestrzeniach roboczych średnich i małych firm. Nowoczesny interaktywny 65-calowy płaski panel (IFPD) firmy Sharp, oferując najnowsze możliwości współpracy na ekranie przy znakomitej cenie, umożliwia poprawę komunikacji i stworzenie warunków do wydajniejszej współpracy.",
+				"Sala lekcyjna, podobnie jak sala narad, może czasami wymagać zwrócenia i utrzymania uwagi wszystkich słuchaczy. Dlatego na rynek zostanie wprowadzony najnowszy interaktywny monitor PN-VC651B firmy Sharp. Wspaniały 65-calowy monitor dotykowy o rozdzielczości Full HD umożliwia wyświetlanie i tworzenie materiałów oraz współpracę ze słuchaczami w sposób łatwy i dokładny.",
+				"Oktopus to w pełni funkcjonalne i wszechstronne oprogramowanie do nanoszenia notatek, które otwiera nowe możliwości współpracy, dzielenia się pomysłami i podejmowania decyzji. Ponadto pakiet oprogramowania wyposażony jest w wszechstronny zestaw narzędzi edukacyjnych do rysowania, nauki matematyki, języka polskiego, geografii i innych przedmiotów.",
+				"Najnowszy monitor PN-VC651B IFPD firmy Sharp, wyróżniając się wydajnością, uniwersalnością i bardzo niskimi kosztami eksploatacji, zapewnia znakomitą platformę, która zwiększa efekty współpracy, silniej oddziałuje na słuchaczy lub zwiększa efektywność nauczania."
+			],
+
+
+			"sections": [
+
+				{
+
+					"name": "download",
+
+					"label": "Do pobrania",
+
+					"elements": [
+						{
+							"name": "booklets",
+							"label": "Broszury",
+							"elements": [
+								{
+									"label": "Broszura BIG PAD Profesjonalny monitor LCD z ekranem dotykowym",
+									"description": "PN-70TA3/PN-70TB3/PN-60TA3/PN-60TB3 Profesjonalny monitor LCD z ekranem dotykowym",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Brochure/BIGPAD_PN-70TA3_PN-70TB3_PN-60TA3_PN-60TB3_PL_view.pdf"
+								}
+							]
+						},
+						{
+							"name": "user_manuals",
+							"label": "Instrukcje obsługi",
+							"elements": [
+								{
+									"label": "Podręcznik użytkownika",
+									"description": "PN-VC651B",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Operational_manuals/PN-VCD651-B-Web-Manual-PL.pdf"
+								}
+							]
+						},
+						{
+							"name": "product_cards",
+							"label": "Karty produktowe",
+							"elements": [
+								{
+									"label": "Dane techniczne PNVC651B",
+									"description": "",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PNVC651B_pl_pl.pdf"
+								}
+							]
+						}
+					]
+
+				},
+
+				{
+
+					"name": "technical_data",
+
+					"label": "Dane techniczne",
+
+					"elements": [
+						{
+							"name": "display_module_data",
+							"label": "Dane modułu wyświetlającego",
+							"elements": [
+								{
+									"label": "Technologia panelu",
+									"value": "a-Si TFT LCD"
+								},
+								{
+									"label": "Rozdzielczość znamionowa (piksele)",
+									"value": "1.920 x 1.080"
+								},
+								{
+									"label": "Przekątna (cale/cm)",
+									"value": "65/163,9"
+								},
+								{
+									"label": "Proporcje obrazu",
+									"value": "16:9"
+								},
+								{
+									"label": "Technologia podświetlenia",
+									"value": "LED, podświetlenie krawędziowe"
+								},
+								{
+									"label": "Jasność (cd/m2)",
+									"value": "360"
+								},
+								{
+									"label": "Współczynnik kontrastu",
+									"value": "4.000:1"
+								},
+								{
+									"label": "Wyświetlane kolory",
+									"value": "1,07 mld."
+								},
+								{
+									"label": "Czas odpowiedzi (szary-do-szarego, średni) ms",
+									"value": "8"
+								},
+								{
+									"label": "Liczba pikseli na cal (ppi)",
+									"value": "-"
+								},
+								{
+									"label": "Kąt obserwacji (w pionie/w poziomie) 0 CR >10",
+									"value": "160/160"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "basic_technical_data",
+							"label": "Podstawowe dane techniczne",
+							"elements": [
+								{
+									"label": "Certyfikat pracy w trybie 24/7",
+									"value": false
+								},
+								{
+									"label": "Lokalne przyciemnianie",
+									"value": false
+								},
+								{
+									"label": "Wewnętrzne głośniki (W)",
+									"value": "15W + 15W"
+								},
+								{
+									"label": "Wejście komputera - Plug and Play",
+									"value": true
+								},
+								{
+									"label": "Zarządzanie zasilaniem",
+									"value": false
+								},
+								{
+									"label": "Kolor obudowy",
+									"value": "Czarny"
+								},
+								{
+									"label": "Konstrukcja bez wentylatora",
+									"value": true
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "touch_interface_technical_data",
+							"label": "Dane techniczne interfejsu dotykowego",
+							"elements": [
+								{
+									"label": "Technologia",
+									"value": "Podczerwień"
+								},
+								{
+									"label": "Liczba punktów dotyku",
+									"value": "6"
+								},
+								{
+									"label": "Liczba równoczesnych użytkowników",
+									"value": "2"
+								},
+								{
+									"label": "Powłoka ochronna / filtr",
+									"value": "AR"
+								},
+								{
+									"label": "Twardość ekranu (H)",
+									"value": "-"
+								},
+								{
+									"label": "Kompatybilne systemy operacyjne",
+									"value": "Windows7 (32/64bit), Windows8/8.1 (32/64bit)"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "power_source_and_work_environment",
+							"label": "Źródło zasilania i środowisko pracy",
+							"elements": [
+								{
+									"label": "Napięcie podczas pracy (V, prąd zmienny) / częstotliwość (Hz)",
+									"value": "100-240, 50/60"
+								},
+								{
+									"label": "Pobór mocy (W) (maksymalne obciążenie)",
+									"value": "270"
+								},
+								{
+									"label": "Pobór mocy (W) (w trybie czuwania)",
+									"value": "1"
+								},
+								{
+									"label": "Temperatura podczas pracy (oC)",
+									"value": "0-40"
+								},
+								{
+									"label": "Wilgotność (%)",
+									"value": "10-90"
+								},
+								{
+									"label": "Ilość odprowadzanego ciepła (BTU/h) - maksymalna",
+									"value": "-"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "safety_and_environment_(europe)",
+							"label": "Bezpieczeństwo i środowisko (EUROPA)",
+							"elements": [
+								{
+									"label": "Energy Star",
+									"value": false
+								},
+								{
+									"label": "CE, raport CB",
+									"value": true
+								},
+								{
+									"label": "Zawartość rtęci (mg)",
+									"value": "-"
+								},
+								{
+									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
+									"value": false
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "weights_and_dimensions",
+							"label": "Masy i wymiary",
+							"elements": [
+								{
+									"label": "Wymiary ramki (lewa/prawa) mm",
+									"value": "63/63"
+								},
+								{
+									"label": "Wymiary ramki (góra/dół) mm",
+									"value": "64/85"
+								},
+								{
+									"label": "Wymiary produktu (szer./wys./gł.) mm",
+									"value": "1.562,1 X 959,6 X 93,2"
+								},
+								{
+									"label": "Masa produktu bez podstawy (kg)",
+									"value": "51,15"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "installation",
+							"label": "Instalacja",
+							"elements": [
+								{
+									"label": "Orientacja pozioma",
+									"value": true
+								},
+								{
+									"label": "Orientacja pionowa",
+									"value": false
+								},
+								{
+									"label": "Ustawienie w poziomie",
+									"value": false
+								},
+								{
+									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
+									"value": "VESA/ 4 / 400x400"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "input_sockets_(audio_video)",
+							"label": "Gniazda wejściowe (audio/wideo)",
+							"elements": [
+								{
+									"label": "HDMI",
+									"value": "1"
+								},
+								{
+									"label": "DVI-D",
+									"value": "-"
+								},
+								{
+									"label": "DVI-I",
+									"value": "-"
+								},
+								{
+									"label": "DisplayPort",
+									"value": "-"
+								},
+								{
+									"label": "SDI",
+									"value": "-"
+								},
+								{
+									"label": "HDSDI",
+									"value": "-"
+								},
+								{
+									"label": "VGA",
+									"value": "1 (Mini D-SUB 15 pin)"
+								},
+								{
+									"label": "Component",
+									"value": "-"
+								},
+								{
+									"label": "Composite",
+									"value": "-"
+								},
+								{
+									"label": "S-Video",
+									"value": "-"
+								},
+								{
+									"label": "3,5 mm jack audio",
+									"value": "1"
+								},
+								{
+									"label": "Audio RCA (L/P)",
+									"value": "-"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "output_sockets_(audio_video)",
+							"label": "Gniazda wyjściowe (audio/wideo)",
+							"elements": [
+								{
+									"label": "HDMI",
+									"value": "-"
+								},
+								{
+									"label": "DVI-D",
+									"value": "-"
+								},
+								{
+									"label": "DVI-I",
+									"value": "-"
+								},
+								{
+									"label": "DisplayPort",
+									"value": "-"
+								},
+								{
+									"label": "SDI",
+									"value": "-"
+								},
+								{
+									"label": "HDSDI",
+									"value": "-"
+								},
+								{
+									"label": "VGA",
+									"value": "-"
+								},
+								{
+									"label": "Component",
+									"value": "-"
+								},
+								{
+									"label": "Composite",
+									"value": "-"
+								},
+								{
+									"label": "S-Video",
+									"value": "-"
+								},
+								{
+									"label": "3,5 mm jack audio/słuchawkowe",
+									"value": "1"
+								},
+								{
+									"label": "Audio RCA (L/P)",
+									"value": "-"
+								},
+								{
+									"label": "Głośnik zewnętrzny",
+									"value": "-"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "sockets_(control_serial_data)",
+							"label": "Gniazda (sterowanie/dane szeregowe)",
+							"elements": [
+								{
+									"label": "RS232C IN",
+									"value": "1"
+								},
+								{
+									"label": "RS232C OUT",
+									"value": "-"
+								},
+								{
+									"label": "Port LAN",
+									"value": "-"
+								},
+								{
+									"label": "USB",
+									"value": "1"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "equipment",
+							"label": "Wyposażenie",
+							"elements": [
+								{
+									"label": "Oprogramowanie",
+									"value": "Oprogramowanie Oktopus Interactive Annotation"
+								},
+								{
+									"label": "Sterowanie komputerem",
+									"value": "-"
+								},
+								{
+									"label": "Bezprzewodowy punkt dostępowy",
+									"value": "-"
+								},
+								{
+									"label": "Panel dotykowy",
+									"value": "-"
+								},
+								{
+									"label": "Półka na pisaki",
+									"value": "-"
+								},
+								{
+									"label": "Pisak",
+									"value": "1"
+								},
+								{
+									"label": "Gumka",
+									"value": "-"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						}
+					]
+
+				}
+
+			]
+
+
+		},
+
+
+
+		{
+
+
+			"name": "PN-60TB3",
+
+
+			"category": "interactive_models",
+
+
+			"details": [
+				"Monitor BIG PAD dla biur i sal konferencyjnych",
+				"Ekran o przekątnej 60 cali (152,5 cm) i rozdzielczości 1920 x 1080 pikseli",
+				"Szybki i niezawodny 10-punktowy system wykrywania dotyku w podczerwieni - umożliwia jednoczesną pracę nawet 4 użytkowników",
+				"Program SHARP Display Connect do spontanicznej współpracy bezprzewodowej",
+				"Unikatowa technologia UV2A LCD firmy Sharp pozwalająca uzyskać czysty obraz",
+				"Sprawdzone oprogramowanie Pen Software opracowane przez firmę Sharp, zapewniające intuicyjne pisanie, rysowanie i nanoszenie notatek",
+				"Wysoki kontrast 3000:1 zapewniający ergonomię i dobrą widoczność",
+				"Gładka, trwała i odporna na zarysowania powłoka antyrefleksyjna"
+			],
+
+
+			"description" : [
+				"Nowy zaawansowany 60-calowy monitor LCD BIG PAD firmy Sharp jest przeznaczony do bezproblemowej komunikacji w rozmaitych środowiskach. Firma Sharp - poprzez integrację monitora LCD o przekątnej ekranu 152,5 cm, równoczesnego rozpoznawania do dziesięciu punktów dotyku, możliwości równoczesnego pisanie przez 4 użytkowników, nowego oprogramowania pióra dotykowego firmy Sharp i wbudowanego oprogramowania New Touch Display Link 2.0 - stworzyła model PN-60TA3, doskonałe narzędzie do wykorzystania podczas narad, wideokonferencji i zajęć lekcyjnych."
+			],
+
+
+			"sections": [
+
+				{
+
+					"name": "download",
+
+					"label": "Do pobrania",
+
+					"elements": [
+						{
+							"name": "booklets",
+							"label": "Broszury",
+							"elements": [
+								{
+									"label": "Broszura BIG PAD Profesjonalny monitor LCD z ekranem dotykowym",
+									"description": "PN-70TA3/PN-70TB3/PN-60TA3/PN-60TB3 Profesjonalny monitor LCD z ekranem dotykowym",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Brochure/BIGPAD_PN-70TA3_PN-70TB3_PN-60TA3_PN-60TB3_PL_view.pdf"
+								}
+							]
+						},
+						{
+							"name": "user_manuals",
+							"label": "Instrukcje obsługi",
+							"elements": [
+								{
+									"label": "Sterowanie monitorami przez interfejs RS-232C",
+									"description": "PN-60TA3 / PN-60TB3 / PN-70TA3 / PN-70TB3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Operational_manuals/RS232_BIGPAD_PL.pdf"
+								}
+							]
+						},
+						{
+							"name": "product_cards",
+							"label": "Karty produktowe",
+							"elements": [
+								{
+									"label": "Dane techniczne PN60TB3",
+									"description": "",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PN60TB3_pl_pl.pdf"
+								}
+							]
+						},
+						{
+							"name": "software",
+							"label": "Oprogramowanie",
+							"elements": [
+								{
+									"label": "Cloud Portal Office Connector",
+									"description": "Software option for PenSoftware CPO Version 2.0.15",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/CPOMeetingRoom-2.0.15-EUPROD2-setup.exe"
+								},
+								{
+									"label": "Pen Software Updater Version 3.4.2.4",
+									"description": "PN-xxTA3 Series / PN-xxTB3 Series / PN-70SC3 / PN-80TC3 / PN-L602B / PN-L702B / PN-L802B / PN-K322B / LL-S242A / LL-P202V / LL-S201A",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/PenSoftware-3.4.2.4-updater.zip"
+								},
+								{
+									"label": "Sharp Digital Signage Software Setup",
+									"description": "SDSS Version 4.6.2.1 PNSS01 / PNSS02 / PNSS05 / PNSW05 / PNSV01",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/sdss__4_6_2_1_Setup.zip"
+								},
+								{
+									"label": "Display Management Tool Ver.1.13.2.0",
+									"description": "Controll Software",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/DMT-V1.13.2.0.zip"
+								},
+								{
+									"label": "Touch Display Link (TDL) 2.0.10",
+									"description": "* Host and Client setup * only Client setup * Manuals",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/Touch-Display-Link_V2_0_10.zip"
+								},
+								{
+									"label": "Firmware Update Manual (USB)",
+									"description": "PN70TA3 / PN60TA3 PN70TB3 / PN60TB3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/PNxxTA3-TB3-firmware-update-manual.pdf"
+								},
+								{
+									"label": "Firmware Update 1.100 main (USB)",
+									"description": "only for PN-70TB3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/PN-70TB3-firmware-1.100-main.zip"
+								}
+							]
+						},
+						{
+							"name": "drivers",
+							"label": "Sterowniki",
+							"elements": [
+								{
+									"label": "Touch Pen Utility 2.1.2.3",
+									"description": "only for PN60TA3 / PN60TB3 / PN60TW3 / PN70TA3 / PN70TB3 / PN70TW3 / PN80TC3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Drivers/TouchPenUtility-2.1.2.3.zip"
+								},
+								{
+									"label": "Touch Panel Driver for MAC Version 1.6.2.0",
+									"description": "for OS 10.10 / 10.11 >>> PN60TA3 / PN60TB3 / PN70TA3 / PN70TB3 / PN80TC3 / PN70TW3 PN70SC3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Drivers/MAC-driver-1.6.2.0.zip"
+								},
+								{
+									"label": "Touch Panel Setting Tool",
+									"description": "Version 2.0.2.8 PN-70TA3 / PN-70TB3 / PN-70TW3 PN-60TA3 / PN-60TB3 / PN-60TW3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Drivers/Touch-Panel-Settings-Tool_v2_0_2_8wM.zip"
+								},
+								{
+									"label": "Touch Panel Driver for MAC Version 1.4.2.3",
+									"description": "for OS 10.7 / 10.8 / 10.9 / 10.10 >>> PN60TA3 / PN60TB3 / PN70TA3 / PN70TB3 / PN80TC3 / PN70TW3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Drivers/TATB-Series-MAC-TPDriver-V1.4.2.3.zip"
+								}
+							]
+						}
+					]
+
+				},
+
+				{
+
+					"name": "technical_data",
+
+					"label": "Dane techniczne",
+
+					"elements": [
+						{
+							"name": "display_module_data",
+							"label": "Dane modułu wyświetlającego",
+							"elements": [
+								{
+									"label": "Technologia panelu",
+									"value": "UV2A LCD"
+								},
+								{
+									"label": "Rozdzielczość znamionowa (piksele)",
+									"value": "1.920 x 1.080"
+								},
+								{
+									"label": "Przekątna (cale/cm)",
+									"value": "60/152,5"
+								},
+								{
+									"label": "Proporcje obrazu",
+									"value": "16:9"
+								},
+								{
+									"label": "Technologia podświetlenia",
+									"value": "LED, podświetlenie krawędziowe"
+								},
+								{
+									"label": "Jasność (cd/m2)",
+									"value": "300"
+								},
+								{
+									"label": "Współczynnik kontrastu",
+									"value": "3.000:1"
+								},
+								{
+									"label": "Wyświetlane kolory",
+									"value": "1,06 mld."
+								},
+								{
+									"label": "Czas odpowiedzi (szary-do-szarego, średni) ms",
+									"value": "6"
+								},
+								{
+									"label": "Liczba pikseli na cal (ppi)",
+									"value": "-"
+								},
+								{
+									"label": "Kąt obserwacji (w pionie/w poziomie) 0 CR >10",
+									"value": "160/160"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "basic_technical_data",
+							"label": "Podstawowe dane techniczne",
+							"elements": [
+								{
+									"label": "Certyfikat pracy w trybie 24/7",
+									"value": true
+								},
+								{
+									"label": "Lokalne przyciemnianie",
+									"value": false
+								},
+								{
+									"label": "Wewnętrzne głośniki (W)",
+									"value": "10W + 10W"
+								},
+								{
+									"label": "Wejście komputera - Plug and Play",
+									"value": true
+								},
+								{
+									"label": "Zarządzanie zasilaniem",
+									"value": true
+								},
+								{
+									"label": "Kolor obudowy",
+									"value": "Czarny"
+								},
+								{
+									"label": "Konstrukcja bez wentylatora",
+									"value": true
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "touch_interface_technical_data",
+							"label": "Dane techniczne interfejsu dotykowego",
+							"elements": [
+								{
+									"label": "Technologia",
+									"value": "Podczerwień"
+								},
+								{
+									"label": "Liczba punktów dotyku",
+									"value": "10"
+								},
+								{
+									"label": "Liczba równoczesnych użytkowników",
+									"value": "Up to 4"
+								},
+								{
+									"label": "Powłoka ochronna / filtr",
+									"value": "AR and AG"
+								},
+								{
+									"label": "Twardość ekranu (H)",
+									"value": "-"
+								},
+								{
+									"label": "Kompatybilne systemy operacyjne",
+									"value": "Windows7 (32/64bit), Windows8/8.1 (32/64bit)"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "power_source_and_work_environment",
+							"label": "Źródło zasilania i środowisko pracy",
+							"elements": [
+								{
+									"label": "Napięcie podczas pracy (V, prąd zmienny) / częstotliwość (Hz)",
+									"value": "100-240, 50/60"
+								},
+								{
+									"label": "Pobór mocy (W) (maksymalne obciążenie)",
+									"value": "185"
+								},
+								{
+									"label": "Pobór mocy (W) (w trybie czuwania)",
+									"value": "-"
+								},
+								{
+									"label": "Temperatura podczas pracy (oC)",
+									"value": "5-35"
+								},
+								{
+									"label": "Wilgotność (%)",
+									"value": "20-80"
+								},
+								{
+									"label": "Ilość odprowadzanego ciepła (BTU/h) - maksymalna",
+									"value": "-"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "safety_and_environment_(europe)",
+							"label": "Bezpieczeństwo i środowisko (EUROPA)",
+							"elements": [
+								{
+									"label": "Energy Star",
+									"value": false
+								},
+								{
+									"label": "CE, raport CB",
+									"value": true
+								},
+								{
+									"label": "Zawartość rtęci (mg)",
+									"value": "-"
+								},
+								{
+									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
+									"value": false
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "weights_and_dimensions",
+							"label": "Masy i wymiary",
+							"elements": [
+								{
+									"label": "Wymiary ramki (lewa/prawa) mm",
+									"value": "26/26"
+								},
+								{
+									"label": "Wymiary ramki (góra/dół) mm",
+									"value": "26/59"
+								},
+								{
+									"label": "Wymiary produktu (szer./wys./gł.) mm",
+									"value": "1.437 x 890 x 94"
+								},
+								{
+									"label": "Masa produktu bez podstawy (kg)",
+									"value": "48"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "installation",
+							"label": "Instalacja",
+							"elements": [
+								{
+									"label": "Orientacja pozioma",
+									"value": true
+								},
+								{
+									"label": "Orientacja pionowa",
+									"value": false
+								},
+								{
+									"label": "Ustawienie w poziomie",
+									"value": false
+								},
+								{
+									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
+									"value": "4 / 400 mm x 200mm"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "input_sockets_(audio_video)",
+							"label": "Gniazda wejściowe (audio/wideo)",
+							"elements": [
+								{
+									"label": "HDMI",
+									"value": "3"
+								},
+								{
+									"label": "DVI-D",
+									"value": "-"
+								},
+								{
+									"label": "DVI-I",
+									"value": "-"
+								},
+								{
+									"label": "DisplayPort",
+									"value": "1"
+								},
+								{
+									"label": "SDI",
+									"value": "-"
+								},
+								{
+									"label": "HDSDI",
+									"value": "-"
+								},
+								{
+									"label": "VGA",
+									"value": "1"
+								},
+								{
+									"label": "Component",
+									"value": "1 (Via VGA port)"
+								},
+								{
+									"label": "Composite",
+									"value": "-"
+								},
+								{
+									"label": "S-Video",
+									"value": "-"
+								},
+								{
+									"label": "3,5 mm jack audio",
+									"value": "2"
+								},
+								{
+									"label": "Audio RCA (L/P)",
+									"value": "-"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "output_sockets_(audio_video)",
+							"label": "Gniazda wyjściowe (audio/wideo)",
+							"elements": [
+								{
+									"label": "HDMI",
+									"value": "-"
+								},
+								{
+									"label": "DVI-D",
+									"value": "-"
+								},
+								{
+									"label": "DVI-I",
+									"value": "-"
+								},
+								{
+									"label": "DisplayPort",
+									"value": "1"
+								},
+								{
+									"label": "SDI",
+									"value": "-"
+								},
+								{
+									"label": "HDSDI",
+									"value": "-"
+								},
+								{
+									"label": "VGA",
+									"value": "-"
+								},
+								{
+									"label": "Component",
+									"value": "-"
+								},
+								{
+									"label": "Composite",
+									"value": "-"
+								},
+								{
+									"label": "S-Video",
+									"value": "-"
+								},
+								{
+									"label": "3,5 mm jack audio/słuchawkowe",
+									"value": "1"
+								},
+								{
+									"label": "Audio RCA (L/P)",
+									"value": "-"
+								},
+								{
+									"label": "Głośnik zewnętrzny",
+									"value": "10W + 10W"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "sockets_(control_serial_data)",
+							"label": "Gniazda (sterowanie/dane szeregowe)",
+							"elements": [
+								{
+									"label": "RS232C IN",
+									"value": "-"
+								},
+								{
+									"label": "RS232C OUT",
+									"value": "-"
+								},
+								{
+									"label": "Port LAN",
+									"value": "1"
+								},
+								{
+									"label": "USB",
+									"value": "-"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "equipment",
+							"label": "Wyposażenie",
+							"elements": [
+								{
+									"label": "Oprogramowanie",
+									"value": "Oprogramowanie Pensoft, Touch Display Link 2.0"
+								},
+								{
+									"label": "Sterowanie komputerem",
+									"value": "-"
+								},
+								{
+									"label": "Bezprzewodowy punkt dostępowy",
+									"value": "-"
+								},
+								{
+									"label": "Panel dotykowy",
+									"value": "-"
+								},
+								{
+									"label": "Półka na pisaki",
+									"value": "STD"
+								},
+								{
+									"label": "Pisak",
+									"value": "STD"
+								},
+								{
+									"label": "Gumka",
+									"value": "STD"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						}
+					]
+
+				}
+
+			]
+
+
+		},
+
+
+
+		{
+
+
+			"name": "PN-70TW3",
+
+
+			"category": "interactive_models",
+
+
+			"details": [
+				"Interaktywna tablica BIG PAD stymulująca pracę zespołową dzięki współpracy z urządzeniami mobilnymi",
+				"Przekątna ekranu 70 cali (176,6 cm)",
+				"SZYBKI i niezawodny 10-punktowy system wykrywania dotyku w podczerwieni - umożliwia jednoczesną pracę nawet 4 użytkowników",
+				"Oprogramowanie SHARP Pen Software umożliwiające intuicyjne pisanie, rysowanie i nanoszenie notatek",
+				"Oprogramowanie SHARP Display Connect pozwala na tworzenie spontanicznych bezprzewodowych połączeń z innymi urządzeniami",
+				"NOWY sterownik pióra cyfrowego dla systemu Windows, który umożliwia intuicyjne i automatyczne przełączanie między trybami obsługi przy pomocy pióra i palca",
+				"Aplikacja SHARP Touch Software umożliwiająca zarządzanie materiałami do współpracy",
+				"Tryb emulacji DICOM umożliwiający precyzyjne przeglądanie zdjęć z badań radiologicznych"
+			],
+
+
+			"description" : [
+				"Monitor Sharp PN-70TW3 to pierwszy spośród wiodących w branży modeli BIG PAD ze zintegrowaną funkcją wspierającą bezprzewodową współpracę - MirrorOp dla Sharp, która umożliwia podłączanie urządzeń pracujących w mobilnych systemach operacyjnych (iOS, Android, Windows) oraz przenośnych komputerów. Monitor PN-70TW3 ustanawia nowe standardy wśród ekranów dotykowych wspomagających współpracę - idealnie nadaje się na spotkania biurowe, szkolenia, do sal wykładowych oraz dla zespołów współpracujących nad kluczowymi zadaniami.",
+				"Dodatkowo zintegrowany sterownik tablicy interaktywnej, Direct Drawing, zapewnia \"natychmiastowy start\" monitora PN-70TW3 bez konieczności użycia zewnętrznego komputera. Dzięki temu praca grupowa zostaje przenoszona na nowy poziom kreatywności, produktywności i skuteczności.",
+				"Monitor Sharp BIG PAD o przekątnej 70 cali jest wyposażony w szybki i niezawodny 10 punktowy system wykrywania dotyku działający w podczerwieni, który zapewnia zoptymalizowaną wydajność, co znakomicie sprawdza się we wszystkich pokojach do spotkań biznesowych, aulach wykładowych, salach szkoleniowych oraz centrach sterowania, w których niezawodność odgrywa kluczową rolę. Zestaw aplikacji Sharp stworzonych z myślą o usprawnieniu komunikacji grupowej i wspomaganiu kreatywności pozwala przenieść proces podejmowania decyzji i współpracy na najwyższy profesjonalny poziom.",
+				"Uznane, inteligentne i intuicyjne oprogramowanie SHARP Pen Software pracujące na zewnętrznym komputerze stwarza nowe możliwości organizowania \"burzy mózgów\", wymiany informacji i podejmowania decyzji. Najnowsza wersja tego programu w pełni wykorzystuje możliwości nowego sterownika pióra cyfrowego w systemie Windows, co zapewnia automatyczne i inteligentne przełączanie między trybem sterowania przy pomocy pióra i palca. To takie wygodne - nawet nie zauważysz momentu przełączenia!",
+				"Tryb emulacji DICOM daje się łatwo skonfigurować i umożliwia jeszcze bardziej precyzyjne wyświetlanie obrazów z badań radiologicznych w trakcie grupowej analizy lub podczas wieloosobowych konsultacji. Ponadto, dzięki możliwości połączenia bezprzewodowego, każdy radiolog będzie mógł łatwo i precyzyjne przeglądać obrazy na swoim urządzeniu mobilnym.",
+				"Opcjonalna aplikacja SHARP Touch Viewing Software również oferuje łatwy w obsłudze interfejs użytkownika i system plików umożliwiający zbieranie i porządkowanie danych z różnych projektów związanych ze współpracą grupową."
+			],
+
+
+			"sections": [
+
+				{
+
+					"name": "download",
+
+					"label": "Do pobrania",
+
+					"elements": [
+						{
+							"name": "booklets",
+							"label": "Broszury",
+							"elements": [
+								{
+									"label": "Broszura BIG PAD Profesjonalny monitor LCD z ekranem dotykowym",
+									"description": "PN-70TA3/PN-70TB3/PN-60TA3/PN-60TB3 Profesjonalny monitor LCD z ekranem dotykowym",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Brochure/BIGPAD_PN-70TA3_PN-70TB3_PN-60TA3_PN-60TB3_PL_view.pdf"
+								}
+							]
+						},
+						{
+							"name": "product_cards",
+							"label": "Karty produktowe",
+							"elements": [
+								{
+									"label": "Dane techniczne PN70TW3",
+									"description": "",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PN70TW3_pl_pl.pdf"
+								}
+							]
+						},
+						{
+							"name": "software",
+							"label": "Oprogramowanie",
+							"elements": [
+								{
+									"label": "Pen Software Updater Version 3.4.2.4",
+									"description": "PN-xxTA3 Series / PN-xxTB3 Series / PN-70SC3 / PN-80TC3 / PN-L602B / PN-L702B / PN-L802B / PN-K322B / LL-S242A / LL-P202V / LL-S201A",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/PenSoftware-3.4.2.4-updater.zip"
+								},
+								{
+									"label": "USB Token Version 1.05",
+									"description": "PN70TW3 and PN60TW3 series",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/WirelessToken_v1_05.zip"
+								},
+								{
+									"label": "Display Management Tool Ver.1.13.2.0",
+									"description": "Controll Software",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/DMT-V1.13.2.0.zip"
+								}
+							]
+						},
+						{
+							"name": "drivers",
+							"label": "Sterowniki",
+							"elements": [
+								{
+									"label": "Touch Panel Driver for MAC Version 1.6.2.0",
+									"description": "for OS 10.10 / 10.11 >>> PN60TA3 / PN60TB3 / PN70TA3 / PN70TB3 / PN80TC3 / PN70TW3 PN70SC3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Drivers/MAC-driver-1.6.2.0.zip"
+								},
+								{
+									"label": "Touch Panel Driver for MAC Version 1.4.2.3",
+									"description": "for OS 10.7 / 10.8 / 10.9 / 10.10 >>> PN60TA3 / PN60TB3 / PN70TA3 / PN70TB3 / PN80TC3 / PN70TW3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Drivers/TATB-Series-MAC-TPDriver-V1.4.2.3.zip"
+								}
+							]
+						}
+					]
+
+				},
+
+				{
+
+					"name": "technical_data",
+
+					"label": "Dane techniczne",
+
+					"elements": [
+						{
+							"name": "display_module_data",
+							"label": "Dane modułu wyświetlającego",
+							"elements": [
+								{
+									"label": "Technologia panelu",
+									"value": "UV2A LCD"
+								},
+								{
+									"label": "Rozdzielczość znamionowa (piksele)",
+									"value": "1.920 x 1.080"
+								},
+								{
+									"label": "Przekątna (cale/cm)",
+									"value": "70 / 176,6"
+								},
+								{
+									"label": "Proporcje obrazu",
+									"value": "16:9"
+								},
+								{
+									"label": "Technologia podświetlenia",
+									"value": "LED, podświetlenie krawędziowe"
+								},
+								{
+									"label": "Jasność (cd/m2)",
+									"value": "300"
+								},
+								{
+									"label": "Współczynnik kontrastu",
+									"value": "3.000:1"
+								},
+								{
+									"label": "Wyświetlane kolory",
+									"value": "1,06 mld."
+								},
+								{
+									"label": "Czas odpowiedzi (szary-do-szarego, średni) ms",
+									"value": "6"
+								},
+								{
+									"label": "Liczba pikseli na cal (ppi)",
+									"value": "-"
+								},
+								{
+									"label": "Kąt obserwacji (w pionie/w poziomie) 0 CR >10",
+									"value": "176/176"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "basic_technical_data",
+							"label": "Podstawowe dane techniczne",
+							"elements": [
+								{
+									"label": "Certyfikat pracy w trybie 24/7",
+									"value": true
+								},
+								{
+									"label": "Lokalne przyciemnianie",
+									"value": false
+								},
+								{
+									"label": "Wewnętrzne głośniki (W)",
+									"value": "10W + 10W"
+								},
+								{
+									"label": "Wejście komputera - Plug and Play",
+									"value": true
+								},
+								{
+									"label": "Zarządzanie zasilaniem",
+									"value": true
+								},
+								{
+									"label": "Kolor obudowy",
+									"value": "Czarny"
+								},
+								{
+									"label": "Konstrukcja bez wentylatora",
+									"value": true
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "touch_interface_technical_data",
+							"label": "Dane techniczne interfejsu dotykowego",
+							"elements": [
+								{
+									"label": "Technologia",
+									"value": "Podczerwień"
+								},
+								{
+									"label": "Liczba punktów dotyku",
+									"value": "10"
+								},
+								{
+									"label": "Liczba równoczesnych użytkowników",
+									"value": "Up to 4"
+								},
+								{
+									"label": "Powłoka ochronna / filtr",
+									"value": "AR and AG"
+								},
+								{
+									"label": "Twardość ekranu (H)",
+									"value": "-"
+								},
+								{
+									"label": "Kompatybilne systemy operacyjne",
+									"value": "Windows7 (32/64bit), Windows8/8.1 (32/64bit) / Windows10 (32/64bit)"
+								},
+								{
+									"label": "Inne",
+									"value": "Sterownik pióra cyfrowego dla Windows"
+								}
+							]
+						},
+						{
+							"name": "power_source_and_work_environment",
+							"label": "Źródło zasilania i środowisko pracy",
+							"elements": [
+								{
+									"label": "Napięcie podczas pracy (V, prąd zmienny) / częstotliwość (Hz)",
+									"value": "100-240, 50/60"
+								},
+								{
+									"label": "Pobór mocy (W) (maksymalne obciążenie)",
+									"value": "235"
+								},
+								{
+									"label": "Pobór mocy (W) (w trybie czuwania)",
+									"value": "0.5"
+								},
+								{
+									"label": "Temperatura podczas pracy (oC)",
+									"value": "5-35"
+								},
+								{
+									"label": "Wilgotność (%)",
+									"value": "20-80"
+								},
+								{
+									"label": "Ilość odprowadzanego ciepła (BTU/h) - maksymalna",
+									"value": "-"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "safety_and_environment_(europe)",
+							"label": "Bezpieczeństwo i środowisko (EUROPA)",
+							"elements": [
+								{
+									"label": "Energy Star",
+									"value": false
+								},
+								{
+									"label": "CE, raport CB",
+									"value": true
+								},
+								{
+									"label": "Zawartość rtęci (mg)",
+									"value": "0"
+								},
+								{
+									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
+									"value": false
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "weights_and_dimensions",
+							"label": "Masy i wymiary",
+							"elements": [
+								{
+									"label": "Wymiary ramki (lewa/prawa) mm",
+									"value": "26/26"
+								},
+								{
+									"label": "Wymiary ramki (góra/dół) mm",
+									"value": "26/59"
+								},
+								{
+									"label": "Wymiary produktu (szer./wys./gł.) mm",
+									"value": "1.647 x 1.010 x 94"
+								},
+								{
+									"label": "Masa produktu bez podstawy (kg)",
+									"value": "61"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "installation",
+							"label": "Instalacja",
+							"elements": [
+								{
+									"label": "Orientacja pozioma",
+									"value": true
+								},
+								{
+									"label": "Orientacja pionowa",
+									"value": false
+								},
+								{
+									"label": "Ustawienie w poziomie",
+									"value": false
+								},
+								{
+									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
+									"value": "4 / 400 x 200"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "input_sockets_(audio_video)",
+							"label": "Gniazda wejściowe (audio/wideo)",
+							"elements": [
+								{
+									"label": "HDMI",
+									"value": "3"
+								},
+								{
+									"label": "DVI-D",
+									"value": "-"
+								},
+								{
+									"label": "DVI-I",
+									"value": "-"
+								},
+								{
+									"label": "DisplayPort",
+									"value": "1"
+								},
+								{
+									"label": "SDI",
+									"value": "-"
+								},
+								{
+									"label": "HDSDI",
+									"value": "-"
+								},
+								{
+									"label": "VGA",
+									"value": "2"
+								},
+								{
+									"label": "Component",
+									"value": "1 (Via VGA port)"
+								},
+								{
+									"label": "Composite",
+									"value": "-"
+								},
+								{
+									"label": "S-Video",
+									"value": "-"
+								},
+								{
+									"label": "3,5 mm jack audio",
+									"value": "2"
+								},
+								{
+									"label": "Audio RCA (L/P)",
+									"value": "-"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "output_sockets_(audio_video)",
+							"label": "Gniazda wyjściowe (audio/wideo)",
+							"elements": [
+								{
+									"label": "HDMI",
+									"value": "-"
+								},
+								{
+									"label": "DVI-D",
+									"value": "-"
+								},
+								{
+									"label": "DVI-I",
+									"value": "-"
+								},
+								{
+									"label": "DisplayPort",
+									"value": "1"
+								},
+								{
+									"label": "SDI",
+									"value": "-"
+								},
+								{
+									"label": "HDSDI",
+									"value": "-"
+								},
+								{
+									"label": "VGA",
+									"value": "-"
+								},
+								{
+									"label": "Component",
+									"value": "-"
+								},
+								{
+									"label": "Composite",
+									"value": "-"
+								},
+								{
+									"label": "S-Video",
+									"value": "-"
+								},
+								{
+									"label": "3,5 mm jack audio/słuchawkowe",
+									"value": "1"
+								},
+								{
+									"label": "Audio RCA (L/P)",
+									"value": "-"
+								},
+								{
+									"label": "Głośnik zewnętrzny",
+									"value": "10W + 10W"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "sockets_(control_serial_data)",
+							"label": "Gniazda (sterowanie/dane szeregowe)",
+							"elements": [
+								{
+									"label": "RS232C IN",
+									"value": "1"
+								},
+								{
+									"label": "RS232C OUT",
+									"value": "-"
+								},
+								{
+									"label": "Port LAN",
+									"value": "1"
+								},
+								{
+									"label": "USB",
+									"value": "2"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "equipment",
+							"label": "Wyposażenie",
+							"elements": [
+								{
+									"label": "Oprogramowanie",
+									"value": "Oprogramowanie SHARP Pen Software, SHARP Display Connect, Touch Downloader, sterownik pióra cyfrowego"
+								},
+								{
+									"label": "Sterowanie komputerem",
+									"value": "-"
+								},
+								{
+									"label": "Bezprzewodowy punkt dostępowy",
+									"value": "-"
+								},
+								{
+									"label": "Panel dotykowy",
+									"value": "-"
+								},
+								{
+									"label": "Półka na pisaki",
+									"value": "STD"
+								},
+								{
+									"label": "Pisak",
+									"value": "STD"
+								},
+								{
+									"label": "Gumka",
+									"value": "STD"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						}
+					]
+
+				}
+
+			]
+
+
+		},
+
+
+
+		{
+
+
+			"name": "PN-60TA3",
+
+
+			"category": "interactive_models",
+
+
+			"details": [
+				"Przekątna ekranu 60 cali (152,5 cm)",
+				"Rozdzielczość punktowa 1920 x 1080",
+				"Rozpoznawanie 10 punktów dotyku (system oparty o czujniki podczerwieni) - do 4 użytkowników",
+				"Kontrast 3000:1",
+				"Podświetlenie LED, krawędziowe",
+				"Nowe oprogramowanie pióra dotykowego",
+				"Preinstalowane oprogramowanie Touch Display Link 2.0",
+				"Szybki start i nowy ekran z powłoką antyrefleksyjną"
+			],
+
+
+			"description" : [
+				"Nowy zaawansowany interaktywny system wyświetlania BIG PAD o przekątnej ekranu 60 cali został zaprojektowany z myślą o bezproblemowej komunikacji w szerokim zakresie materiałów multimedialnych. Bardzo czułe pióro dotykowe umożliwia kilku osobom równoczesne pisanie na tym samym ekranie. Oprogramowanie Touch Display Link firmy Sharp umożliwia wielopłaszczyznową komunikację bezprzewodową. BIG PAD firmy Sharp sprawdzi się w każdej sali narad lub w sali lekcyjnej stymuluje współpracę i zapewnia sprawną komunikację."
+			],
+
+
+			"sections": [
+
+				{
+
+					"name": "download",
+
+					"label": "Do pobrania",
+
+					"elements": [
+						{
+							"name": "booklets",
+							"label": "Broszury",
+							"elements": [
+								{
+									"label": "Broszura BIG PAD Profesjonalny monitor LCD z ekranem dotykowym",
+									"description": "PN-70TA3/PN-70TB3/PN-60TA3/PN-60TB3 Profesjonalny monitor LCD z ekranem dotykowym",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Brochure/BIGPAD_PN-70TA3_PN-70TB3_PN-60TA3_PN-60TB3_PL_view.pdf"
+								}
+							]
+						},
+						{
+							"name": "user_manuals",
+							"label": "Instrukcje obsługi",
+							"elements": [
+								{
+									"label": "Sterowanie monitorami przez interfejs RS-232C",
+									"description": "PN-60TA3 / PN-60TB3 / PN-70TA3 / PN-70TB3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Operational_manuals/RS232_BIGPAD_PL.pdf"
+								},
+								{
+									"label": "Easy Setup Guide",
+									"description": "PN-70TA3 & PN-60TA3 Version 1.0",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Operational_manuals/Easy_Setup_Guide_70TA3-60TA3_v1.pdf"
+								}
+							]
+						},
+						{
+							"name": "product_cards",
+							"label": "Karty produktowe",
+							"elements": [
+								{
+									"label": "Dane techniczne PN60TA3",
+									"description": "",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PN60TA3_pl_pl.pdf"
+								}
+							]
+						},
+						{
+							"name": "software",
+							"label": "Oprogramowanie",
+							"elements": [
+								{
+									"label": "Cloud Portal Office Connector",
+									"description": "Software option for PenSoftware CPO Version 2.0.15",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/CPOMeetingRoom-2.0.15-EUPROD2-setup.exe"
+								},
+								{
+									"label": "Pen Software Updater Version 3.4.2.4",
+									"description": "PN-xxTA3 Series / PN-xxTB3 Series / PN-70SC3 / PN-80TC3 / PN-L602B / PN-L702B / PN-L802B / PN-K322B / LL-S242A / LL-P202V / LL-S201A",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/PenSoftware-3.4.2.4-updater.zip"
+								},
+								{
+									"label": "Controller Update USB Rev75",
+									"description": "Hard Disk Image (HDI) for PN-60TA3 / PN-70TA3 only",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/Controller-Update-Rev75-for-PNx0TA3.zip"
+								},
+								{
+									"label": "Sharp Digital Signage Software Setup",
+									"description": "SDSS Version 4.6.2.1 PNSS01 / PNSS02 / PNSS05 / PNSW05 / PNSV01",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/sdss__4_6_2_1_Setup.zip"
+								},
+								{
+									"label": "Display Management Tool Ver.1.13.2.0",
+									"description": "Controll Software",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/DMT-V1.13.2.0.zip"
+								},
+								{
+									"label": "Touch Display Link (TDL) 2.0.10",
+									"description": "* Host and Client setup * only Client setup * Manuals",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/Touch-Display-Link_V2_0_10.zip"
+								},
+								{
+									"label": "Firmware Update Manual (USB)",
+									"description": "PN70TA3 / PN60TA3 PN70TB3 / PN60TB3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/PNxxTA3-TB3-firmware-update-manual.pdf"
+								},
+								{
+									"label": "Firmware Update 1.100 main (USB)",
+									"description": "only for PN-70TB3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/PN-70TB3-firmware-1.100-main.zip"
+								}
+							]
+						},
+						{
+							"name": "drivers",
+							"label": "Sterowniki",
+							"elements": [
+								{
+									"label": "Touch Pen Utility 2.1.2.3",
+									"description": "only for PN60TA3 / PN60TB3 / PN60TW3 / PN70TA3 / PN70TB3 / PN70TW3 / PN80TC3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Drivers/TouchPenUtility-2.1.2.3.zip"
+								},
+								{
+									"label": "Touch Panel Driver for MAC Version 1.6.2.0",
+									"description": "for OS 10.10 / 10.11 >>> PN60TA3 / PN60TB3 / PN70TA3 / PN70TB3 / PN80TC3 / PN70TW3 PN70SC3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Drivers/MAC-driver-1.6.2.0.zip"
+								},
+								{
+									"label": "Touch Panel Setting Tool",
+									"description": "Version 2.0.2.8 PN-70TA3 / PN-70TB3 / PN-70TW3 PN-60TA3 / PN-60TB3 / PN-60TW3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Drivers/Touch-Panel-Settings-Tool_v2_0_2_8wM.zip"
+								},
+								{
+									"label": "Touch Panel Driver for MAC Version 1.4.2.3",
+									"description": "for OS 10.7 / 10.8 / 10.9 / 10.10 >>> PN60TA3 / PN60TB3 / PN70TA3 / PN70TB3 / PN80TC3 / PN70TW3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Drivers/TATB-Series-MAC-TPDriver-V1.4.2.3.zip"
+								}
+							]
+						}
+					]
+
+				},
+
+				{
+
+					"name": "technical_data",
+
+					"label": "Dane techniczne",
+
+					"elements": [
+						{
+							"name": "display_module_data",
+							"label": "Dane modułu wyświetlającego",
+							"elements": [
+								{
+									"label": "Technologia panelu",
+									"value": "UV2A LCD"
+								},
+								{
+									"label": "Rozdzielczość znamionowa (piksele)",
+									"value": "1.920 x 1.080"
+								},
+								{
+									"label": "Przekątna (cale/cm)",
+									"value": "60 / 152,5"
+								},
+								{
+									"label": "Proporcje obrazu",
+									"value": "16:9"
+								},
+								{
+									"label": "Technologia podświetlenia",
+									"value": "LED, podświetlenie krawędziowe"
+								},
+								{
+									"label": "Jasność (cd/m2)",
+									"value": "300"
+								},
+								{
+									"label": "Współczynnik kontrastu",
+									"value": "3.000:1"
+								},
+								{
+									"label": "Wyświetlane kolory",
+									"value": "1,06 mld."
+								},
+								{
+									"label": "Czas odpowiedzi (szary-do-szarego, średni) ms",
+									"value": "6"
+								},
+								{
+									"label": "Liczba pikseli na cal (ppi)",
+									"value": "-"
+								},
+								{
+									"label": "Kąt obserwacji (w pionie/w poziomie) 0 CR >10",
+									"value": "160/160"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "basic_technical_data",
+							"label": "Podstawowe dane techniczne",
+							"elements": [
+								{
+									"label": "Certyfikat pracy w trybie 24/7",
+									"value": true
+								},
+								{
+									"label": "Lokalne przyciemnianie",
+									"value": false
+								},
+								{
+									"label": "Wewnętrzne głośniki (W)",
+									"value": "10W + 10W"
+								},
+								{
+									"label": "Wejście komputera - Plug and Play",
+									"value": true
+								},
+								{
+									"label": "Zarządzanie zasilaniem",
+									"value": true
+								},
+								{
+									"label": "Kolor obudowy",
+									"value": "Czarny"
+								},
+								{
+									"label": "Konstrukcja bez wentylatora",
+									"value": true
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "touch_interface_technical_data",
+							"label": "Dane techniczne interfejsu dotykowego",
+							"elements": [
+								{
+									"label": "Technologia",
+									"value": "Podczerwień"
+								},
+								{
+									"label": "Liczba punktów dotyku",
+									"value": "10"
+								},
+								{
+									"label": "Liczba równoczesnych użytkowników",
+									"value": "Up to 4"
+								},
+								{
+									"label": "Powłoka ochronna / filtr",
+									"value": "AR and AG"
+								},
+								{
+									"label": "Twardość ekranu (H)",
+									"value": "-"
+								},
+								{
+									"label": "Kompatybilne systemy operacyjne",
+									"value": "Windows7 (32/64bit), Windows8/8.1 (32/64bit)"
+								},
+								{
+									"label": "Inne",
+									"value": "Sterownik pióra cyfrowego dla Windows"
+								}
+							]
+						},
+						{
+							"name": "power_source_and_work_environment",
+							"label": "Źródło zasilania i środowisko pracy",
+							"elements": [
+								{
+									"label": "Napięcie podczas pracy (V, prąd zmienny) / częstotliwość (Hz)",
+									"value": "100-240, 50/60"
+								},
+								{
+									"label": "Pobór mocy (W) (maksymalne obciążenie)",
+									"value": "210"
+								},
+								{
+									"label": "Pobór mocy (W) (w trybie czuwania)",
+									"value": "-"
+								},
+								{
+									"label": "Temperatura podczas pracy (oC)",
+									"value": "5-35"
+								},
+								{
+									"label": "Wilgotność (%)",
+									"value": "20-80"
+								},
+								{
+									"label": "Ilość odprowadzanego ciepła (BTU/h) - maksymalna",
+									"value": "-"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "safety_and_environment_(europe)",
+							"label": "Bezpieczeństwo i środowisko (EUROPA)",
+							"elements": [
+								{
+									"label": "Energy Star",
+									"value": false
+								},
+								{
+									"label": "CE, raport CB",
+									"value": true
+								},
+								{
+									"label": "Zawartość rtęci (mg)",
+									"value": "-"
+								},
+								{
+									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
+									"value": false
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "weights_and_dimensions",
+							"label": "Masy i wymiary",
+							"elements": [
+								{
+									"label": "Wymiary ramki (lewa/prawa) mm",
+									"value": "26/26"
+								},
+								{
+									"label": "Wymiary ramki (góra/dół) mm",
+									"value": "26/59"
+								},
+								{
+									"label": "Wymiary produktu (szer./wys./gł.) mm",
+									"value": "1437 x 890 x 94"
+								},
+								{
+									"label": "Masa produktu bez podstawy (kg)",
+									"value": "48"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "installation",
+							"label": "Instalacja",
+							"elements": [
+								{
+									"label": "Orientacja pozioma",
+									"value": true
+								},
+								{
+									"label": "Orientacja pionowa",
+									"value": false
+								},
+								{
+									"label": "Ustawienie w poziomie",
+									"value": false
+								},
+								{
+									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
+									"value": "4 / 400 x 200"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "input_sockets_(audio_video)",
+							"label": "Gniazda wejściowe (audio/wideo)",
+							"elements": [
+								{
+									"label": "HDMI",
+									"value": "3"
+								},
+								{
+									"label": "DVI-D",
+									"value": "-"
+								},
+								{
+									"label": "DVI-I",
+									"value": "-"
+								},
+								{
+									"label": "DisplayPort",
+									"value": "1"
+								},
+								{
+									"label": "SDI",
+									"value": "-"
+								},
+								{
+									"label": "HDSDI",
+									"value": "-"
+								},
+								{
+									"label": "VGA",
+									"value": "1"
+								},
+								{
+									"label": "Component",
+									"value": "1 (Via VGA port)"
+								},
+								{
+									"label": "Composite",
+									"value": "-"
+								},
+								{
+									"label": "S-Video",
+									"value": "-"
+								},
+								{
+									"label": "3,5 mm jack audio",
+									"value": "2"
+								},
+								{
+									"label": "Audio RCA (L/P)",
+									"value": "-"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "output_sockets_(audio_video)",
+							"label": "Gniazda wyjściowe (audio/wideo)",
+							"elements": [
+								{
+									"label": "HDMI",
+									"value": "-"
+								},
+								{
+									"label": "DVI-D",
+									"value": "-"
+								},
+								{
+									"label": "DVI-I",
+									"value": "-"
+								},
+								{
+									"label": "DisplayPort",
+									"value": "1"
+								},
+								{
+									"label": "SDI",
+									"value": "-"
+								},
+								{
+									"label": "HDSDI",
+									"value": "-"
+								},
+								{
+									"label": "VGA",
+									"value": "-"
+								},
+								{
+									"label": "Component",
+									"value": "-"
+								},
+								{
+									"label": "Composite",
+									"value": "-"
+								},
+								{
+									"label": "S-Video",
+									"value": "-"
+								},
+								{
+									"label": "3,5 mm jack audio/słuchawkowe",
+									"value": "1"
+								},
+								{
+									"label": "Audio RCA (L/P)",
+									"value": "-"
+								},
+								{
+									"label": "Głośnik zewnętrzny",
+									"value": "10W + 10W"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "sockets_(control_serial_data)",
+							"label": "Gniazda (sterowanie/dane szeregowe)",
+							"elements": [
+								{
+									"label": "RS232C IN",
+									"value": "-"
+								},
+								{
+									"label": "RS232C OUT",
+									"value": "-"
+								},
+								{
+									"label": "Port LAN",
+									"value": "1"
+								},
+								{
+									"label": "USB",
+									"value": "-"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "equipment",
+							"label": "Wyposażenie",
+							"elements": [
+								{
+									"label": "Oprogramowanie",
+									"value": "Pensoft, Touch Display Link 2.0"
+								},
+								{
+									"label": "Sterowanie komputerem",
+									"value": "-"
+								},
+								{
+									"label": "Bezprzewodowy punkt dostępowy",
+									"value": "-"
+								},
+								{
+									"label": "Panel dotykowy",
+									"value": "-"
+								},
+								{
+									"label": "Półka na pisaki",
+									"value": "STD"
+								},
+								{
+									"label": "Pisak",
+									"value": "STD"
+								},
+								{
+									"label": "Gumka",
+									"value": "STD"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						}
+					]
+
+				}
+
+			]
+
+
+		},
+
+
+
+		{
+
+
+			"name": "PN-60TW3",
+
+
+			"category": "interactive_models",
+
+
+			"details": [
+				"Stworzony z myślą o biurach i salach konferencyjnych monitor BIG PAD ze zintegrowaną funkcją współpracy bezprzewodowej",
+				"Ekran o przekątnej 60 cali (152,2cm) i rozdzielczości 1920 x 1080 pikseli",
+				"Szybki i niezawodny 10-punktowy system wykrywania dotyku w podczerwieni - umożliwia jednoczesną pracę nawet 4 użytkowników",
+				"Oprogramowanie Sharp Pen Software umożliwiające intuicyjne pisanie, rysowanie i nanoszenie notatek",
+				"Oprogramowanie SHARP Display Connect pozwala na tworzenie spontanicznych bezprzewodowych połączeń z innymi urządzeniami",
+				"NOWY sterownik pióra cyfrowego dla systemu Windows, który umożliwia intuicyjne i automatyczne przełączanie między trybami obsługi przy pomocy pióra i palca",
+				"Aplikacja SHARP Touch Viewing Software umożliwiająca zarządzanie materiałami do współpracy",
+				"Tryb emulacji DICOM umożliwiający precyzyjne przeglądanie zdjęć z badań radiologicznych"
+			],
+
+
+			"description" : [
+				"Monitor Sharp PN-60TW3 to pierwszy spośród wiodących w branży modeli BIG PAD ze zintegrowaną funkcją wspierającą bezprzewodową współpracę - MirrorOp dla Sharp, która umożliwia podłączanie urządzeń pracujących w mobilnych systemach operacyjnych (iOS, Android, Windows) oraz przenośnych komputerów. Monitor PN-60TW3 ustanawia nowe standardy wśród ekranów dotykowych wspomagających współpracę - idealnie nadaje się na spotkania biurowe, szkolenia, do sal wykładowych oraz dla zespołów współpracujących nad kluczowymi zadaniami.",
+				"Dodatkowo zintegrowany sterownik tablicy interaktywnej, Direct Drawing, zapewnia \"natychmiastowy start\" monitora PN-60TW3 bez konieczności użycia zewnętrznego komputera. Dzięki temu praca grupowa zostaje przenoszona na nowy poziom kreatywności, produktywności i skuteczności.",
+				"Monitor Sharp BIG PAD o przekątnej 60 cali jest wyposażony w szybki i niezawodny 10 punktowy system wykrywania dotyku działający w podczerwieni, który zapewnia zoptymalizowaną wydajność, co znakomicie sprawdza się we wszystkich pokojach do spotkań biznesowych, aulach wykładowych, salach szkoleniowych oraz centrach sterowania, w których niezawodność odgrywa kluczową rolę. Zestaw aplikacji Sharp stworzonych z myślą o usprawnieniu komunikacji grupowej i wspomaganiu kreatywności pozwala przenieść proces podejmowania decyzji i współpracy na najwyższy profesjonalny poziom.",
+				"Oprogramowanie SHARP Pen Software pracujące na zewnętrznym komputerze stwarza nowe możliwości organizowania \"burzy mózgów\", wymiany informacji i podejmowania decyzji. Najnowsza wersja tego programu w pełni wykorzystuje możliwości nowego sterownika pióra cyfrowego w systemie Windows, co zapewnia automatyczne i inteligentne przełączanie między trybem sterowania przy pomocy pióra i palca. To takie wygodne - nawet nie zauważysz momentu przełączenia!",
+				"Tryb emulacji DICOM daje się łatwo skonfigurować i umożliwia jeszcze bardziej precyzyjne wyświetlanie obrazów z badań radiologicznych w trakcie grupowej analizy lub podczas wieloosobowych konsultacji. Ponadto, dzięki możliwości połączenia bezprzewodowego, każdy radiolog będzie mógł łatwo i precyzyjne przeglądać obrazy na swoim urządzeniu mobilnym.",
+				"Opcjonalna aplikacja SHARP Touch Viewing Software również oferuje łatwy w obsłudze interfejs użytkownika i system plików umożliwiający zbieranie i porządkowanie danych z różnych projektów związanych ze współpracą grupową."
+			],
+
+
+			"sections": [
+
+				{
+
+					"name": "download",
+
+					"label": "Do pobrania",
+
+					"elements": [
+						{
+							"name": "booklets",
+							"label": "Broszury",
+							"elements": [
+								{
+									"label": "Broszura BIG PAD Profesjonalny monitor LCD z ekranem dotykowym",
+									"description": "PN-70TA3/PN-70TB3/PN-60TA3/PN-60TB3 Profesjonalny monitor LCD z ekranem dotykowym",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Brochure/BIGPAD_PN-70TA3_PN-70TB3_PN-60TA3_PN-60TB3_PL_view.pdf"
+								}
+							]
+						},
+						{
+							"name": "product_cards",
+							"label": "Karty produktowe",
+							"elements": [
+								{
+									"label": "Dane techniczne PN60TW3",
+									"description": "",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PN70TB3_pl_pl.pdf"
+								}
+							]
+						},
+						{
+							"name": "software",
+							"label": "Oprogramowanie",
+							"elements": [
+								{
+									"label": "USB Token Version1.05",
+									"description": "PN70TW3 and PN60TW3 series",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/WirelessToken_v1_05.zip"
+								}
+							]
+						}
+					]
+
+				},
+
+				{
+
+					"name": "technical_data",
+
+					"label": "Dane techniczne",
+
+					"elements": [
+						{
+							"name": "display_module_data",
+							"label": "Dane modułu wyświetlającego",
+							"elements": [
+								{
+									"label": "Technologia panelu",
+									"value": "UV2A LCD"
+								},
+								{
+									"label": "Rozdzielczość znamionowa (piksele)",
+									"value": "1.920 x 1.080"
+								},
+								{
+									"label": "Przekątna (cale/cm)",
+									"value": "60 / 152,2"
+								},
+								{
+									"label": "Proporcje obrazu",
+									"value": "16:9"
+								},
+								{
+									"label": "Technologia podświetlenia",
+									"value": "LED, podświetlenie krawędziowe"
+								},
+								{
+									"label": "Jasność (cd/m2)",
+									"value": "300"
+								},
+								{
+									"label": "Współczynnik kontrastu",
+									"value": "3.000:1"
+								},
+								{
+									"label": "Wyświetlane kolory",
+									"value": "1,06 mld."
+								},
+								{
+									"label": "Czas odpowiedzi (szary-do-szarego, średni) ms",
+									"value": "6"
+								},
+								{
+									"label": "Liczba pikseli na cal (ppi)",
+									"value": "-"
+								},
+								{
+									"label": "Kąt obserwacji (w pionie/w poziomie) 0 CR >10",
+									"value": "176/176"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "basic_technical_data",
+							"label": "Podstawowe dane techniczne",
+							"elements": [
+								{
+									"label": "Certyfikat pracy w trybie 24/7",
+									"value": true
+								},
+								{
+									"label": "Lokalne przyciemnianie",
+									"value": false
+								},
+								{
+									"label": "Wewnętrzne głośniki (W)",
+									"value": "10W + 10W"
+								},
+								{
+									"label": "Wejście komputera - Plug and Play",
+									"value": true
+								},
+								{
+									"label": "Zarządzanie zasilaniem",
+									"value": true
+								},
+								{
+									"label": "Kolor obudowy",
+									"value": "Czarny"
+								},
+								{
+									"label": "Konstrukcja bez wentylatora",
+									"value": true
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "touch_interface_technical_data",
+							"label": "Dane techniczne interfejsu dotykowego",
+							"elements": [
+								{
+									"label": "Technologia",
+									"value": "Podczerwień"
+								},
+								{
+									"label": "Liczba punktów dotyku",
+									"value": "10"
+								},
+								{
+									"label": "Liczba równoczesnych użytkowników",
+									"value": "Up to 4"
+								},
+								{
+									"label": "Powłoka ochronna / filtr",
+									"value": "AR and AG"
+								},
+								{
+									"label": "Twardość ekranu (H)",
+									"value": "-"
+								},
+								{
+									"label": "Kompatybilne systemy operacyjne",
+									"value": "Windows7(32/64bit), Windows8/8.1(32/64bit) / Windows10(32/64bit)"
+								},
+								{
+									"label": "Inne",
+									"value": "Sterownik pióra cyfrowego dla Windows"
+								}
+							]
+						},
+						{
+							"name": "power_source_and_work_environment",
+							"label": "Źródło zasilania i środowisko pracy",
+							"elements": [
+								{
+									"label": "Napięcie podczas pracy (V, prąd zmienny) / częstotliwość (Hz)",
+									"value": "100-240, 50/60"
+								},
+								{
+									"label": "Pobór mocy (W) (maksymalne obciążenie)",
+									"value": "190"
+								},
+								{
+									"label": "Pobór mocy (W) (w trybie czuwania)",
+									"value": "-"
+								},
+								{
+									"label": "Temperatura podczas pracy (oC)",
+									"value": "5-35"
+								},
+								{
+									"label": "Wilgotność (%)",
+									"value": "20-80"
+								},
+								{
+									"label": "Ilość odprowadzanego ciepła (BTU/h) - maksymalna",
+									"value": "-"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "safety_and_environment_(europe)",
+							"label": "Bezpieczeństwo i środowisko (EUROPA)",
+							"elements": [
+								{
+									"label": "Energy Star",
+									"value": false
+								},
+								{
+									"label": "CE, raport CB",
+									"value": true
+								},
+								{
+									"label": "Zawartość rtęci (mg)",
+									"value": "0"
+								},
+								{
+									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
+									"value": false
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "weights_and_dimensions",
+							"label": "Masy i wymiary",
+							"elements": [
+								{
+									"label": "Wymiary ramki (lewa/prawa) mm",
+									"value": "26/26"
+								},
+								{
+									"label": "Wymiary ramki (góra/dół) mm",
+									"value": "26/59"
+								},
+								{
+									"label": "Wymiary produktu (szer./wys./gł.) mm",
+									"value": "1.437 x 890 x 94"
+								},
+								{
+									"label": "Masa produktu bez podstawy (kg)",
+									"value": "48"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "installation",
+							"label": "Instalacja",
+							"elements": [
+								{
+									"label": "Orientacja pozioma",
+									"value": true
+								},
+								{
+									"label": "Orientacja pionowa",
+									"value": false
+								},
+								{
+									"label": "Ustawienie w poziomie",
+									"value": false
+								},
+								{
+									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
+									"value": "4 / 400 x 200"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "input_sockets_(audio_video)",
+							"label": "Gniazda wejściowe (audio/wideo)",
+							"elements": [
+								{
+									"label": "HDMI",
+									"value": "3"
+								},
+								{
+									"label": "DVI-D",
+									"value": "-"
+								},
+								{
+									"label": "DVI-I",
+									"value": "-"
+								},
+								{
+									"label": "DisplayPort",
+									"value": "1"
+								},
+								{
+									"label": "SDI",
+									"value": "-"
+								},
+								{
+									"label": "HDSDI",
+									"value": "-"
+								},
+								{
+									"label": "VGA",
+									"value": "2"
+								},
+								{
+									"label": "Component",
+									"value": "1 (Via VGA port)"
+								},
+								{
+									"label": "Composite",
+									"value": "-"
+								},
+								{
+									"label": "S-Video",
+									"value": "-"
+								},
+								{
+									"label": "3,5 mm jack audio",
+									"value": "2"
+								},
+								{
+									"label": "Audio RCA (L/P)",
+									"value": "-"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "output_sockets_(audio_video)",
+							"label": "Gniazda wyjściowe (audio/wideo)",
+							"elements": [
+								{
+									"label": "HDMI",
+									"value": "-"
+								},
+								{
+									"label": "DVI-D",
+									"value": "-"
+								},
+								{
+									"label": "DVI-I",
+									"value": "-"
+								},
+								{
+									"label": "DisplayPort",
+									"value": "1"
+								},
+								{
+									"label": "SDI",
+									"value": "-"
+								},
+								{
+									"label": "HDSDI",
+									"value": "-"
+								},
+								{
+									"label": "VGA",
+									"value": "-"
+								},
+								{
+									"label": "Component",
+									"value": "-"
+								},
+								{
+									"label": "Composite",
+									"value": "-"
+								},
+								{
+									"label": "S-Video",
+									"value": "-"
+								},
+								{
+									"label": "3,5 mm jack audio/słuchawkowe",
+									"value": "1"
+								},
+								{
+									"label": "Audio RCA (L/P)",
+									"value": "-"
+								},
+								{
+									"label": "Głośnik zewnętrzny",
+									"value": "10W + 10W"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "sockets_(control_serial_data)",
+							"label": "Gniazda (sterowanie/dane szeregowe)",
+							"elements": [
+								{
+									"label": "RS232C IN",
+									"value": "1"
+								},
+								{
+									"label": "RS232C OUT",
+									"value": "-"
+								},
+								{
+									"label": "Port LAN",
+									"value": "1"
+								},
+								{
+									"label": "USB",
+									"value": "2"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "equipment",
+							"label": "Wyposażenie",
+							"elements": [
+								{
+									"label": "Oprogramowanie",
+									"value": "Oprogramowanie SHARP Pen Software, SHARP Display Connect, Touch Downloader, sterownik pióra cyfrowego"
+								},
+								{
+									"label": "Sterowanie komputerem",
+									"value": "-"
+								},
+								{
+									"label": "Bezprzewodowy punkt dostępowy",
+									"value": "-"
+								},
+								{
+									"label": "Panel dotykowy",
+									"value": "-"
+								},
+								{
+									"label": "Półka na pisaki",
+									"value": "STD"
+								},
+								{
+									"label": "Pisak",
+									"value": "STD"
+								},
+								{
+									"label": "Gumka",
+									"value": "STD"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						}
+					]
+
+				}
+
+			]
+
+
+		},
+
+
+
+		{
+
+
+			"name": "PN-70SC3",
+
+
+			"category": "interactive_models",
+
+
+			"details": [
+				"Interaktywny monitor BIG PAD dla środowisk akademickich i biznesowych",
+				"Przekątna ekranu 70 cali (176,6 cm)",
+				"6-punktowy system wykrywania dotyku wykorzystujący podczerwień i umożliwiający równoczesną pracę do dwóch użytkowników",
+				"Oprogramowanie Pen Software opracowane przez firmę Sharp, zapewniające intuicyjne pisanie, rysowanie i nanoszenie notatek",
+				"Unikatowa technologia UV2A LCD firmy Sharp pozwalająca uzyskać czysty obraz",
+				"Gładka, trwała i odporna na zarysowania powłoka antyrefleksyjna",
+				"Dwa wbudowane głośniki stereo (2 x 10 W) zapewniające właściwe nagłośnienie nawet w dużych pomieszczeniach",
+				"Opcjonalne oprogramowanie SHARP Display Connect Software umożliwiające tworzenie spontanicznych bezprzewodowych połączeń z innymi urządzeniami"
+			],
+
+
+			"description" : [
+				"Monitor Sharp BIG PAD PN-70SC3 to idealny model do zastosowania w szkolnictwie wyższym i biurach. Umożliwia współpracę na najwyższym poziomie przy konkurencyjnej cenie, dzięki czemu ten 70-calowy model jest optymalnym rozwiązaniem dla środowisk akademickich i biznesowych, poprawiającym możliwości komunikacji i stwarzającym najlepsze warunki dla sprawnej współpracy.",
+				"Czasami utrzymanie uwagi odbiorców może być trudne zarówno w sali wykładowej jak i podczas spotkania biznesowego. Wtedy do gry wkracza innowacyjny monitor BIG PAD PN-70SC3 firmy Sharp. Obszerny ekran o przekątnej 70 cali i rozdzielczości Full HD umożliwia wygodne i precyzyjne wyświetlanie materiałów oraz tworzenie prezentacji i współpracę.",
+				"Sprawdzone, inteligentne i intuicyjne oprogramowanie do obsługi pióra dotykowego SHARP otwiera nowe pole do przeprowadzania \"burzy mózgów\", wymiany pomysłów i dochodzenia do ostatecznych decyzji. Wydajny, uniwersalny i zaskakująco atrakcyjny cenowo, najnowszy monitor Sharp BIG PAD PN-70SC3 stanowi wspaniałą platformę stymulującą współpracę, wzmacniającą wpływ na publiczność, a także po prostu podnoszącą efektywność współpracy środowisk biznesowych i akademickich."
+			],
+
+
+			"sections": [
+
+				{
+
+					"name": "download",
+
+					"label": "Do pobrania",
+
+					"elements": [
+						{
+							"name": "booklets",
+							"label": "Broszury",
+							"elements": [
+								{
+									"label": "Broszura Profesjonalny monitor LCD z ekranem dotykowym",
+									"description": "",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Brochure/16209-PN-70SC3_4pp_PL_screen.pdf"
+								},
+								{
+									"label": "Broszura BIG PAD Profesjonalny monitor LCD z ekranem dotykowym",
+									"description": "PN-70TA3/PN-70TB3/PN-60TA3/PN-60TB3 Profesjonalny monitor LCD z ekranem dotykowym",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Brochure/BIGPAD_PN-70TA3_PN-70TB3_PN-60TA3_PN-60TB3_PL_view.pdf"
+								}
+							]
+						},
+						{
+							"name": "firmware",
+							"label": "Firmware",
+							"elements": [
+								{
+									"label": "Touch Frame Firmware Update",
+									"description": "Update to support the IOS driver Version 1.01",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Firmware/Touch-Panel-Firmware-Updater-for-PN-70SC3.zip"
+								}
+							]
+						},
+						{
+							"name": "product_cards",
+							"label": "Karty produktowe",
+							"elements": [
+								{
+									"label": "Dane techniczne PN70SC3",
+									"description": "",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PN70SC3_pl_pl.pdf"
+								}
+							]
+						},
+						{
+							"name": "software",
+							"label": "Oprogramowanie",
+							"elements": [
+								{
+									"label": "Cloud Portal Office Connector",
+									"description": "Software option for PenSoftware CPO Version 2.0.15",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/CPOMeetingRoom-2.0.15-EUPROD2-setup.exe"
+								},
+								{
+									"label": "Pen Software Updater Version 3.4.2.4",
+									"description": "PN-xxTA3 Series / PN-xxTB3 Series / PN-70SC3 / PN-80TC3 / PN-L602B / PN-L702B / PN-L802B / PN-K322B / LL-S242A / LL-P202V / LL-S201A",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/PenSoftware-3.4.2.4-updater.zip"
+								},
+								{
+									"label": "Sharp Digital Signage Software Setup",
+									"description": "SDSS Version 4.6.2.1 PNSS01 / PNSS02 / PNSS05 / PNSW05 / PNSV01",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/sdss__4_6_2_1_Setup.zip"
+								},
+								{
+									"label": "Display Management Tool Ver.1.13.2.0",
+									"description": "Controll Software",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/DMT-V1.13.2.0.zip"
+								},
+								{
+									"label": "Touch Display Link (TDL) 2.0.10",
+									"description": "* Host and Client setup * only Client setup * Manuals",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/Touch-Display-Link_V2_0_10.zip"
+								}
+							]
+						},
+						{
+							"name": "drivers",
+							"label": "Sterowniki",
+							"elements": [
+								{
+									"label": "Touch Panel Driver for MAC Version 1.6.2.0",
+									"description": "for OS 10.10 / 10.11 >>> PN60TA3 / PN60TB3 / PN70TA3 / PN70TB3 / PN80TC3 / PN70TW3 PN70SC3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Drivers/MAC-driver-1.6.2.0.zip"
+								}
+							]
+						}
+					]
+
+				},
+
+				{
+
+					"name": "technical_data",
+
+					"label": "Dane techniczne",
+
+					"elements": [
+						{
+							"name": "display_module_data",
+							"label": "Dane modułu wyświetlającego",
+							"elements": [
+								{
+									"label": "Technologia panelu",
+									"value": "UV2A LCD"
+								},
+								{
+									"label": "Rozdzielczość znamionowa (piksele)",
+									"value": "1.920 x 1.080"
+								},
+								{
+									"label": "Przekątna (cale/cm)",
+									"value": "70/176,6"
+								},
+								{
+									"label": "Proporcje obrazu",
+									"value": "16:9"
+								},
+								{
+									"label": "Technologia podświetlenia",
+									"value": "Edge LED"
+								},
+								{
+									"label": "Jasność (cd/m2)",
+									"value": "300"
+								},
+								{
+									"label": "Współczynnik kontrastu",
+									"value": "3.000:1"
+								},
+								{
+									"label": "Wyświetlane kolory",
+									"value": "16,77 mln."
+								},
+								{
+									"label": "Czas odpowiedzi (szary-do-szarego, średni) ms",
+									"value": "6"
+								},
+								{
+									"label": "Liczba pikseli na cal (ppi)",
+									"value": "-"
+								},
+								{
+									"label": "Kąt obserwacji (w pionie/w poziomie) 0 CR >10",
+									"value": "-"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "basic_technical_data",
+							"label": "Podstawowe dane techniczne",
+							"elements": [
+								{
+									"label": "Certyfikat pracy w trybie 24/7",
+									"value": false
+								},
+								{
+									"label": "Lokalne przyciemnianie",
+									"value": false
+								},
+								{
+									"label": "Wewnętrzne głośniki (W)",
+									"value": "10W + 10W"
+								},
+								{
+									"label": "Wejście komputera - Plug and Play",
+									"value": true
+								},
+								{
+									"label": "Zarządzanie zasilaniem",
+									"value": false
+								},
+								{
+									"label": "Kolor obudowy",
+									"value": "Czarny"
+								},
+								{
+									"label": "Konstrukcja bez wentylatora",
+									"value": true
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "touch_interface_technical_data",
+							"label": "Dane techniczne interfejsu dotykowego",
+							"elements": [
+								{
+									"label": "Technologia",
+									"value": "Podczerwień"
+								},
+								{
+									"label": "Liczba punktów dotyku",
+									"value": "6"
+								},
+								{
+									"label": "Liczba równoczesnych użytkowników",
+									"value": "2"
+								},
+								{
+									"label": "Powłoka ochronna / filtr",
+									"value": "AR and AG"
+								},
+								{
+									"label": "Twardość ekranu (H)",
+									"value": "-"
+								},
+								{
+									"label": "Kompatybilne systemy operacyjne",
+									"value": "Area recognition (support for eraser): Win7 (32/64bit) / Win8/8.1 (32/64bit)"
+								},
+								{
+									"label": "Inne",
+									"value": "Sterownik: Win7(32/64-bit), Win8/8.1/10(32/64-bit), MAC OS X 10.7/10.8/10.9/10.10"
+								}
+							]
+						},
+						{
+							"name": "power_source_and_work_environment",
+							"label": "Źródło zasilania i środowisko pracy",
+							"elements": [
+								{
+									"label": "Napięcie podczas pracy (V, prąd zmienny) / częstotliwość (Hz)",
+									"value": "100-240, 50/60"
+								},
+								{
+									"label": "Pobór mocy (W) (maksymalne obciążenie)",
+									"value": "235"
+								},
+								{
+									"label": "Pobór mocy (W) (w trybie czuwania)",
+									"value": "-"
+								},
+								{
+									"label": "Temperatura podczas pracy (oC)",
+									"value": "5-35"
+								},
+								{
+									"label": "Wilgotność (%)",
+									"value": "20-80"
+								},
+								{
+									"label": "Ilość odprowadzanego ciepła (BTU/h) - maksymalna",
+									"value": "801,85"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "safety_and_environment_(europe)",
+							"label": "Bezpieczeństwo i środowisko (EUROPA)",
+							"elements": [
+								{
+									"label": "Energy Star",
+									"value": false
+								},
+								{
+									"label": "CE, raport CB",
+									"value": false
+								},
+								{
+									"label": "Zawartość rtęci (mg)",
+									"value": "0"
+								},
+								{
+									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
+									"value": false
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "weights_and_dimensions",
+							"label": "Masy i wymiary",
+							"elements": [
+								{
+									"label": "Wymiary ramki (lewa/prawa) mm",
+									"value": "39/39"
+								},
+								{
+									"label": "Wymiary ramki (góra/dół) mm",
+									"value": "40,5/77"
+								},
+								{
+									"label": "Wymiary produktu (szer./wys./gł.) mm",
+									"value": "1.633 x 994,5 x 109"
+								},
+								{
+									"label": "Masa produktu bez podstawy (kg)",
+									"value": "59"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "installation",
+							"label": "Instalacja",
+							"elements": [
+								{
+									"label": "Orientacja pozioma",
+									"value": true
+								},
+								{
+									"label": "Orientacja pionowa",
+									"value": false
+								},
+								{
+									"label": "Ustawienie w poziomie",
+									"value": false
+								},
+								{
+									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
+									"value": "VESA/ 4 / 400x400"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "input_sockets_(audio_video)",
+							"label": "Gniazda wejściowe (audio/wideo)",
+							"elements": [
+								{
+									"label": "HDMI",
+									"value": "3"
+								},
+								{
+									"label": "DVI-D",
+									"value": "-"
+								},
+								{
+									"label": "DVI-I",
+									"value": "-"
+								},
+								{
+									"label": "DisplayPort",
+									"value": "-"
+								},
+								{
+									"label": "SDI",
+									"value": "-"
+								},
+								{
+									"label": "HDSDI",
+									"value": "-"
+								},
+								{
+									"label": "VGA",
+									"value": "1 (Mini D-SUB 15 pin)"
+								},
+								{
+									"label": "Component",
+									"value": "1 (switchable)"
+								},
+								{
+									"label": "Composite",
+									"value": "1 (Mini D-SUB 15 pin)"
+								},
+								{
+									"label": "S-Video",
+									"value": "-"
+								},
+								{
+									"label": "3,5 mm jack audio",
+									"value": "1"
+								},
+								{
+									"label": "Audio RCA (L/P)",
+									"value": "1"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "output_sockets_(audio_video)",
+							"label": "Gniazda wyjściowe (audio/wideo)",
+							"elements": [
+								{
+									"label": "HDMI",
+									"value": "-"
+								},
+								{
+									"label": "DVI-D",
+									"value": "-"
+								},
+								{
+									"label": "DVI-I",
+									"value": "-"
+								},
+								{
+									"label": "DisplayPort",
+									"value": "-"
+								},
+								{
+									"label": "SDI",
+									"value": "-"
+								},
+								{
+									"label": "HDSDI",
+									"value": "-"
+								},
+								{
+									"label": "VGA",
+									"value": "-"
+								},
+								{
+									"label": "Component",
+									"value": "-"
+								},
+								{
+									"label": "Composite",
+									"value": "-"
+								},
+								{
+									"label": "S-Video",
+									"value": "-"
+								},
+								{
+									"label": "3,5 mm jack audio/słuchawkowe",
+									"value": "-"
+								},
+								{
+									"label": "Audio RCA (L/P)",
+									"value": "1"
+								},
+								{
+									"label": "Głośnik zewnętrzny",
+									"value": "-"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "sockets_(control_serial_data)",
+							"label": "Gniazda (sterowanie/dane szeregowe)",
+							"elements": [
+								{
+									"label": "RS232C IN",
+									"value": "1"
+								},
+								{
+									"label": "RS232C OUT",
+									"value": "-"
+								},
+								{
+									"label": "Port LAN",
+									"value": "-"
+								},
+								{
+									"label": "USB",
+									"value": "-"
+								},
+								{
+									"label": "Inne",
+									"value": "1 (USB do celów serwisowych (zakryty))"
+								}
+							]
+						},
+						{
+							"name": "equipment",
+							"label": "Wyposażenie",
+							"elements": [
+								{
+									"label": "Oprogramowanie",
+									"value": "SHARP Pen Software, (opcjonalnie: SHARP Display Connect)"
+								},
+								{
+									"label": "Sterowanie komputerem",
+									"value": "-"
+								},
+								{
+									"label": "Bezprzewodowy punkt dostępowy",
+									"value": "-"
+								},
+								{
+									"label": "Panel dotykowy",
+									"value": "-"
+								},
+								{
+									"label": "Półka na pisaki",
+									"value": "1 pc."
+								},
+								{
+									"label": "Pisak",
+									"value": "1 pc."
+								},
+								{
+									"label": "Gumka",
+									"value": "1 pc."
+								},
+								{
+									"label": "Inne",
+									"value": "2 osłony na otwór do mocowania podstawy / 1 europejska etykieta energetyczna"
+								}
+							]
+						}
+					]
+
+				}
+
+			]
+
+
+		},
+
+
+
+		{
+
+
+			"name": "PN-70TA3",
+
+
+			"category": "interactive_models",
+
+
+			"details": [
+				"Przekątna ekranu 70 cali (176,6 cm)",
+				"Rozdzielczość punktowa 1920 x 1080",
+				"Rozpoznawanie 10 punktów dotyku (system oparty o czujniki podczerwieni) - do 4 użytkowników",
+				"Kontrast 3000:1",
+				"Podświetlenie LED, krawędziowe",
+				"Nowe oprogramowanie pióra dotykowego",
+				"Preinstalowane oprogramowanie Touch Display Link 2.0",
+				"Szybki start i nowy ekran z powłoką antyrefleksyjną"
+			],
+
+
+			"description" : [
+				"Nowy zaawansowany interaktywny system wyświetlania BIG PAD o przekątnej ekranu 70cali został zaprojektowany z myślą o bezproblemowej komunikacji w szerokim zakresie materiałów multimedialnych. Bardzo czułe pióro dotykowe umożliwia kilku osobom równoczesne pisanie na tym samym ekranie. Oprogramowanie Touch Display Link firmy Sharp umożliwia wielopłaszczyznową komunikację bezprzewodową. BIG PAD firmy Sharp sprawdzi się w każdej sali narad lub w sali lekcyjnej stymuluje współpracę i zapewnia sprawną komunikację."
+			],
+
+
+			"sections": [
+
+				{
+
+					"name": "download",
+
+					"label": "Do pobrania",
+
+					"elements": [
+						{
+							"name": "booklets",
+							"label": "Broszury",
+							"elements": [
+								{
+									"label": "Broszura BIG PAD Profesjonalny monitor LCD z ekranem dotykowym",
+									"description": "PN-70TA3/PN-70TB3/PN-60TA3/PN-60TB3 Profesjonalny monitor LCD z ekranem dotykowym",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Brochure/BIGPAD_PN-70TA3_PN-70TB3_PN-60TA3_PN-60TB3_PL_view.pdf"
+								}
+							]
+						},
+						{
+							"name": "user_manuals",
+							"label": "Instrukcje obsługi",
+							"elements": [
+								{
+									"label": "Sterowanie monitorami przez interfejs RS-232C",
+									"description": "PN-60TA3 / PN-60TB3 / PN-70TA3 / PN-70TB3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Operational_manuals/RS232_BIGPAD_PL.pdf"
+								},
+								{
+									"label": "Easy Setup Guide",
+									"description": "PN-70TA3 & PN-60TA3 Version 1.0",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Operational_manuals/Easy_Setup_Guide_70TA3-60TA3_v1.pdf"
+								}
+							]
+						},
+						{
+							"name": "product_cards",
+							"label": "Karty produktowe",
+							"elements": [
+								{
+									"label": "Dane techniczne PN70TA3",
+									"description": "",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PN70TA3_pl_pl.pdf"
+								}
+							]
+						},
+						{
+							"name": "software",
+							"label": "Oprogramowanie",
+							"elements": [
+								{
+									"label": "Pen Software Updater Version 3.4.2.4",
+									"description": "PN-xxTA3 Series / PN-xxTB3 Series / PN-70SC3 / PN-80TC3 / PN-L602B / PN-L702B / PN-L802B / PN-K322B / LL-S242A / LL-P202V / LL-S201A",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/PenSoftware-3.4.2.4-updater.zip"
+								},
+								{
+									"label": "Controller Update USB Rev75",
+									"description": "Hard Disk Image (HDI) for PN-60TA3 / PN-70TA3 only",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/Controller-Update-Rev75-for-PNx0TA3.zip"
+								},
+								{
+									"label": "Sharp Digital Signage Software Setup",
+									"description": "SDSS Version 4.6.2.1 PNSS01 / PNSS02 / PNSS05 / PNSW05 / PNSV01",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/sdss__4_6_2_1_Setup.zip"
+								},
+								{
+									"label": "Display Management Tool Ver.1.13.2.0",
+									"description": "Controll Software",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/DMT-V1.13.2.0.zip"
+								},
+								{
+									"label": "Touch Display Link (TDL) 2.0.10",
+									"description": "* Host and Client setup * only Client setup * Manuals",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/Touch-Display-Link_V2_0_10.zip"
+								},
+								{
+									"label": "Firmware Update Manual (USB)",
+									"description": "PN70TA3 / PN60TA3 PN70TB3 / PN60TB3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/PNxxTA3-TB3-firmware-update-manual.pdf"
+								},
+								{
+									"label": "Firmware Update 1.100 main (USB)",
+									"description": "only for PN-70TB3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/PN-70TB3-firmware-1.100-main.zip"
+								}
+							]
+						},
+						{
+							"name": "drivers",
+							"label": "Sterowniki",
+							"elements": [
+								{
+									"label": "Touch Pen Utility 2.1.2.3",
+									"description": "only for PN60TA3 / PN60TB3 / PN60TW3 / PN70TA3 / PN70TB3 / PN70TW3 / PN80TC3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Drivers/TouchPenUtility-2.1.2.3.zip"
+								},
+								{
+									"label": "Touch Panel Driver for MAC Version 1.6.2.0",
+									"description": "for OS 10.10 / 10.11 >>> PN60TA3 / PN60TB3 / PN70TA3 / PN70TB3 / PN80TC3 / PN70TW3 PN70SC3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Drivers/MAC-driver-1.6.2.0.zip"
+								},
+								{
+									"label": "Touch Panel Setting Tool",
+									"description": "Version 2.0.2.8 PN-70TA3 / PN-70TB3 / PN-70TW3 PN-60TA3 / PN-60TB3 / PN-60TW3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Drivers/Touch-Panel-Settings-Tool_v2_0_2_8wM.zip"
+								},
+								{
+									"label": "Touch Panel Driver for MAC Version 1.4.2.3",
+									"description": "for OS 10.7 / 10.8 / 10.9 / 10.10 >>> PN60TA3 / PN60TB3 / PN70TA3 / PN70TB3 / PN80TC3 / PN70TW3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Drivers/TATB-Series-MAC-TPDriver-V1.4.2.3.zip"
+								}
+							]
+						}
+					]
+
+				},
+
+				{
+
+					"name": "technical_data",
+
+					"label": "Dane techniczne",
+
+					"elements": [
+						{
+							"name": "display_module_data",
+							"label": "Dane modułu wyświetlającego",
+							"elements": [
+								{
+									"label": "Technologia panelu",
+									"value": "UV2A LCD"
+								},
+								{
+									"label": "Rozdzielczość znamionowa (piksele)",
+									"value": "1.920 x 1.080"
+								},
+								{
+									"label": "Przekątna (cale/cm)",
+									"value": "70/176,6"
+								},
+								{
+									"label": "Proporcje obrazu",
+									"value": "16:9"
+								},
+								{
+									"label": "Technologia podświetlenia",
+									"value": "LED, podświetlenie krawędziowe"
+								},
+								{
+									"label": "Jasność (cd/m2)",
+									"value": "300"
+								},
+								{
+									"label": "Współczynnik kontrastu",
+									"value": "3.000:1"
+								},
+								{
+									"label": "Wyświetlane kolory",
+									"value": "1,06 mld."
+								},
+								{
+									"label": "Czas odpowiedzi (szary-do-szarego, średni) ms",
+									"value": "6"
+								},
+								{
+									"label": "Liczba pikseli na cal (ppi)",
+									"value": "-"
+								},
+								{
+									"label": "Kąt obserwacji (w pionie/w poziomie) 0 CR >10",
+									"value": "160/160"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "basic_technical_data",
+							"label": "Podstawowe dane techniczne",
+							"elements": [
+								{
+									"label": "Certyfikat pracy w trybie 24/7",
+									"value": true
+								},
+								{
+									"label": "Lokalne przyciemnianie",
+									"value": false
+								},
+								{
+									"label": "Wewnętrzne głośniki (W)",
+									"value": "10W + 10W"
+								},
+								{
+									"label": "Wejście komputera - Plug and Play",
+									"value": true
+								},
+								{
+									"label": "Zarządzanie zasilaniem",
+									"value": true
+								},
+								{
+									"label": "Kolor obudowy",
+									"value": "Czarny"
+								},
+								{
+									"label": "Konstrukcja bez wentylatora",
+									"value": true
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "touch_interface_technical_data",
+							"label": "Dane techniczne interfejsu dotykowego",
+							"elements": [
+								{
+									"label": "Technologia",
+									"value": "Podczerwień"
+								},
+								{
+									"label": "Liczba punktów dotyku",
+									"value": "10"
+								},
+								{
+									"label": "Liczba równoczesnych użytkowników",
+									"value": "Up to 4"
+								},
+								{
+									"label": "Powłoka ochronna / filtr",
+									"value": "AR and AG"
+								},
+								{
+									"label": "Twardość ekranu (H)",
+									"value": "-"
+								},
+								{
+									"label": "Kompatybilne systemy operacyjne",
+									"value": "Windows7 (32/64bit), Windows8/8.1 (32/64bit)"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "power_source_and_work_environment",
+							"label": "Źródło zasilania i środowisko pracy",
+							"elements": [
+								{
+									"label": "Napięcie podczas pracy (V, prąd zmienny) / częstotliwość (Hz)",
+									"value": "100-240, 50/60"
+								},
+								{
+									"label": "Pobór mocy (W) (maksymalne obciążenie)",
+									"value": "250"
+								},
+								{
+									"label": "Pobór mocy (W) (w trybie czuwania)",
+									"value": "-"
+								},
+								{
+									"label": "Temperatura podczas pracy (oC)",
+									"value": "5-35"
+								},
+								{
+									"label": "Wilgotność (%)",
+									"value": "20-80"
+								},
+								{
+									"label": "Ilość odprowadzanego ciepła (BTU/h) - maksymalna",
+									"value": "-"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "safety_and_environment_(europe)",
+							"label": "Bezpieczeństwo i środowisko (EUROPA)",
+							"elements": [
+								{
+									"label": "Energy Star",
+									"value": false
+								},
+								{
+									"label": "CE, raport CB",
+									"value": true
+								},
+								{
+									"label": "Zawartość rtęci (mg)",
+									"value": "0"
+								},
+								{
+									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
+									"value": false
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "weights_and_dimensions",
+							"label": "Masy i wymiary",
+							"elements": [
+								{
+									"label": "Wymiary ramki (lewa/prawa) mm",
+									"value": "26/26"
+								},
+								{
+									"label": "Wymiary ramki (góra/dół) mm",
+									"value": "26/59"
+								},
+								{
+									"label": "Wymiary produktu (szer./wys./gł.) mm",
+									"value": "1.647 x 1.010 x 94"
+								},
+								{
+									"label": "Masa produktu bez podstawy (kg)",
+									"value": "61"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "installation",
+							"label": "Instalacja",
+							"elements": [
+								{
+									"label": "Orientacja pozioma",
+									"value": true
+								},
+								{
+									"label": "Orientacja pionowa",
+									"value": false
+								},
+								{
+									"label": "Ustawienie w poziomie",
+									"value": false
+								},
+								{
+									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
+									"value": "4 / 400 x 200"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "input_sockets_(audio_video)",
+							"label": "Gniazda wejściowe (audio/wideo)",
+							"elements": [
+								{
+									"label": "HDMI",
+									"value": "3"
+								},
+								{
+									"label": "DVI-D",
+									"value": "-"
+								},
+								{
+									"label": "DVI-I",
+									"value": "-"
+								},
+								{
+									"label": "DisplayPort",
+									"value": "1"
+								},
+								{
+									"label": "SDI",
+									"value": "-"
+								},
+								{
+									"label": "HDSDI",
+									"value": "-"
+								},
+								{
+									"label": "VGA",
+									"value": "1"
+								},
+								{
+									"label": "Component",
+									"value": "1 (Via VGA port)"
+								},
+								{
+									"label": "Composite",
+									"value": "-"
+								},
+								{
+									"label": "S-Video",
+									"value": "-"
+								},
+								{
+									"label": "3,5 mm jack audio",
+									"value": "2"
+								},
+								{
+									"label": "Audio RCA (L/P)",
+									"value": "-"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "output_sockets_(audio_video)",
+							"label": "Gniazda wyjściowe (audio/wideo)",
+							"elements": [
+								{
+									"label": "HDMI",
+									"value": "-"
+								},
+								{
+									"label": "DVI-D",
+									"value": "-"
+								},
+								{
+									"label": "DVI-I",
+									"value": "-"
+								},
+								{
+									"label": "DisplayPort",
+									"value": "1"
+								},
+								{
+									"label": "SDI",
+									"value": "-"
+								},
+								{
+									"label": "HDSDI",
+									"value": "-"
+								},
+								{
+									"label": "VGA",
+									"value": "-"
+								},
+								{
+									"label": "Component",
+									"value": "-"
+								},
+								{
+									"label": "Composite",
+									"value": "-"
+								},
+								{
+									"label": "S-Video",
+									"value": "-"
+								},
+								{
+									"label": "3,5 mm jack audio/słuchawkowe",
+									"value": "1"
+								},
+								{
+									"label": "Audio RCA (L/P)",
+									"value": "-"
+								},
+								{
+									"label": "Głośnik zewnętrzny",
+									"value": "10W + 10W"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "sockets_(control_serial_data)",
+							"label": "Gniazda (sterowanie/dane szeregowe)",
+							"elements": [
+								{
+									"label": "RS232C IN",
+									"value": "-"
+								},
+								{
+									"label": "RS232C OUT",
+									"value": "-"
+								},
+								{
+									"label": "Port LAN",
+									"value": "1"
+								},
+								{
+									"label": "USB",
+									"value": "-"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "equipment",
+							"label": "Wyposażenie",
+							"elements": [
+								{
+									"label": "Oprogramowanie",
+									"value": "Pensoft, Touch Display Link 2.0"
+								},
+								{
+									"label": "Sterowanie komputerem",
+									"value": "-"
+								},
+								{
+									"label": "Bezprzewodowy punkt dostępowy",
+									"value": "-"
+								},
+								{
+									"label": "Panel dotykowy",
+									"value": "-"
+								},
+								{
+									"label": "Półka na pisaki",
+									"value": "STD"
+								},
+								{
+									"label": "Pisak",
+									"value": "STD"
+								},
+								{
+									"label": "Gumka",
+									"value": "STD"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						}
+					]
+
+				}
+
+			]
+
+
+		},
+
+
+
+		{
+
+
+			"name": "PN-80TC3",
+
+
+			"category": "interactive_models",
+
+
+			"details": [
+				"Monitor BIG PAD dla najbardziej wymagających dużych firm",
+				"Przekątna ekranu 80 cali (203,2 cm)",
+				"Wygodny w obsłudze interaktywny system wielopunktowego dotyku (10 punktów) P-CAP, z możliwością obsługi przez 4 użytkowników równocześnie",
+				"Gładka płaska ramka umożliwia tworzenie wygodnych konfiguracji wieloekranowych",
+				"Wyjątkowa technologia UV2A LCD gwarantuje wysoki poziom ostrości obrazu",
+				"Oprogramowanie pióra dotykowego umożliwia intuicyjne pisanie, rysowanie i sporządzanie notatek",
+				"Oprogramowanie SHARP Display Connect zapewnia najnowszą komunikację bezprzewodową ze spontanicznie podłączanymi urządzeniami mobilnymi",
+				"Aplikacja SHARP Touch Viewer Software do zarządzania udostępnianymi materiałami"
+			],
+
+
+			"description" : [
+				"Monitor Sharp BIG PAD PN-80TC3 to największy model klasy Premium przeznaczony do spotkań w dużych firmach i wymagających środowisk współpracy podejmujących ważne, strategiczne decyzje. Model PN-80TC3, opracowany na podstawie wyjątkowych, pionierskich doświadczeń z tablicami interaktywnymi, reprezentuje najnowszy innowacyjny wgląd i niezrównane doświadczenia firmy Sharp w opracowywaniu zoptymalizowanych i dedykowanych rozwiązań w dziedzinie ekranów dotykowych przeznaczonych do współpracy.",
+				"Nowy sztandarowy 80-calowy monitor BIG PAD firmy Sharp, oferując najnowocześniejsze możliwości współpracy dzięki wyjątkowo płynnego zaplanowanego systemu pojemnościowego w technologii dotykowej (P-CAP), wspomaga pracę zespołową umożliwiając odbywanie twórczych, efektywnych i decydujących narad w profesjonalnej współpracy.",
+				"80-calowy monitor BIG PAD klasy Premium firmy Sharp wyposażony jest w szybki, interaktywny i intuicyjny zaplanowany system pojemnościowy wielopunktowego dotyku (10 punktów), który został zoptymalizowany dla wymagających sal narad, auli i środowisk podejmujących ważne, strategiczne decyzje. Rozszerza komunikację zespołu, a przechwytywanie wszystkich twórczych wyrażeń oznacza, że najlepsze warunki do podejmowania decyzji i efektywnej współpracy zostały osiągnięte.",
+				"Cieszące się uznaniem oprogramowanie SHARP Pen Software otwiera nowe sposoby pracy twórczej, dzielenia sie pomysłami i podejmowanie finalnych decyzji. Wydajny, uniwersalny i technologicznie innowacyjny monitor BIG PAD PN-80TC3 firmy Sharp zapewnia znakomitą platformę współpracy, aby pobudzać kreatywność, stymulować wydajność narad i zwiększać efektywność podejmowania decyzji.",
+				"Wykorzystanie jednego monitora BIG PAD to dobre rozwiązanie. Korzystanie z dwóch monitorów BIG PAD w efektywnej wielotablicowej konfiguracji jest znacznie lepsze! Monitory BIG PAD można połączyć razem, zyskując większą powierzchnie do współpracy. Nowa aplikacja oferuje również łatwy w obsłudze interfejs oraz system plików do gromadzenia i porządkowania danych z różnych projektów współpracy."
+			],
+
+
+			"sections": [
+
+				{
+
+					"name": "download",
+
+					"label": "Do pobrania",
+
+					"elements": [
+						{
+							"name": "booklets",
+							"label": "Broszury",
+							"elements": [
+								{
+									"label": "Broszura Tablica interaktywna",
+									"description": "PN-80TC3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Brochure/PN-80TC3_BIGPAD_PL_screen.pdf"
+								},
+								{
+									"label": "Broszura BIG PAD Profesjonalny monitor LCD z ekranem dotykowym",
+									"description": "PN-70TA3/PN-70TB3/PN-60TA3/PN-60TB3 Profesjonalny monitor LCD z ekranem dotykowym",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Brochure/BIGPAD_PN-70TA3_PN-70TB3_PN-60TA3_PN-60TB3_PL_view.pdf"
+								}
+							]
+						},
+						{
+							"name": "product_cards",
+							"label": "Karty produktowe",
+							"elements": [
+								{
+									"label": "Dane techniczne PN80TC3",
+									"description": "",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PN80TC3_pl_pl.pdf"
+								}
+							]
+						},
+						{
+							"name": "software",
+							"label": "Oprogramowanie",
+							"elements": [
+								{
+									"label": "Cloud Portal Office Connector",
+									"description": "Software option for PenSoftware CPO Version 2.0.15",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/CPOMeetingRoom-2.0.15-EUPROD2-setup.exe"
+								},
+								{
+									"label": "Pen Software Updater Version 3.4.2.4",
+									"description": "PN-xxTA3 Series / PN-xxTB3 Series / PN-70SC3 / PN-80TC3 / PN-L602B / PN-L702B / PN-L802B / PN-K322B / LL-S242A / LL-P202V / LL-S201A",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/PenSoftware-3.4.2.4-updater.zip"
+								},
+								{
+									"label": "Sharp Digital Signage Software Setup",
+									"description": "SDSS Version 4.6.2.1 PNSS01 / PNSS02 / PNSS05 / PNSW05 / PNSV01",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/sdss__4_6_2_1_Setup.zip"
+								},
+								{
+									"label": "Display Management Tool Ver.1.13.2.0",
+									"description": "Controll Software",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/DMT-V1.13.2.0.zip"
+								},
+								{
+									"label": "Touch Display Link (TDL) 2.0.10",
+									"description": "* Host and Client setup * only Client setup * Manuals",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Software/Touch-Display-Link_V2_0_10.zip"
+								}
+							]
+						},
+						{
+							"name": "drivers",
+							"label": "Sterowniki",
+							"elements": [
+								{
+									"label": "Touch Panel Driver for MAC Version 1.6.2.0",
+									"description": "for OS 10.10 / 10.11 >>> PN60TA3 / PN60TB3 / PN70TA3 / PN70TB3 / PN80TC3 / PN70TW3 PN70SC3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Drivers/MAC-driver-1.6.2.0.zip"
+								},
+								{
+									"label": "Touch Panel Driver for MAC Version 1.4.2.3",
+									"description": "for OS 10.7 / 10.8 / 10.9 / 10.10 >>> PN60TA3 / PN60TB3 / PN70TA3 / PN70TB3 / PN80TC3 / PN70TW3",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Service_Information/Drivers/TATB-Series-MAC-TPDriver-V1.4.2.3.zip"
+								}
+							]
+						}
+					]
+
+				},
+
+				{
+
+					"name": "technical_data",
+
+					"label": "Dane techniczne",
+
+					"elements": [
+						{
+							"name": "display_module_data",
+							"label": "Dane modułu wyświetlającego",
+							"elements": [
+								{
+									"label": "Technologia panelu",
+									"value": "UV2A LCD"
+								},
+								{
+									"label": "Rozdzielczość znamionowa (piksele)",
+									"value": "1.920 x 1.080"
+								},
+								{
+									"label": "Przekątna (cale/cm)",
+									"value": "80/203.2"
+								},
+								{
+									"label": "Proporcje obrazu",
+									"value": "16:9"
+								},
+								{
+									"label": "Technologia podświetlenia",
+									"value": "Podświetlenie Full LED"
+								},
+								{
+									"label": "Jasność (cd/m2)",
+									"value": "300"
+								},
+								{
+									"label": "Współczynnik kontrastu",
+									"value": "4000:1"
+								},
+								{
+									"label": "Wyświetlane kolory",
+									"value": "1.06B"
+								},
+								{
+									"label": "Czas odpowiedzi (szary-do-szarego, średni) ms",
+									"value": "4"
+								},
+								{
+									"label": "Liczba pikseli na cal (ppi)",
+									"value": "-"
+								},
+								{
+									"label": "Kąt obserwacji (w pionie/w poziomie) 0 CR >10",
+									"value": "176/176"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "basic_technical_data",
+							"label": "Podstawowe dane techniczne",
+							"elements": [
+								{
+									"label": "Certyfikat pracy w trybie 24/7",
+									"value": true
+								},
+								{
+									"label": "Lokalne przyciemnianie",
+									"value": false
+								},
+								{
+									"label": "Wewnętrzne głośniki (W)",
+									"value": "10W + 10W"
+								},
+								{
+									"label": "Wejście komputera - Plug and Play",
+									"value": true
+								},
+								{
+									"label": "Zarządzanie zasilaniem",
+									"value": true
+								},
+								{
+									"label": "Kolor obudowy",
+									"value": "Czarny"
+								},
+								{
+									"label": "Konstrukcja bez wentylatora",
+									"value": true
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "touch_interface_technical_data",
+							"label": "Dane techniczne interfejsu dotykowego",
+							"elements": [
+								{
+									"label": "Technologia",
+									"value": "System pojemnościowy (P-CAP)"
+								},
+								{
+									"label": "Liczba punktów dotyku",
+									"value": "10"
+								},
+								{
+									"label": "Liczba równoczesnych użytkowników",
+									"value": "4"
+								},
+								{
+									"label": "Powłoka ochronna / filtr",
+									"value": "AR"
+								},
+								{
+									"label": "Twardość ekranu (H)",
+									"value": "-"
+								},
+								{
+									"label": "Kompatybilne systemy operacyjne",
+									"value": "Windows 8, Windows 7, Windows Vista, Windows XP, Mac OSX"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "power_source_and_work_environment",
+							"label": "Źródło zasilania i środowisko pracy",
+							"elements": [
+								{
+									"label": "Napięcie podczas pracy (V, prąd zmienny) / częstotliwość (Hz)",
+									"value": "100-240, 50/60"
+								},
+								{
+									"label": "Pobór mocy (W) (maksymalne obciążenie)",
+									"value": "280"
+								},
+								{
+									"label": "Pobór mocy (W) (w trybie czuwania)",
+									"value": "0.5"
+								},
+								{
+									"label": "Temperatura podczas pracy (oC)",
+									"value": "5-35"
+								},
+								{
+									"label": "Wilgotność (%)",
+									"value": "20-80"
+								},
+								{
+									"label": "Ilość odprowadzanego ciepła (BTU/h) - maksymalna",
+									"value": "-"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "safety_and_environment_(europe)",
+							"label": "Bezpieczeństwo i środowisko (EUROPA)",
+							"elements": [
+								{
+									"label": "Energy Star",
+									"value": false
+								},
+								{
+									"label": "CE, raport CB",
+									"value": true
+								},
+								{
+									"label": "Zawartość rtęci (mg)",
+									"value": "0"
+								},
+								{
+									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
+									"value": false
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "weights_and_dimensions",
+							"label": "Masy i wymiary",
+							"elements": [
+								{
+									"label": "Wymiary ramki (lewa/prawa) mm",
+									"value": "29/29"
+								},
+								{
+									"label": "Wymiary ramki (góra/dół) mm",
+									"value": "30/30"
+								},
+								{
+									"label": "Wymiary produktu (szer./wys./gł.) mm",
+									"value": "1850 x 1072 x 96"
+								},
+								{
+									"label": "Masa produktu bez podstawy (kg)",
+									"value": "77"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "installation",
+							"label": "Instalacja",
+							"elements": [
+								{
+									"label": "Orientacja pozioma",
+									"value": true
+								},
+								{
+									"label": "Orientacja pionowa",
+									"value": true
+								},
+								{
+									"label": "Ustawienie w poziomie",
+									"value": false
+								},
+								{
+									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
+									"value": "4 / 600mm x 400mm"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "input_sockets_(audio_video)",
+							"label": "Gniazda wejściowe (audio/wideo)",
+							"elements": [
+								{
+									"label": "HDMI",
+									"value": "3"
+								},
+								{
+									"label": "DVI-D",
+									"value": "-"
+								},
+								{
+									"label": "DVI-I",
+									"value": "-"
+								},
+								{
+									"label": "DisplayPort",
+									"value": "1"
+								},
+								{
+									"label": "SDI",
+									"value": "-"
+								},
+								{
+									"label": "HDSDI",
+									"value": "-"
+								},
+								{
+									"label": "VGA",
+									"value": "2"
+								},
+								{
+									"label": "Component",
+									"value": "1"
+								},
+								{
+									"label": "Composite",
+									"value": "1"
+								},
+								{
+									"label": "S-Video",
+									"value": "-"
+								},
+								{
+									"label": "3,5 mm jack audio",
+									"value": "1"
+								},
+								{
+									"label": "Audio RCA (L/P)",
+									"value": "-"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "output_sockets_(audio_video)",
+							"label": "Gniazda wyjściowe (audio/wideo)",
+							"elements": [
+								{
+									"label": "HDMI",
+									"value": "-"
+								},
+								{
+									"label": "DVI-D",
+									"value": "-"
+								},
+								{
+									"label": "DVI-I",
+									"value": "-"
+								},
+								{
+									"label": "DisplayPort",
+									"value": "1"
+								},
+								{
+									"label": "SDI",
+									"value": "-"
+								},
+								{
+									"label": "HDSDI",
+									"value": "-"
+								},
+								{
+									"label": "VGA",
+									"value": "-"
+								},
+								{
+									"label": "Component",
+									"value": "-"
+								},
+								{
+									"label": "Composite",
+									"value": "-"
+								},
+								{
+									"label": "S-Video",
+									"value": "-"
+								},
+								{
+									"label": "3,5 mm jack audio/słuchawkowe",
+									"value": "-"
+								},
+								{
+									"label": "Audio RCA (L/P)",
+									"value": "-"
+								},
+								{
+									"label": "Głośnik zewnętrzny",
+									"value": "10W + 10W"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "sockets_(control_serial_data)",
+							"label": "Gniazda (sterowanie/dane szeregowe)",
+							"elements": [
+								{
+									"label": "RS232C IN",
+									"value": "1"
+								},
+								{
+									"label": "RS232C OUT",
+									"value": "-"
+								},
+								{
+									"label": "Port LAN",
+									"value": "1"
+								},
+								{
+									"label": "USB",
+									"value": "1"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "equipment",
+							"label": "Wyposażenie",
+							"elements": [
+								{
+									"label": "Oprogramowanie",
+									"value": "SHARP Pen Software, SHARP Display Connect, SHARP Touch Viewer Software"
+								},
+								{
+									"label": "Sterowanie komputerem",
+									"value": "-"
+								},
+								{
+									"label": "Bezprzewodowy punkt dostępowy",
+									"value": "-"
+								},
+								{
+									"label": "Panel dotykowy",
+									"value": "-"
+								},
+								{
+									"label": "Półka na pisaki",
+									"value": "STD"
+								},
+								{
+									"label": "Pisak",
+									"value": "STD"
+								},
+								{
+									"label": "Gumka",
+									"value": "STD"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						}
+					]
+
+				}
+
+			]
+
+
+		},
+
+
+
+
+
+
+		{
+
+
+			"name": "PN-H801",
+
+
+			"category": "uhd_models",
+
+
+			"details": [
+				"Przekątna ekranu 80 cali (204,4 cm)",
+				"4K Ultra HD, 3840 x 2160 @ 60 Hz",
+				"Szeroka paleta kolorów dla nowej generacji wyświetlania barw",
+				"Wbudowany odtwarzacz 4K USB",
+				"Najnowsza łączność HDMI dla 4K@60Hz",
+				"Trwała, smukła obudowa i stylowa, cienka ramka",
+				"Praca w trybie 24/7",
+				"Możliwość instalacji w orientacji poziomej lub pionowej"
+			],
+
+
+			"description" : [
+				"PN-H801, wyposażony w najnowocześniejsze technologie, to nadzwyczajna platforma komunikacji. Ten 80-calowy monitor 4K Ultra HD (rozdzielczość 3840 x 2160) oferuje duży rozmiar, imponującą jakość obrazu w rozdzielczości 4K UHD oraz nowej generacji paletę kolorów, pozwalającą wyświetlać każdy rodzaj treści: od szczegółowego tekstu do pięknie teksturowanych grafik i innych. Monitor jest doskonały do wyświetlania produktów detalicznych z górnej półki, na przykład odzieży czy luksusowej biżuterii, w dokładnie odwzorowanych kolorach.",
+				"Dzięki wielkiemu, gładkiemu ekranowi oraz rozdzielczości czterokrotnie wyższej od full HD 1080 pikseli monitor oddaje szczegóły, głębię i jasność, którą chciał oddać twórca treści. Sprawdza się świetnie w każdym obiekcie - zarówno w sklepach, biurach, salach konferencyjnych, jak i miejscach publicznych - i wywiera niezapomniany wpływ na każdą publiczność dzięki dokładnemu odwzorowywaniu kolorów.",
+				"Uznany monitor Sharp 80'' PN-H801 obsługuje szeroką paletę kolorów, która powala na wyświetlanie większej liczby barw niż w przypadku standardowej palety sRGB. Tworzy to niepowtarzalną okazję dla wymagających zastosowań detalicznych, dając możliwość wyświetlania takich kolorów produktów, które po prostu nie byłyby widoczne na innym monitorze. Bardziej realistyczne kolory dają klientom szerszy ogląd produktu, który ich interesuje, generując tym samym więcej przemyślanych zakupów bez zwrotów.",
+				"Wbudowany odtwarzacz USB oferuje doskonałe działanie i elastyczność tworzenia autonomicznego systemu wyświetlania bez komputera. Po prostu umieść zawartość na dysku USB i podłącz go do monitora. Odtwarzacz USB może wyświetlić z dysku statyczne obrazy 4K UHD lub nagranie FHD. Wbudowane głośniki 10W + 10W o dużej mocy uzupełniają jakość nagrań i dają lepsze wrażenia audiowizualne.",
+				"Wielkoformatowe monitory LCD Sharp o dużej wydajności są zaprojektowane, by spełniać zróżnicowane potrzeby użytkowników biznesowych oraz zapewniać stałą niezawodność, niezwykłą trwałość oraz łatwość użytkowania. Szeroką paletę monitorów w różnych rozmiarach można instalować w orientacji pionowej lub poziomej, co pozwala klientom wybrać monitor najlepiej dopasowany do lokalizacji i celu. Monitory LCD Sharp nie tylko dają dynamiczny, skuteczny sposób przekazywania informacji, ale także wzmacniają wizualne oddziaływanie biur i przestrzeni publicznych. Dodatkową zaletą jest niskie zużycie energii. Ponadto technologia Sharp UV2A pozwala na wyświetlanie niezwykle głębokiej czerni i jasnych, żywych kolorów, oferując dodatkowe oszczędności w zużyciu energii dzięki wydajnemu wykorzystaniu podświetlenia. To kolejny powód, dla którego monitory Sharp LCD to niezawodne narzędzie zwiększania potencjału biznesowego."
+			],
+
+
+			"sections": [
+
+				{
+
+					"name": "download",
+
+					"label": "Do pobrania",
+
+					"elements": [
+						{
+							"name": "product_cards",
+							"label": "Karty produktowe",
+							"elements": [
+								{
+									"label": "Dane techniczne PNH801",
+									"description": "",
+									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PNH801_pl_pl.pdf"
+								}
+							]
+						}
+					]
+
+				},
+
+				{
+
+					"name": "technical_data",
+
+					"label": "Dane techniczne",
+
+					"elements": [
+						{
+							"name": "display_module_data",
+							"label": "Dane modułu wyświetlającego",
+							"elements": [
+								{
+									"label": "Technologia panelu",
+									"value": "UV2A LCD"
+								},
+								{
+									"label": "Rozdzielczość znamionowa (piksele)",
+									"value": "3840 x 2160 @ 60Hz"
+								},
+								{
+									"label": "Przekątna (cale/cm)",
+									"value": "80/204,4"
+								},
+								{
+									"label": "Proporcje obrazu",
+									"value": "16:9"
+								},
+								{
+									"label": "Technologia podświetlenia",
+									"value": "Białe podświetlenie Full LED"
+								},
+								{
+									"label": "Jasność (cd/m2)",
+									"value": "440"
+								},
+								{
+									"label": "Współczynnik kontrastu",
+									"value": "4000:1"
+								},
+								{
+									"label": "Wyświetlane kolory",
+									"value": "1,06B"
+								},
+								{
+									"label": "Czas odpowiedzi (szary-do-szarego, średni) ms",
+									"value": "6"
+								},
+								{
+									"label": "Liczba pikseli na cal (ppi)",
+									"value": "-"
+								},
+								{
+									"label": "Kąt obserwacji (w pionie/w poziomie) 0 CR >10",
+									"value": "176/176"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "basic_technical_data",
+							"label": "Podstawowe dane techniczne",
+							"elements": [
+								{
+									"label": "Certyfikat pracy w trybie 24/7",
+									"value": true
+								},
+								{
+									"label": "Lokalne przyciemnianie",
+									"value": false
+								},
+								{
+									"label": "Wewnętrzne głośniki (W)",
+									"value": "10W + 10W"
+								},
+								{
+									"label": "Wejście komputera - Plug and Play",
+									"value": false
+								},
+								{
+									"label": "Zarządzanie zasilaniem",
+									"value": true
+								},
+								{
+									"label": "Kolor obudowy",
+									"value": "Czarny"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "touch_interface_technical_data",
+							"label": "Dane techniczne interfejsu dotykowego",
+							"elements": [
+								{
+									"label": "Technologia",
+									"value": "-"
+								},
+								{
+									"label": "Liczba punktów dotyku",
+									"value": "-"
+								},
+								{
+									"label": "Liczba równoczesnych użytkowników",
+									"value": "-"
+								},
+								{
+									"label": "Funkcja unieważnienia dotyku dłonią",
+									"value": false
+								},
+								{
+									"label": "Twardość ekranu (H)",
+									"value": "-"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "power_source_and_work_environment",
+							"label": "Źródło zasilania i środowisko pracy",
+							"elements": [
+								{
+									"label": "Napięcie podczas pracy (V, prąd zmienny) / częstotliwość (Hz)",
+									"value": "100-240, 50/60"
+								},
+								{
+									"label": "Pobór mocy (W) (maksymalne obciążenie)",
+									"value": "490"
+								},
+								{
+									"label": "Pobór mocy (W) (w trybie czuwania)",
+									"value": "0,50"
+								},
+								{
+									"label": "Temperatura podczas pracy (oC)",
+									"value": "0-40"
+								},
+								{
+									"label": "Wilgotność (%)",
+									"value": "20-80RH"
+								},
+								{
+									"label": "Ilość odprowadzanego ciepła (BTU/h) - maksymalna",
+									"value": "-"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "safety_and_environment_(europe)",
+							"label": "Bezpieczeństwo i środowisko (EUROPA)",
+							"elements": [
+								{
+									"label": "Energy Star",
+									"value": false
+								},
+								{
+									"label": "CE, raport CB",
+									"value": true
+								},
+								{
+									"label": "Zawartość rtęci (mg)",
+									"value": "0"
+								},
+								{
+									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
+									"value": false
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "weights_and_dimensions",
+							"label": "Masy i wymiary",
+							"elements": [
+								{
+									"label": "Wymiary ramki (lewa/prawa) mm",
+									"value": "16/16"
+								},
+								{
+									"label": "Wymiary ramki (góra/dół) mm",
+									"value": "16/20"
+								},
+								{
+									"label": "Wymiary produktu (szer./wys./gł.) mm",
+									"value": "1816 x 1045 x 114"
+								},
+								{
+									"label": "Masa produktu bez podstawy (kg)",
+									"value": "54"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "installation",
+							"label": "Instalacja",
+							"elements": [
+								{
+									"label": "Orientacja pozioma",
+									"value": true
+								},
+								{
+									"label": "Orientacja pionowa",
+									"value": true
+								},
+								{
+									"label": "Ustawienie w poziomie",
+									"value": false
+								},
+								{
+									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
+									"value": "VESA / 4 / 600 x 400"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "input_sockets_(audio_video)",
+							"label": "Gniazda wejściowe (audio/wideo)",
+							"elements": [
+								{
+									"label": "HDMI",
+									"value": "4"
+								},
+								{
+									"label": "DVI-D",
+									"value": "-"
+								},
+								{
+									"label": "DVI-I",
+									"value": "-"
+								},
+								{
+									"label": "DisplayPort",
+									"value": "-"
+								},
+								{
+									"label": "SDI",
+									"value": "-"
+								},
+								{
+									"label": "HDSDI",
+									"value": "-"
+								},
+								{
+									"label": "VGA",
+									"value": "1"
+								},
+								{
+									"label": "Component",
+									"value": "-"
+								},
+								{
+									"label": "Composite",
+									"value": "-"
+								},
+								{
+									"label": "S-Video",
+									"value": "-"
+								},
+								{
+									"label": "3,5 mm jack audio",
+									"value": "1"
+								},
+								{
+									"label": "Audio RCA (L/P)",
+									"value": "-"
+								},
+								{
+									"label": "Inne",
+									"value": "HDCP 2.2"
+								}
+							]
+						},
+						{
+							"name": "output_sockets_(audio_video)",
+							"label": "Gniazda wyjściowe (audio/wideo)",
+							"elements": [
+								{
+									"label": "HDMI",
+									"value": "-"
+								},
+								{
+									"label": "DVI-D",
+									"value": "-"
+								},
+								{
+									"label": "DVI-I",
+									"value": "-"
+								},
+								{
+									"label": "DisplayPort",
+									"value": "-"
+								},
+								{
+									"label": "SDI",
+									"value": "-"
+								},
+								{
+									"label": "HDSDI",
+									"value": "-"
+								},
+								{
+									"label": "VGA",
+									"value": "-"
+								},
+								{
+									"label": "Component",
+									"value": "-"
+								},
+								{
+									"label": "Composite",
+									"value": "-"
+								},
+								{
+									"label": "S-Video",
+									"value": "-"
+								},
+								{
+									"label": "3,5 mm jack audio/słuchawkowe",
+									"value": "1"
+								},
+								{
+									"label": "Audio RCA (L/P)",
+									"value": "-"
+								},
+								{
+									"label": "Głośnik zewnętrzny",
+									"value": "-"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "sockets_(control_serial_data)",
+							"label": "Gniazda (sterowanie/dane szeregowe)",
+							"elements": [
+								{
+									"label": "RS232C IN",
+									"value": "1"
+								},
+								{
+									"label": "RS232C OUT",
+									"value": "-"
+								},
+								{
+									"label": "Port LAN",
+									"value": "1"
+								},
+								{
+									"label": "USB",
+									"value": "1"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						},
+						{
+							"name": "equipment",
+							"label": "Wyposażenie",
+							"elements": [
+								{
+									"label": "Inteligentne pióro",
+									"value": "-"
+								},
+								{
+									"label": "Podstawa na blat",
+									"value": "-"
+								},
+								{
+									"label": "Inne",
+									"value": "-"
+								}
+							]
+						}
+					]
+
+				}
+
+			]
+
+
+		},
+
+
+
+	]
+
+
+
+
+
+}
