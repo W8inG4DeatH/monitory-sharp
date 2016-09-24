@@ -114,10 +114,10 @@
                 },
                 slideToSlide: function(numberOfSlide) {
                     $(this.mySlides[this.activeSlide]).animate({opacity: 0}, 1000);
-                    this.panelPoints[this.activeSlide].src = "img/w8-slider/w8-slider-pointempty.png";
+                    this.panelPoints[this.activeSlide].src = "./img/w8-slider/w8-slider-pointempty.png";
                     this.activeSlide = numberOfSlide;
                     $(this.mySlides[this.activeSlide]).animate({opacity: 1}, 1000);
-                    this.panelPoints[this.activeSlide].src = "img/w8-slider/w8-slider-pointfull.png";
+                    this.panelPoints[this.activeSlide].src = "./img/w8-slider/w8-slider-pointfull.png";
                     $(w8slider.mySlides[w8slider.activeSlide]).find('.w8-slider-name-line-opacited').css('width','0');
                     $(w8slider.mySlides[w8slider.activeSlide]).find('.w8-slider-name-line-opacited').animate({width: '35%'}, w8slider.slideDelay);
                     $(w8slider.mySlides[w8slider.activeSlide]).find('.w8-slider-slide-img').animate({zoom: 2}, w8slider.slideDelay);
@@ -202,6 +202,11 @@
                 myInt = parseInt(Math.random()*(max-min+1) + min);
             }
             return myInt;
+        };
+
+        mainService.ShuffleTable = function(myTable) {
+            for(var j, x, i = myTable.length; i; j = Math.floor(Math.random() * i), x = myTable[--i], myTable[i] = myTable[j], myTable[j] = x);
+            return myTable;
         };
 
         return mainService;

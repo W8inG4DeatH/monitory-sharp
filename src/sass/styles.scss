@@ -20,6 +20,9 @@ body {
     @include link-colors($color-black,$color-black,$color-black,$color-black);
     background-color: #f4f4f4;
 }
+ul, ol {
+  list-style: none;
+}
 
 .outsite {
 	position: absolute;
@@ -123,15 +126,15 @@ underline {
 	top: 0;
 	left: 0;
 	z-index: 77777;
-	height: 90px;
 	width: 100%;
+	padding: 25px;
 	background-color: $color-light;
 	color: $color-medium;
 	text-align: center;
 }
 .menu-center-bar ul li {
 	display: inline-block;
-	padding: 35px 15px;
+	padding: 10px;
 	font-size: 2rem;
 }
 
@@ -162,7 +165,7 @@ underline {
 .menu-right-xs {
 	position: absolute;
 	width: 100%;
-	height: 100%;
+	height: 3000px;
 	background-color: $color-light;
 	font-size: 2rem;
 	z-index: 77777;
@@ -183,8 +186,21 @@ underline {
 	margin: 10px 0;
 }
 
+
 /////////////////////////////////////////////////////////////
-// GALLERY //
+// PRODUCTS //
+
+.category-menu {
+	width: 100%;
+	padding: 25px;
+	color: $color-medium;
+	text-align: center;
+}
+.category-menu ul li {
+	display: inline-block;
+	padding: 10px;
+	font-size: 1.5rem;
+}
 
 .container-products {
 	background-color: #ffffff;
@@ -213,8 +229,12 @@ underline {
 	font-size: 2rem;
 	font-weight: bold;
 }
+.product-text-active {
+	color: $color-global;
+}
+
 .products-title-line {
-	width: 35%;
+	width: 10%;
 	height: 1px;
 	background-color: $color-light;
 }
@@ -227,29 +247,32 @@ underline {
 
 .products-img {
 	@include transition();
-	@include filter(grayscale(75%));
+	@include filter(grayscale(65%));
 	cursor: pointer;
 }
 .products-img-nogray {
 	@include filter(grayscale(0%));
-	@include prefix(transform, scale(1.05), webkit moz o ms);
 }
 
-.products-art-location-desc {
+.products-product-location-desc {
+	text-align: center;
 	color: $color-medium;
 	font-size: 1.2rem;
 	margin: 20px 0;
 }
-.products-art-title {
-	font-size: 2rem;
-	margin: 15px 0;
+.products-title {
+	text-align: center;
+	font-size: 2.0rem;
+	font-weight: bolder;
+	padding: 15px;
+	color: $color-global;
 }
-.products-art-desc {
+.products-product-desc {
 	color: $color-medium;
 	font-size: 1.5rem;
 	margin: 15px 0;
 }
-.products-art-panel {
+.products-product-panel {
 	height: 40px;
 	margin-bottom: 20px;
 }
@@ -259,6 +282,104 @@ underline {
 	@include border-radius($color-light,1px,solid,20px,20px);
 	padding: 10px 30px;
 	cursor: pointer;
+}
+
+.product-detail
+{
+	padding: 10px 15px;
+	font-size: 1.4rem;
+	line-height: 1.8rem;
+}
+.active-border-img
+{
+	border: 3px solid $color-sharp;
+	padding: 15px;
+	width: 100%;
+}
+.active-border-gallery-img
+{
+	border: 1px solid $color-sharp;
+	padding: 3px;
+}
+.border-gallery-img
+{
+	border: 1px solid $color-light;
+	padding: 3px;
+}
+.active-gallery-img-desc
+{
+	color: $color-sharp;
+}
+
+.products-product-title {
+	text-align: center;
+	font-size: 2.2rem;
+	margin: 15px 0;
+	font-weight: bolder;
+	padding: 15px;
+	@include border-radius($color-sharp,2px,solid,20px,20px);
+	color: $color-white;
+	background-color: $color-sharp;
+}
+
+.section-title
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 2.2rem;
+	color: $color-sharp;
+	padding: 20px;
+	@include border-radius($color-sharp,3px,solid,20px,20px);	
+	margin: 10px 0;
+}
+.section-element-title
+{
+	font-weight: bolder;
+	font-size: 1.8rem;
+	padding: 15px;
+	@include border-radius($color-global,2px,solid,20px,20px);	
+	margin: 4px 0;
+}
+.section-element-title-active
+{
+	color: $color-white;
+	background-color: $color-global;
+}
+.section-element-title-deactive
+{
+	color: $color-global;
+	background-color: $color-white;
+}
+.section-property
+{
+	margin: 0 5px;
+}
+.section-property-item
+{
+	font-size: 1.4rem;
+	padding: 10px 0 !important;
+}
+.section-property-item-right
+{
+	font-weight: bolder;
+}
+
+
+.contact-title
+{
+	text-align:center;
+	font-size: 2.2rem;
+	font-weight: bold;
+	padding: 10px 15px;
+	color: $color-sharp;
+}
+.contact-desc
+{
+	text-align:center;
+	font-size: 1.8rem;
+	font-weight: bolder;
+	padding: 5px 10px;
+	color: $color-global;
 }
 
 .footer-container {
@@ -409,7 +530,7 @@ underline {
 .w8-slider-text {
 	position: absolute;
 	margin: auto;
-	top: 45%;
+	top: 20%;
 	left: 0;
 	right: 0;
 	width: 80%;

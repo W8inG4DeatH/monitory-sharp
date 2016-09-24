@@ -26,7 +26,7 @@
                 <nav class="menu-center">
                 <h3 class="outsite">Center Menu</h3>
                     <ul>
-                        <li ng-repeat="category in wwwData.categories" class="underline-link cursor-pointer" ng-mouseenter="SlideUpAndDownByClass('.menu-center-icon')" ng-click="ShowDropdownMenu(category.name)">{{category.label}} <svg ng-class="{'menu-center-icon rotate-180': (menuCenterDropdownMenu && (category.name == menuCenterDropdownMenuActiveCategory)), 'menu-center-icon': !(menuCenterDropdownMenu && (category.name == menuCenterDropdownMenuActiveCategory))}" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 5.1 3.3" style="enable-background:new 0 0 5.1 3.3;" xml:space="preserve"><path d="M5.1,0L2.5,3.3L0,0.1l2.6,1.5L5.1,0z"></path></svg><underline></underline></li>
+                        <li ng-repeat="category in wwwData.categories" class="underline-link cursor-pointer" ng-mouseenter="SlideUpAndDownByClass('.menu-center-icon')" ng-click="ShowDropdownMenu(category)">{{category.label}} <svg ng-class="{'menu-center-icon rotate-180': (menuCenterDropdownMenu && (category == menuCenterDropdownMenuActiveCategory)), 'menu-center-icon': !(menuCenterDropdownMenu && (category == menuCenterDropdownMenuActiveCategory))}" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 5.1 3.3" style="enable-background:new 0 0 5.1 3.3;" xml:space="preserve"><path d="M5.1,0L2.5,3.3L0,0.1l2.6,1.5L5.1,0z"></path></svg><underline></underline></li>
                     </ul>
                 </nav>                
             </div>
@@ -40,20 +40,20 @@
                 </nav>                
             </div>
             <div class="col-xs-6 hidden-md hidden-lg text-right">
-                <div ng-show="!menuRight" ng-click="menuRight=!menuRight" class="cursor-pointer"><svg class="menu-right-icon" hamburger="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 12" style="enable-background:new 0 0 20 12;" xml:space="preserve"><path class="st0" d="M0.5,0h19C19.8,0,20,0.2,20,0.5C20,0.8,19.8,1,19.5,1h-19C0.2,1,0,0.8,0,0.5C0,0.2,0.2,0,0.5,0z"></path><path class="st0" d="M0.5,5.5h19C19.8,5.5,20,5.7,20,6c0,0.3-0.2,0.5-0.5,0.5h-19C0.2,6.5,0,6.3,0,6C0,5.7,0.2,5.5,0.5,5.5z"></path><path class="st0" d="M0.5,11h19c0.3,0,0.5,0.2,0.5,0.5c0,0.3-0.2,0.5-0.5,0.5h-19C0.2,12,0,11.8,0,11.5C0,11.2,0.2,11,0.5,11z"></path></svg></div>
-                <div ng-show="menuRight" ng-click="menuRight=!menuRight" class="cursor-pointer"><svg class="menu-right-icon" close="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 14.4 14.4" style="enable-background:new 0 0 14.4 14.4;" xml:space="preserve"><path class="st0" d="M7.9,7.2l6.4-6.4c0.2-0.2,0.2-0.5,0-0.7c-0.2-0.2-0.5-0.2-0.7,0L7.2,6.5L0.9,0.1C0.7,0,0.3,0,0.1,0.1C0,0.3,0,0.7,0.1,0.9l6.4,6.4l-6.4,6.4c-0.2,0.2-0.2,0.5,0,0.7c0.2,0.2,0.5,0.2,0.7,0l6.4-6.4l6.4,6.4c0.2,0.2,0.5,0.2,0.7,0c0.2-0.2,0.2-0.5,0-0.7L7.9,7.2z"></path></svg></div>
+                <div ng-show="!menuMobileMenu" ng-click="menuMobileMenu=!menuMobileMenu" class="cursor-pointer"><svg class="menu-right-icon" hamburger="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 12" style="enable-background:new 0 0 20 12;" xml:space="preserve"><path class="st0" d="M0.5,0h19C19.8,0,20,0.2,20,0.5C20,0.8,19.8,1,19.5,1h-19C0.2,1,0,0.8,0,0.5C0,0.2,0.2,0,0.5,0z"></path><path class="st0" d="M0.5,5.5h19C19.8,5.5,20,5.7,20,6c0,0.3-0.2,0.5-0.5,0.5h-19C0.2,6.5,0,6.3,0,6C0,5.7,0.2,5.5,0.5,5.5z"></path><path class="st0" d="M0.5,11h19c0.3,0,0.5,0.2,0.5,0.5c0,0.3-0.2,0.5-0.5,0.5h-19C0.2,12,0,11.8,0,11.5C0,11.2,0.2,11,0.5,11z"></path></svg></div>
+                <div ng-show="menuMobileMenu" ng-click="menuMobileMenu=!menuMobileMenu" class="cursor-pointer"><svg class="menu-right-icon" close="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 14.4 14.4" style="enable-background:new 0 0 14.4 14.4;" xml:space="preserve"><path class="st0" d="M7.9,7.2l6.4-6.4c0.2-0.2,0.2-0.5,0-0.7c-0.2-0.2-0.5-0.2-0.7,0L7.2,6.5L0.9,0.1C0.7,0,0.3,0,0.1,0.1C0,0.3,0,0.7,0.1,0.9l6.4,6.4l-6.4,6.4c-0.2,0.2-0.2,0.5,0,0.7c0.2,0.2,0.5,0.2,0.7,0l6.4-6.4l6.4,6.4c0.2,0.2,0.5,0.2,0.7,0c0.2-0.2,0.2-0.5,0-0.7L7.9,7.2z"></path></svg></div>
             </div>
         </div>
     </header>            
 
-    <div class="menu-right-xs" ng-show="menuRight" class="text-center">
+    <div class="menu-right-xs" ng-show="menuMobileMenu" class="text-center">
         <nav>
         <h3 class="outsite">Menu Right Mobile</h3>
             <ul>
                 <a href="/#/home"><li>Home</li></a>
                 <span ng-repeat="category in wwwData.categories">
-                    <li ng-click="ShowMobileMenu(category.name)">{{category.label}} <svg ng-class="{'menu-center-icon rotate-180': (menuMobileMenu && (menuMobileMenuActiveCategory == category.name)), 'menu-center-icon': !(menuMobileMenu && (menuMobileMenuActiveCategory == category.name))}" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 5.1 3.3" style="enable-background:new 0 0 5.1 3.3;" xml:space="preserve"><path d="M5.1,0L2.5,3.3L0,0.1l2.6,1.5L5.1,0z"></path></svg></li>
-                    <li ng-show="(menuMobileMenu && (menuMobileMenuActiveCategory == category.name))" class="menu-right-xs-submenu">
+                    <li ng-click="ShowMobileMenu(category)">{{category.label}} <svg ng-class="{'menu-center-icon rotate-180': (menuMobileMenu && (menuMobileMenuActiveCategory == category)), 'menu-center-icon': !(menuMobileMenu && (menuMobileMenuActiveCategory == category))}" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 5.1 3.3" style="enable-background:new 0 0 5.1 3.3;" xml:space="preserve"><path d="M5.1,0L2.5,3.3L0,0.1l2.6,1.5L5.1,0z"></path></svg></li>
+                    <li ng-show="(menuMobileMenu && (menuMobileMenuActiveCategory == category))" class="menu-right-xs-submenu">
                         <div class="menu-right-xs-separator"></div>
                         <ul>
                             <li ng-repeat="product in products[category.name]" ng-click="GoToProduct(category.name,product.name)">{{product.name}}</li>
@@ -70,16 +70,12 @@
     <div class="container">
         <aside>
             <h3 class="outsite">Slider</h3>
-            <!--div id="w8-slider1" class="w8-slider">
-
-                <div ng-repeat="(id, category) in wwwData.categories" id="w8-slider-slide{{id+1}}" class="w8-slider-slide text-right" ng-style="{'background-color':'{{sliderCategoriesColors[id]}}'}">
-                    <img class="w8-slider-slide-img img-responsive" ng-srcset="img/products/{{products[category.name][0].name}}/{{sliderCategoriesImageNumbers[id]}}.jpg"/>
+            <div id="w8-slider1" class="w8-slider">
+                <div ng-repeat="(id, category) in wwwData.categories" id="w8-slider-slide{{id+1}}" class="w8-slider-slide text-right cursor-pointer" ng-style="{'background-color':'{{sliderCategoriesColors[id]}}'}">
+                    <img class="w8-slider-slide-img img-responsive" ng-srcset="img/products/{{products[category.name][sliderCategoriesImageNumbers[id]].name}}/sharp_{{products[category.name][sliderCategoriesImageNumbers[id]].name}}_0.jpg"/>
                     <div class="w8-slider-content text-center">
                         <div class="w8-slider-name text-center">
                             <div class="w8-slider-name-element w8-slider-name-line w8-slider-name-left-line"></div><div class="w8-slider-name-element w8-slider-name-line w8-slider-name-left-line w8-slider-name-line-opacited"></div><div class="w8-slider-name-element w8-slider-name-text">{{category.label | uppercase}}</div><div class="w8-slider-name-element w8-slider-name-line w8-slider-name-right-line"></div><div class="w8-slider-name-element w8-slider-name-line w8-slider-name-right-line w8-slider-name-line-opacited"></div>                       
-                        </div>
-                        <div class="w8-slider-text text-center">
-                            <div class="hidden-xs w8-slider-text-title">{{gallery.title}}</div><div class="hidden-xs hidden-sm w8-slider-text-desc">{{gallery.desc}}</div>
                         </div>
                     </div>
                 </div>
@@ -92,12 +88,12 @@
                 <div id="w8-slider-panel2" class="text-center">
                 </div>
 
-            </div-->
+            </div>
 
             <nav class="menu-center-bar" class="hidden-xs hidden-sm" ng-show="menuCenterDropdownMenu">
-                <h3 class="outsite">{{menuCenterDropdownMenuActiveCategory}}</h3>
+                <h3 class="outsite">{{menuCenterDropdownMenuActiveCategory.label}}</h3>
                 <ul>
-                    <li ng-repeat="product in products[menuCenterDropdownMenuActiveCategory]" class="cursor-pointer" ng-click="GoToArt(gallery.name,1)">{{product.name}}</li>
+                    <li ng-repeat="product in products[menuCenterDropdownMenuActiveCategory.name]" class="cursor-pointer" ng-click="GoToProduct(menuCenterDropdownMenuActiveCategory.name,product.name)">{{product.name}}</li>
                 </ul>
             </nav>
 
@@ -105,8 +101,9 @@
     </div>
 
 
-
-    <div ng-view></div>
+    <div class="product-store-gallerries">
+        <div ng-view></div>        
+    </div>
 
 
 

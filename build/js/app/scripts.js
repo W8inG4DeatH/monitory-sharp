@@ -8,22 +8,27 @@
             .when('/home', {
                 controller: 'homeController',
                 templateUrl: 'views/home.html',
-                label: 'Welcome'
+                label: 'Witaj'
             })
-            .when('/products/:categoryAlias/:productAlias', {
+            .when('/products/:categoryName/:productName', {
                 controller: 'productsController',
-                templateUrl: 'views/products.html',
-                label: 'Products'
+                templateUrl: 'views/produkty.html',
+                label: 'Produkty'
             })
-            .when('/products/:categoryAlias', {
+            .when('/products/:categoryName', {
                 controller: 'productsController',
-                templateUrl: 'views/products.html',
-                label: 'Products'
+                templateUrl: 'views/produkty.html',
+                label: 'Produkty'
             })
             .when('/products', {
                 controller: 'productsController',
-                templateUrl: 'views/products.html',
-                label: 'Products'
+                templateUrl: 'views/produkty.html',
+                label: 'Produkty'
+            })
+            .when('/contact', {
+                controller: 'contactController',
+                templateUrl: 'views/kontakt.html',
+                label: 'Kontakt'
             })
             .otherwise({
                 redirectTo: '/home'
@@ -44,21 +49,36 @@
         $scope.WWWInit = function() {
 
             $scope.products = [];
+            $scope.shuffleProducts = [];
             angular.forEach($scope.wwwData.categories, function(category, categoryKey) {
                 $scope.products[category.name] = [];
             });
             angular.forEach($scope.wwwData.products, function(product, productKey) {
+                angular.forEach(product.sections, function(section) {
+                    section.activeElementId = -1;
+                });
+                var imagesIds = [];
+                for (var i = 0; i < product.images; i++) {
+                    imagesIds.push(i);
+                }
+                product.imagesIds = imagesIds;
+                product.activeImageId = 0;
                 $scope.products[product.category].push(product);
             });
+            angular.forEach($scope.wwwData.categories, function(category, categoryKey) {
+                $scope.shuffleProducts[category.name] = mainService.ShuffleTable($scope.products[category.name]);
+            });
+
+            $scope.imgProductsFolderPath = './img/products/';
 
             // SLIDER
-            $scope.colorsForSlider = ['#1e3557','#37342d','#83293b'];
+            $scope.colorsForSlider = ['#d82c38'];
             $scope.sliderCategoriesColors = [];
             $scope.sliderCategoriesImageNumbers = [];
             $scope.randomSlider = function() {
                 angular.forEach($scope.wwwData.categories, function(category, categoryKey) {
-                    //$scope.sliderCategoriesColors[categoryKey] = $scope.colorsForSlider[mainService.GetRandomInt(0,$scope.colorsForSlider.length-1)];
-                    //$scope.sliderCategoriesImageNumbers[categoryKey] = mainService.GetRandomInt(1,$scope.products[category.name].length);
+                    $scope.sliderCategoriesColors[categoryKey] = $scope.colorsForSlider[mainService.GetRandomInt(0,$scope.colorsForSlider.length-1)];
+                    $scope.sliderCategoriesImageNumbers[categoryKey] = mainService.GetRandomInt(0,$scope.products[category.name].length-1);
                 });
             };
             $scope.randomSlider();            
@@ -72,19 +92,19 @@
         // START //
 
         $scope.showWebsiteData = {
-            a1 : {mode: "FadeIn", selector: ".logo > h1", stepTime: 500, delayTime: 0},
-            a2 : {mode: "AnimateWord", selector: ".logo > p", word: "M O N I T O R Y", stepTime: 33, delayTime: 0, fade: true},
-            a3 : {mode: "FadeIn", selector: ".menu-center", stepTime: 500, delayTime: 0},
-            a4 : {mode: "FadeIn", selector: ".menu-right", stepTime: 500, delayTime: 0},
-            a5 : {mode: "FadeIn", selector: ".w8-slider", stepTime: 500, delayTime: 0},
-            a6 : {mode: "FadeIn", selector: ".product-store-gallerries", stepTime: 500, delayTime: 0}
+            a1 : {mode: "FadeIn", selector: ".logo > h1", stepTime: 800, delayTime: 0},
+            a2 : {mode: "AnimateWord", selector: ".logo > p", word: "M O N I T O R Y", stepTime: 40, delayTime: 0, fade: true},
+            a3 : {mode: "FadeIn", selector: ".menu-center", stepTime: 800, delayTime: 0},
+            a4 : {mode: "FadeIn", selector: ".menu-right", stepTime: 800, delayTime: 0},
+            a5 : {mode: "FadeIn", selector: ".w8-slider", stepTime: 800, delayTime: 0},
+            a6 : {mode: "FadeIn", selector: ".product-store-gallerries", stepTime: 800, delayTime: 0}
         };
 
         $(window).load(function() {
             $('.siteLoader').hide();
             mainService.StartTooltip();
-            //mainService.StartSlider("w8-slider1",$scope.wwwData.categories.length,4000,1000);
             mainService.ShowWebsite($scope.showWebsiteData);
+            mainService.StartSlider("w8-slider1",4,4000,1000);
         });
 
         $scope.GoToSiteTop = function() {
@@ -110,9 +130,8 @@
         };
 
         $scope.GoToProduct = function (categoryName,productNumber) {
-            $scope.$parent.activeProduct = productNumber;
-            $location.path('/products/'+categoryName+'/'+$scope.$parent.activeProduct);
-            console.log('/products/'+categoryName+'/'+$scope.$parent.activeProduct);
+            $location.path('/products/'+categoryName+'/'+productNumber);
+            console.log('/products/'+categoryName+'/'+productNumber);
         };        
 
         $scope.SlideUpAndDownByClass = function(elementClass) {
@@ -137,7 +156,8 @@
 
     app.controller('homeController', ['$scope', 'mainService', function($scope, mainService){
 
-        $scope.$parent.menuRight = false;
+        $scope.$parent.menuCenterDropdownMenu = false;
+        $scope.$parent.menuMobileMenu = false;
 
         angular.element(document).ready(function() {
 
@@ -145,31 +165,33 @@
 
     }]);
 
-    /////////////
+    //////////////
     // PRODUCTS //
-    /////////////   
+    //////////////  
 
     app.controller('productsController', ['$scope', '$routeParams', 'mainService', function($scope, $routeParams, mainService){
 
-        $scope.$parent.menuRight = false;
 
-        $scope.SetActiveCategory = function (categoryAlias, productAlias) {
-            if (categoryAlias) {
-                for (var i = 0; i < $scope.wwwData.length; i ++) {
-                    if ($scope.wwwData[i].name === categoryAlias) {
-                        $scope.$parent.activeCategoryID = i;
-                    }
+        $scope.$parent.menuCenterDropdownMenu = false;
+        $scope.$parent.menuMobileMenu = false;
+
+        $scope.SetActiveCategory = function (categoryName, productName) {
+
+            $scope.$parent.activeCategory = $scope.$parent.wwwData.categories[0];
+            angular.forEach($scope.$parent.wwwData.categories, function(category, categoryKey) {
+                if(category.name == categoryName) {
+                    $scope.$parent.activeCategory = category;
                 }
-            } else {
-                $scope.$parent.activeCategoryID = 1;                
-            }
-            if (productAlias) {
-                $scope.$parent.activeProduct = productAlias;
-            } else {
-                $scope.$parent.activeProduct = 1;
-            }
+            });
+            $scope.$parent.activeProduct = $scope.products[$scope.$parent.activeCategory.name][0];
+            angular.forEach($scope.products[$scope.$parent.activeCategory.name], function(product, productKey) {
+                if(product.name == productName) {
+                    $scope.$parent.activeProduct = product;
+                }
+            });
+            console.log("Ustawiłem:",$scope.$parent.activeCategory.label," -> ",$scope.$parent.activeProduct.name);
         };
-        $scope.SetActiveCategory($routeParams.categoryAlias,$routeParams.productAlias);
+        $scope.SetActiveCategory($routeParams.categoryName,$routeParams.productName);
 
         $scope.AnimateProducts = function () {
             var showProductsData = {
@@ -178,175 +200,41 @@
                 a3 : {mode: "FadeIn", selector: ".products-show-3", stepTime: 500, delayTime: 0},
                 a4 : {mode: "FadeIn", selector: ".products-show-4", stepTime: 500, delayTime: 0},
                 a5 : {mode: "FadeIn", selector: ".products-show-5", stepTime: 500, delayTime: 0},
-                a6 : {mode: "AnimateWord", selector: ".products-product-title > h4", word: $scope.$parent.wwwData[$scope.$parent.activeCategoryID].products[$scope.$parent.activeProduct-1].title, stepTime: 10, delayTime: 500, fade: false},
-                a7 : {mode: "AnimateWord", selector: ".products-product-desc > p", word: $scope.$parent.wwwData[$scope.$parent.activeCategoryID].products[$scope.$parent.activeProduct-1].desc, stepTime: 1, delayTime: 500, fade: false}
+                a6 : {mode: "FadeIn", selector: ".products-show-6", stepTime: 500, delayTime: 0},
+                a7 : {mode: "FadeIn", selector: ".products-show-7", stepTime: 500, delayTime: 0}
             };
             mainService.ShowWebsite(showProductsData);
         };
 
-        $scope.NextProduct = function () {
-            if ($scope.$parent.activeProduct < $scope.$parent.wwwData[$scope.$parent.activeCategoryID].products.length) {
-                $scope.$parent.activeProduct++;
-            }
-            $scope.AnimateProducts();
-        };
-        $scope.PreviousProduct = function () {
-            if ($scope.$parent.activeProduct > 1) {
-                $scope.$parent.activeProduct--;
-            }
-            $scope.AnimateProducts();
-        };
-
         angular.element(document).ready(function() {
             $scope.AnimateProducts();
         });
 
     }]);
 
-    //////////////////
-    // REGISTRATION //
-    //////////////////
+    /////////////
+    // CONTACT //
+    /////////////  
 
-    app.controller('registrationController', ['$scope', '$http', '$window', '$location', 'mainService', function($scope, $http, $window, $location, mainService){
+    app.controller('contactController', ['$scope', 'mainService', function($scope, mainService){
 
-        angular.element(document).ready(function() {
-            mainService.StartTooltip();
-            $scope.showData = {
-                a1 : {mode: "FadeIn", selector: ".container-formular", stepTime: 500, delayTime: 0}
+
+        $scope.$parent.menuCenterDropdownMenu = false;
+        $scope.$parent.menuMobileMenu = false;
+
+        $scope.AnimateContact = function () {
+            var showProductsData = {
+                a1 : {mode: "FadeIn", selector: ".contact-show-1", stepTime: 500, delayTime: 0},
+                a2 : {mode: "FadeIn", selector: ".contact-show-2", stepTime: 500, delayTime: 0},
+                a3 : {mode: "FadeIn", selector: ".contact-show-3", stepTime: 500, delayTime: 0},
+                a4 : {mode: "FadeIn", selector: ".contact-show-4", stepTime: 500, delayTime: 0}
             };
-            mainService.ShowWebsite($scope.showData);
-        });
-
-        $scope.$parent.menuRight = false;
-        $scope.registrationFail = false;
-
-        $scope.$parent.Logout();
-
-        $scope.RegisterUser = function() {
-
-            $scope.users = [];
-            $scope.phpAtt = "?email='"+$scope.user[1]+"'";
-            $http.get("../../php/users-getusers.php"+$scope.phpAtt).success(function(data) {
-                $scope.$parent.users = data;
-                if ($scope.$parent.users[0] !== undefined) {
-                    $scope.bladRejestracji = true;                    
-                } else {
-                    $scope.$parent.user[10] = 0;
-                    $scope.$parent.user[11] = $window.btoa($scope.$parent.users[1]);
-                    $scope.$parent.user[12] = "dane";
-                    $scope.$parent.HttpPost('../../php/users-setuser.php',$scope.$parent.user);
-                    $location.path('/logowanie');
-                }
-            });
-        };             
-
-    }]);
-
-    ////////////////
-    // ACTIVATION //
-    ////////////////
-
-    app.controller('activationController', ['$scope', '$routeParams', '$http', '$window', '$location', 'mainService', function($scope, $routeParams, $http, $window, $location, mainService){
-
-        $scope.$parent.menuRight = false;
-        angular.element(document).ready(function() {
-            mainService.StartTooltip();
-            $scope.showData = {
-                a1 : {mode: "FadeIn", selector: ".container-formular", stepTime: 500, delayTime: 0}
-            };
-            mainService.ShowWebsite($scope.showData);
-        });
-
-        $scope.users = [];
-        $scope.phpAtt = "?activation='"+$routeParams.code+"'";
-        $http.get("../../php/users-getusers.php"+$scope.phpAtt).success(function(data) {
-            $scope.$parent.users = data;
-            $scope.$parent.user = $scope.$parent.users[0];
-            $scope.$parent.user[10] = 2;
-            $scope.$parent.HttpPost('../../php/users-activation.php',$scope.$parent.user);
-        });
-
-    }]);
-
-    ///////////
-    // LOGIN //
-    ///////////
-
-    app.controller('loginController', ['$scope', '$http', '$location', 'mainService', function($scope, $http, $location, mainService){
-
-        $scope.$parent.menuRight = false;
-        angular.element(document).ready(function() {
-            mainService.StartTooltip();
-            $scope.showData = {
-                a1 : {mode: "FadeIn", selector: ".container-formular", stepTime: 500, delayTime: 0}
-            };
-            mainService.ShowWebsite($scope.showData);
-        });
-
-        $scope.$parent.getUsers();
-        $scope.emailError = $scope.passwordError = $scope.activationError = false;
-
-        $scope.Logged = function(index) {
-            $scope.$parent.user = $scope.$parent.users[index];
-            $scope.$parent.userAccess = $scope.$parent.users[index][9];
-            $scope.$parent.userLogged = true;
-            mainService.setCookie('Logged',$scope.$parent.user[1],'1','/','products-store.flash-developer.pl',false);            
-            $location.path('#');
+            mainService.ShowWebsite(showProductsData);
         };
 
-        $scope.Login = function() {
-            $scope.$parent.userLogged = false;
-            $scope.users = [];
-            $scope.phpAtt = "?email='"+$scope.user[1]+"'";
-            $http.get("../../php/users-getusers.php"+$scope.phpAtt).success(function(data) {
-                $scope.$parent.users = data;
-                if ($scope.$parent.users[0] === undefined) {
-                    $scope.emailError = true;
-                } else if ($scope.$parent.users[0][10] < 2) {
-                    $scope.activationError = true;
-                } else if ($scope.$parent.users[0][2] == $scope.$parent.user[2]) {
-                    $scope.Logged(0);
-                } else {
-                    $scope.passwordError = true;
-                }
-
-            });
-
-        };
-
-    }]);
-
-    ///////////////////////
-    // PASSWORD RECOVERY //
-    ///////////////////////
-
-    app.controller('passwordRecoveryController', ['$scope', '$http', '$location', 'mainService', function($scope, $http, $location, mainService){
-
-        $scope.$parent.menuRight = false;
         angular.element(document).ready(function() {
-            mainService.StartTooltip();
-            $scope.showData = {
-                a1 : {mode: "FadeIn", selector: ".container-formular", stepTime: 500, delayTime: 0}
-            };
-            mainService.ShowWebsite($scope.showData);
+            $scope.AnimateContact();
         });
-        $scope.$parent.getUsers();
-        $scope.$parent.recoveryError = false;
-
-        $scope.PasswordRecovered = function(useer) {
-            $scope.$parent.HttpPost('../../php/users-password-recovery.php',useer);
-            $location.path('/login');
-        };
-
-        $scope.PasswordRecovery = function() {
-            $scope.$parent.recoveryError = true;
-            for (var i = 0; i < $scope.$parent.users.length; i++) {
-                if ( $scope.$parent.users[i][1] === $scope.$parent.user[1] ) {
-                    $scope.$parent.recoveryError = false;
-                    $scope.PasswordRecovered($scope.$parent.users[i]);
-                } 
-            }
-        };        
 
     }]);
 
@@ -507,10 +395,10 @@
                 },
                 slideToSlide: function(numberOfSlide) {
                     $(this.mySlides[this.activeSlide]).animate({opacity: 0}, 1000);
-                    this.panelPoints[this.activeSlide].src = "img/w8-slider/w8-slider-pointempty.png";
+                    this.panelPoints[this.activeSlide].src = "./img/w8-slider/w8-slider-pointempty.png";
                     this.activeSlide = numberOfSlide;
                     $(this.mySlides[this.activeSlide]).animate({opacity: 1}, 1000);
-                    this.panelPoints[this.activeSlide].src = "img/w8-slider/w8-slider-pointfull.png";
+                    this.panelPoints[this.activeSlide].src = "./img/w8-slider/w8-slider-pointfull.png";
                     $(w8slider.mySlides[w8slider.activeSlide]).find('.w8-slider-name-line-opacited').css('width','0');
                     $(w8slider.mySlides[w8slider.activeSlide]).find('.w8-slider-name-line-opacited').animate({width: '35%'}, w8slider.slideDelay);
                     $(w8slider.mySlides[w8slider.activeSlide]).find('.w8-slider-slide-img').animate({zoom: 2}, w8slider.slideDelay);
@@ -595,6 +483,11 @@
                 myInt = parseInt(Math.random()*(max-min+1) + min);
             }
             return myInt;
+        };
+
+        mainService.ShuffleTable = function(myTable) {
+            for(var j, x, i = myTable.length; i; j = Math.floor(Math.random() * i), x = myTable[--i], myTable[i] = myTable[j], myTable[j] = x);
+            return myTable;
         };
 
         return mainService;
