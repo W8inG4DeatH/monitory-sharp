@@ -81,7 +81,8 @@
                     $scope.sliderCategoriesImageNumbers[categoryKey] = mainService.GetRandomInt(0,$scope.produkty[category.name].length-1);
                 });
             };
-            $scope.randomSlider();            
+            $scope.randomSlider();  
+            mainService.dataLoaded = true;
         };
 
         $scope.menuCenterDropdownMenu = false;
@@ -313,6 +314,7 @@
     app.service('mainService', function () {
         var mainService = {};
 
+        mainService.dataLoaded = false;
         ////////////////////////////////////////////////////////////////////////////////////////////
         
         mainService.StartTooltip = function() {
@@ -422,9 +424,18 @@
                     }
                     this.sliderPanel.addEventListener("mouseenter", OnPanelOver, false);
                     this.sliderPanel.addEventListener("mouseleave", OnPanelOut, false);
-                    $(this.btnLeft).click(function() { $(this).fadeTo('slow', 0.5).fadeTo('slow', 0.15); w8slider.slideToSlide(w8slider.getNumberOfNextSlide(w8slider.activeSlide,false)); });
-                    $(this.btnRight).click(function() { $(this).fadeTo('slow', 0.5).fadeTo('slow', 0.15); w8slider.slideToSlide(w8slider.getNumberOfNextSlide(w8slider.activeSlide,true)); });
-                    $(this.btnPause).click(function() { $(this).fadeTo('slow', 0.5).fadeTo('slow', 0.15); w8slider.sliderPaused = !w8slider.sliderPaused; });
+                    $(this.btnLeft).click(function() { 
+                        $(this).fadeTo('slow', 0.5).fadeTo('slow', 0.15);
+                        w8slider.slideToSlide(w8slider.getNumberOfNextSlide(w8slider.activeSlide,false));
+                    });
+                    $(this.btnRight).click(function() {
+                        $(this).fadeTo('slow', 0.5).fadeTo('slow', 0.15);
+                        w8slider.slideToSlide(w8slider.getNumberOfNextSlide(w8slider.activeSlide,true));
+                    });
+                    $(this.btnPause).click(function() {
+                        $(this).fadeTo('slow', 0.5).fadeTo('slow', 0.15);
+                        w8slider.sliderPaused = !w8slider.sliderPaused;
+                    });
                     // panel2
                     function OnPanel2Click(event) {
                         $(event.target).fadeTo('slow', 1).fadeTo('slow', 0.5);
@@ -469,8 +480,14 @@
                 }
 
             };
-            w8slider.init(sliderId,numberOfSlides,slideDelay,slideTime);
-
+            function myDelayedStart() {
+                if (mainService.dataLoaded) {
+                    w8slider.init(sliderId,numberOfSlides,slideDelay,slideTime);                    
+                } else {
+                    setTimeout(myDelayedStart, 1000);                    
+                }
+            }
+            myDelayedStart();
         };
 
         ////////////////////////////////////////////////////////////////////////////////////////////

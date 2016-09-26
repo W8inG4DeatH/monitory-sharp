@@ -81,7 +81,8 @@
                     $scope.sliderCategoriesImageNumbers[categoryKey] = mainService.GetRandomInt(0,$scope.produkty[category.name].length-1);
                 });
             };
-            $scope.randomSlider();            
+            $scope.randomSlider();  
+            mainService.dataLoaded = true;
         };
 
         $scope.menuCenterDropdownMenu = false;
