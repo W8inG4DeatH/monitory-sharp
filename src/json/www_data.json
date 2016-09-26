@@ -6,19 +6,19 @@
 
 	"categories": [
 		{
-			"name": "interactive_models",
+			"name": "modele_interaktywne",
 			"label": "Modele interaktywne"
 		},
 		{
-			"name": "uhd_models",
+			"name": "modele_uhd",
 			"label": "Modele 4K-UHD"
 		},
 		{
-			"name": "big_format_momitors",
+			"name": "monitory_wielkoformatowe",
 			"label": "Monitory wielkoformatowe"
 		},
 		{
-			"name": "telebims",
+			"name": "telebimy",
 			"label": "Telebimy"
 		}
 	],
@@ -27,7 +27,7 @@
 
 
 
-	"products": [
+	"produkty": [
 
 
 
@@ -37,7 +37,7 @@
 			"name": "PN-70TB3",
 
 
-			"category": "interactive_models",
+			"category": "modele_interaktywne",
 
 
 			"images": 5,
@@ -97,7 +97,7 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PN70TB3",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PN70TB3_pl_pl.pdf"
 								}
 							]
@@ -619,7 +619,7 @@
 			"name": "PN-VC651B",
 
 
-			"category": "interactive_models",
+			"category": "modele_interaktywne",
 
 
 			"images": 4,
@@ -679,7 +679,7 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PNVC651B",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PNVC651B_pl_pl.pdf"
 								}
 							]
@@ -1134,7 +1134,7 @@
 			"name": "PN-60TB3",
 
 
-			"category": "interactive_models",
+			"category": "modele_interaktywne",
 
 
 			"images": 4,
@@ -1194,7 +1194,7 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PN60TB3",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PN60TB3_pl_pl.pdf"
 								}
 							]
@@ -1716,7 +1716,7 @@
 			"name": "PN-70TW3",
 
 
-			"category": "interactive_models",
+			"category": "modele_interaktywne",
 
 
 			"images": 3,
@@ -1770,7 +1770,7 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PN70TW3",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PN70TW3_pl_pl.pdf"
 								}
 							]
@@ -2262,7 +2262,7 @@
 			"name": "PN-60TA3",
 
 
-			"category": "interactive_models",
+			"category": "modele_interaktywne",
 
 
 			"images": 4,
@@ -2327,7 +2327,7 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PN60TA3",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PN60TA3_pl_pl.pdf"
 								}
 							]
@@ -2854,7 +2854,7 @@
 			"name": "PN-60TW3",
 
 
-			"category": "interactive_models",
+			"category": "modele_interaktywne",
 
 
 			"images": 3,
@@ -2908,7 +2908,7 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PN60TW3",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PN70TB3_pl_pl.pdf"
 								}
 							]
@@ -3374,7 +3374,7 @@
 			"name": "PN-70SC3",
 
 
-			"category": "interactive_models",
+			"category": "modele_interaktywne",
 
 
 			"images": 10,
@@ -3414,7 +3414,7 @@
 							"elements": [
 								{
 									"label": "Broszura Profesjonalny monitor LCD z ekranem dotykowym",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Brochure/16209-PN-70SC3_4pp_PL_screen.pdf"
 								},
 								{
@@ -3441,7 +3441,7 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PN70SC3",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PN70SC3_pl_pl.pdf"
 								}
 							]
@@ -3938,7 +3938,7 @@
 			"name": "PN-70TA3",
 
 
-			"category": "interactive_models",
+			"category": "modele_interaktywne",
 
 
 			"images": 8,
@@ -4003,7 +4003,7 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PN70TA3",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PN70TA3_pl_pl.pdf"
 								}
 							]
@@ -4525,7 +4525,7 @@
 			"name": "PN-80TC3",
 
 
-			"category": "interactive_models",
+			"category": "modele_interaktywne",
 
 
 			"images": 10,
@@ -4583,7 +4583,7 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PN80TC3",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PN80TC3_pl_pl.pdf"
 								}
 							]
@@ -5088,7 +5088,7 @@
 			"name": "PN-H801",
 
 
-			"category": "uhd_models",
+			"category": "modele_uhd",
 
 
 			"images": 10,
@@ -5130,7 +5130,7 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PNH801",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PNH801_pl_pl.pdf"
 								}
 							]
@@ -5557,7 +5557,7 @@
 			"name": "PN-H701",
 
 
-			"category": "uhd_models",
+			"category": "modele_uhd",
 
 
 			"images": 9,
@@ -5595,7 +5595,7 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PNH701",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PNH701_pl_pl.pdf"
 								}
 							]
@@ -6033,7 +6033,7 @@
 			"name": "PN-K321H",
 
 
-			"category": "uhd_models",
+			"category": "modele_uhd",
 
 
 			"images": 3,
@@ -6070,7 +6070,7 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PNK321H",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PNK321H_11530_pl_pl.pdf"
 								}
 							]
@@ -6523,7 +6523,7 @@
 			"name": "PN-K322BH",
 
 
-			"category": "uhd_models",
+			"category": "modele_uhd",
 
 
 			"images": 4,
@@ -6571,7 +6571,7 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PNK322BH",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PNK322BH_pl_pl.pdf"
 								}
 							]
@@ -7063,7 +7063,7 @@
 			"name": "PN-Y325",
 
 
-			"category": "big_format_momitors",
+			"category": "monitory_wielkoformatowe",
 
 
 			"images": 10,
@@ -7112,7 +7112,7 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PNY325",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PNY325_pl_pl.pdf"
 								}
 							]
@@ -7574,7 +7574,7 @@
 			"name": "PN-Y425",
 
 
-			"category": "big_format_momitors",
+			"category": "monitory_wielkoformatowe",
 
 
 			"images": 9,
@@ -7623,7 +7623,7 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PNY425",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PNY425_pl_pl.pdf"
 								}
 							]
@@ -8085,7 +8085,7 @@
 			"name": "PN-Y475",
 
 
-			"category": "big_format_momitors",
+			"category": "monitory_wielkoformatowe",
 
 
 			"images": 10,
@@ -8134,7 +8134,7 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PNY475",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PNY475_pl_pl.pdf"
 								}
 							]
@@ -8596,7 +8596,7 @@
 			"name": "PN-Y555",
 
 
-			"category": "big_format_momitors",
+			"category": "monitory_wielkoformatowe",
 
 
 			"images": 9,
@@ -8645,7 +8645,7 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PNY555",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PNY555_pl_pl.pdf"
 								}
 							]
@@ -9107,7 +9107,7 @@
 			"name": "PN-U423",
 
 
-			"category": "big_format_momitors",
+			"category": "monitory_wielkoformatowe",
 
 
 			"images": 4,
@@ -9144,7 +9144,7 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PNU423",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PNU423_11510_pl_pl.pdf"
 								}
 							]
@@ -9616,7 +9616,7 @@
 			"name": "PN-U473",
 
 
-			"category": "big_format_momitors",
+			"category": "monitory_wielkoformatowe",
 
 
 			"images": 2,
@@ -9654,7 +9654,7 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PNU473",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PNU473_11510_pl_pl.pdf"
 								}
 							]
@@ -10126,7 +10126,7 @@
 			"name": "PN-U553",
 
 
-			"category": "big_format_momitors",
+			"category": "monitory_wielkoformatowe",
 
 
 			"images": 4,
@@ -10163,7 +10163,7 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PNU553",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PNU553_11510_pl_pl.pdf"
 								}
 							]
@@ -10635,7 +10635,7 @@
 			"name": "PN-E603",
 
 
-			"category": "big_format_momitors",
+			"category": "monitory_wielkoformatowe",
 
 
 			"images": 5,
@@ -10673,7 +10673,7 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PNE603",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PNE603_pl_pl.pdf"
 								}
 							]
@@ -11140,7 +11140,7 @@
 			"name": "PN-E703",
 
 
-			"category": "big_format_momitors",
+			"category": "monitory_wielkoformatowe",
 
 
 			"images": 5,
@@ -11178,7 +11178,7 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PNE703",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PNE703_pl_pl.pdf"
 								}
 							]
@@ -11645,7 +11645,7 @@
 			"name": "PN-E803",
 
 
-			"category": "big_format_momitors",
+			"category": "monitory_wielkoformatowe",
 
 
 			"images": 2,
@@ -11685,7 +11685,7 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PNE803",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PNE803_pl_pl.pdf"
 								}
 							]
@@ -12147,7 +12147,7 @@
 			"name": "PN-R603",
 
 
-			"category": "big_format_momitors",
+			"category": "monitory_wielkoformatowe",
 
 
 			"images": 3,
@@ -12183,7 +12183,7 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PNR603",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PNR603_11510_pl_pl.pdf"
 								}
 							]
@@ -12655,7 +12655,7 @@
 			"name": "PN-R703",
 
 
-			"category": "big_format_momitors",
+			"category": "monitory_wielkoformatowe",
 
 
 			"images": 3,
@@ -12692,7 +12692,7 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PNR703",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PNR703_11510_pl_pl.pdf"
 								}
 							]
@@ -13164,7 +13164,7 @@
 			"name": "PN-R903",
 
 
-			"category": "big_format_momitors",
+			"category": "monitory_wielkoformatowe",
 
 
 			"images": 7,
@@ -13201,7 +13201,7 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PNR903",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PNR903_11510_pl_pl.pdf"
 								}
 							]
@@ -13673,7 +13673,7 @@
 			"name": "PN-A601",
 
 
-			"category": "big_format_momitors",
+			"category": "monitory_wielkoformatowe",
 
 
 			"images": 2,
@@ -13714,7 +13714,7 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PNA601",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PNA601_11510_pl_pl.pdf"
 								}
 							]
@@ -14181,7 +14181,7 @@
 			"name": "LL-S201A",
 
 
-			"category": "big_format_momitors",
+			"category": "monitory_wielkoformatowe",
 
 
 			"images": 3,
@@ -14244,7 +14244,7 @@
 							"elements": [
 								{
 									"label": "Dane techniczne LLS201A",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_LLS201A_11510_pl_pl.pdf"
 								}
 							]
@@ -14770,7 +14770,7 @@
 			"name": "PN-V551",
 
 
-			"category": "telebims",
+			"category": "telebimy",
 
 
 			"images": 9,
@@ -14808,7 +14808,7 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PNV551",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PNV551_pl_pl.pdf"
 								}
 							]
@@ -15226,7 +15226,7 @@
 			"name": "PN-V600A",
 
 
-			"category": "telebims",
+			"category": "telebimy",
 
 
 			"images": 8,
@@ -15275,17 +15275,17 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PNV600A",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PNV600A_pl_pl.pdf"
 								},
 								{
 									"label": "Dane techniczne PNV600",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PNV600_pl_pl.pdf"
 								},
 								{
 									"label": "Dane techniczne PNV600",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PNV600_11520_pl_pl.pdf"
 								}
 							]
@@ -15708,7 +15708,7 @@
 			"name": "PN-V601A",
 
 
-			"category": "telebims",
+			"category": "telebimy",
 
 
 			"images": 7,
@@ -15746,17 +15746,17 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PNV601A",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PNV601A_pl_pl.pdf"
 								},
 								{
 									"label": "Dane techniczne PNV601",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PNV601_pl_pl.pdf"
 								},
 								{
 									"label": "Dane techniczne PNV601",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PNV601_11520_pl_pl.pdf"
 								}
 							]
@@ -16179,7 +16179,7 @@
 			"name": "PN-V602",
 
 
-			"category": "telebims",
+			"category": "telebimy",
 
 
 			"images": 5,
@@ -16217,7 +16217,7 @@
 							"elements": [
 								{
 									"label": "Dane techniczne PNV602",
-									"description": "",
+									"description": "link",
 									"path": "http://www.sharp.pl/cps/rde/xbcr/documents/documents/Marketing/Datasheet/pdf_DS_Datasheet_PNV602_11520_pl_pl.pdf"
 								}
 							]

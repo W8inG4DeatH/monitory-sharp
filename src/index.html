@@ -37,7 +37,7 @@
                 <h3 class="outsite">Right Menu</h3>
                     <ul>
                         <span class="menu-right-separator">|</span>
-                        <a href="/#/contact"><li class="cursor-pointer" ng-mouseenter="SlideUpAndDownChildByClass($event,'.link-desc')"><svg class="menu-right-icon" login="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 7.5 8" style="enable-background:new 0 0 7.5 8;" xml:space="preserve"><path d="M7.3,8H0.2C-0.2,7.4,0,6.2,0.4,5.8C0.6,5.6,2,5.3,2.6,5.1C1.9,4.5,1.5,3.5,1.5,2.6C1.5,1.1,1.9,0,3.8,0C5.6,0,6,1.1,6,2.6c0,1-0.4,2-1.1,2.5c0.7,0.2,2.1,0.5,2.3,0.7C7.5,6.2,7.7,7.4,7.3,8z M6.8,6.2C6.5,6.1,5.4,5.8,4.5,5.6V4.8c0.6-0.4,1-1.4,1-2.2c0-1.1-0.3-2.1-1.7-2.1C2.3,0.5,2,1.4,2,2.6c0,0.8,0.4,1.8,1,2.2v0.8C2.1,5.8,1,6.1,0.7,6.2C0.5,6.4,0.4,7.1,0.5,7.5H7C7.1,7.1,7,6.4,6.8,6.2z"></path></svg><div class="link-desc">CONTACT</div></li></a>
+                        <a href="/#/kontakt"><li class="cursor-pointer" ng-mouseenter="SlideUpAndDownChildByClass($event,'.link-desc')"><svg class="menu-right-icon" login="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 7.5 8" style="enable-background:new 0 0 7.5 8;" xml:space="preserve"><path d="M7.3,8H0.2C-0.2,7.4,0,6.2,0.4,5.8C0.6,5.6,2,5.3,2.6,5.1C1.9,4.5,1.5,3.5,1.5,2.6C1.5,1.1,1.9,0,3.8,0C5.6,0,6,1.1,6,2.6c0,1-0.4,2-1.1,2.5c0.7,0.2,2.1,0.5,2.3,0.7C7.5,6.2,7.7,7.4,7.3,8z M6.8,6.2C6.5,6.1,5.4,5.8,4.5,5.6V4.8c0.6-0.4,1-1.4,1-2.2c0-1.1-0.3-2.1-1.7-2.1C2.3,0.5,2,1.4,2,2.6c0,0.8,0.4,1.8,1,2.2v0.8C2.1,5.8,1,6.1,0.7,6.2C0.5,6.4,0.4,7.1,0.5,7.5H7C7.1,7.1,7,6.4,6.8,6.2z"></path></svg><div class="link-desc">KONTAKT</div></li></a>
                     </ul>
                 </nav>                
             </div>
@@ -58,12 +58,12 @@
                     <li ng-show="(menuMobileMenu && (menuMobileMenuActiveCategory == category))" class="menu-right-xs-submenu">
                         <div class="menu-right-xs-separator"></div>
                         <ul>
-                            <li ng-repeat="product in products[category.name]" ng-click="GoToProduct(category.name,product.name)">{{product.name}}</li>
+                            <li ng-repeat="product in produkty[category.name]" ng-click="GoToProduct(category.name,product.name)">{{product.name}}</li>
                         </ul>
                         <div class="menu-right-xs-separator"></div>
                     </li>
                 </span>
-                <a href="/#/contact"><li>Contact</li></a>
+                <a href="/#/kontakt"><li>Kontakt</li></a>
             </ul>
         </nav>                
     </div>
@@ -74,7 +74,7 @@
             <h3 class="outsite">Slider</h3>
             <div id="w8-slider1" class="w8-slider">
                 <div ng-repeat="(id, category) in wwwData.categories" id="w8-slider-slide{{id+1}}" class="w8-slider-slide text-right cursor-pointer" ng-style="{'background-color':'{{sliderCategoriesColors[id]}}'}">
-                    <img class="w8-slider-slide-img img-responsive" ng-srcset="img/products/{{products[category.name][sliderCategoriesImageNumbers[id]].name}}/sharp_{{products[category.name][sliderCategoriesImageNumbers[id]].name}}_0.jpg"/>
+                    <img class="w8-slider-slide-img img-responsive" ng-srcset="img/produkty/{{produkty[category.name][sliderCategoriesImageNumbers[id]].name}}/sharp_{{produkty[category.name][sliderCategoriesImageNumbers[id]].name}}_0.jpg"/>
                     <div class="w8-slider-content text-center">
                         <div class="w8-slider-name text-center">
                             <div class="w8-slider-name-element w8-slider-name-line w8-slider-name-left-line"></div><div class="w8-slider-name-element w8-slider-name-line w8-slider-name-left-line w8-slider-name-line-opacited"></div><div class="w8-slider-name-element w8-slider-name-text">{{category.label | uppercase}}</div><div class="w8-slider-name-element w8-slider-name-line w8-slider-name-right-line"></div><div class="w8-slider-name-element w8-slider-name-line w8-slider-name-right-line w8-slider-name-line-opacited"></div>                       
@@ -95,7 +95,7 @@
             <nav class="menu-center-bar" class="hidden-xs hidden-sm" ng-show="menuCenterDropdownMenu">
                 <h3 class="outsite">{{menuCenterDropdownMenuActiveCategory.label}}</h3>
                 <ul>
-                    <li ng-repeat="product in products[menuCenterDropdownMenuActiveCategory.name]" class="cursor-pointer" ng-click="GoToProduct(menuCenterDropdownMenuActiveCategory.name,product.name)">{{product.name}}</li>
+                    <li ng-repeat="product in produkty[menuCenterDropdownMenuActiveCategory.name]" class="cursor-pointer" ng-click="GoToProduct(menuCenterDropdownMenuActiveCategory.name,product.name)">{{product.name}}</li>
                 </ul>
             </nav>
 
@@ -121,7 +121,7 @@
                     <nav class="menu-center">
                     <h3 class="outsite">Footer Menu</h3>
                         <ul>
-                            <a href="/#/contact"><li class="underline-link">Contact<underline></underline></li></a>
+                            <a href="/#/kontakt"><li class="underline-link">Kontakt<underline></underline></li></a>
                         </ul>
                     </nav>                
                 </div>

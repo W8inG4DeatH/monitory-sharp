@@ -10,23 +10,23 @@
                 templateUrl: 'views/home.html',
                 label: 'Witaj'
             })
-            .when('/products/:categoryName/:productName', {
-                controller: 'productsController',
+            .when('/produkty/:categoryName/:productName', {
+                controller: 'produktyController',
                 templateUrl: 'views/produkty.html',
                 label: 'Produkty'
             })
-            .when('/products/:categoryName', {
-                controller: 'productsController',
+            .when('/produkty/:categoryName', {
+                controller: 'produktyController',
                 templateUrl: 'views/produkty.html',
                 label: 'Produkty'
             })
-            .when('/products', {
-                controller: 'productsController',
+            .when('/produkty', {
+                controller: 'produktyController',
                 templateUrl: 'views/produkty.html',
                 label: 'Produkty'
             })
-            .when('/contact', {
-                controller: 'contactController',
+            .when('/kontakt', {
+                controller: 'kontaktController',
                 templateUrl: 'views/kontakt.html',
                 label: 'Kontakt'
             })
@@ -48,12 +48,12 @@
 
         $scope.WWWInit = function() {
 
-            $scope.products = [];
-            $scope.shuffleProducts = [];
+            $scope.produkty = [];
+            $scope.shuffleprodukty = [];
             angular.forEach($scope.wwwData.categories, function(category, categoryKey) {
-                $scope.products[category.name] = [];
+                $scope.produkty[category.name] = [];
             });
-            angular.forEach($scope.wwwData.products, function(product, productKey) {
+            angular.forEach($scope.wwwData.produkty, function(product, productKey) {
                 angular.forEach(product.sections, function(section) {
                     section.activeElementId = -1;
                 });
@@ -63,13 +63,13 @@
                 }
                 product.imagesIds = imagesIds;
                 product.activeImageId = 0;
-                $scope.products[product.category].push(product);
+                $scope.produkty[product.category].push(product);
             });
             angular.forEach($scope.wwwData.categories, function(category, categoryKey) {
-                $scope.shuffleProducts[category.name] = mainService.ShuffleTable($scope.products[category.name]);
+                $scope.shuffleprodukty[category.name] = mainService.ShuffleTable($scope.produkty[category.name]);
             });
 
-            $scope.imgProductsFolderPath = './img/products/';
+            $scope.imgproduktyFolderPath = './img/produkty/';
 
             // SLIDER
             $scope.colorsForSlider = ['#d82c38'];
@@ -78,7 +78,7 @@
             $scope.randomSlider = function() {
                 angular.forEach($scope.wwwData.categories, function(category, categoryKey) {
                     $scope.sliderCategoriesColors[categoryKey] = $scope.colorsForSlider[mainService.GetRandomInt(0,$scope.colorsForSlider.length-1)];
-                    $scope.sliderCategoriesImageNumbers[categoryKey] = mainService.GetRandomInt(0,$scope.products[category.name].length-1);
+                    $scope.sliderCategoriesImageNumbers[categoryKey] = mainService.GetRandomInt(0,$scope.produkty[category.name].length-1);
                 });
             };
             $scope.randomSlider();            
@@ -130,8 +130,7 @@
         };
 
         $scope.GoToProduct = function (categoryName,productNumber) {
-            $location.path('/products/'+categoryName+'/'+productNumber);
-            console.log('/products/'+categoryName+'/'+productNumber);
+            $location.path('/produkty/'+categoryName+'/'+productNumber);
         };        
 
         $scope.SlideUpAndDownByClass = function(elementClass) {
@@ -166,12 +165,12 @@
     }]);
 
     //////////////
-    // PRODUCTS //
+    // produkty //
     //////////////  
 
-    app.controller('productsController', ['$scope', '$routeParams', 'mainService', function($scope, $routeParams, mainService){
+    app.controller('produktyController', ['$scope', '$routeParams', 'mainService', function($scope, $routeParams, mainService){
 
-
+ 
         $scope.$parent.menuCenterDropdownMenu = false;
         $scope.$parent.menuMobileMenu = false;
 
@@ -182,58 +181,57 @@
                 if(category.name == categoryName) {
                     $scope.$parent.activeCategory = category;
                 }
-            });
-            $scope.$parent.activeProduct = $scope.products[$scope.$parent.activeCategory.name][0];
-            angular.forEach($scope.products[$scope.$parent.activeCategory.name], function(product, productKey) {
+            }); 
+            $scope.$parent.activeProduct = $scope.produkty[$scope.$parent.activeCategory.name][0];
+            angular.forEach($scope.produkty[$scope.$parent.activeCategory.name], function(product, productKey) {
                 if(product.name == productName) {
                     $scope.$parent.activeProduct = product;
                 }
             });
-            console.log("Ustawiłem:",$scope.$parent.activeCategory.label," -> ",$scope.$parent.activeProduct.name);
         };
         $scope.SetActiveCategory($routeParams.categoryName,$routeParams.productName);
 
-        $scope.AnimateProducts = function () {
-            var showProductsData = {
-                a1 : {mode: "FadeIn", selector: ".products-show-1", stepTime: 500, delayTime: 0},
-                a2 : {mode: "FadeIn", selector: ".products-show-2", stepTime: 500, delayTime: 0},
-                a3 : {mode: "FadeIn", selector: ".products-show-3", stepTime: 500, delayTime: 0},
-                a4 : {mode: "FadeIn", selector: ".products-show-4", stepTime: 500, delayTime: 0},
-                a5 : {mode: "FadeIn", selector: ".products-show-5", stepTime: 500, delayTime: 0},
-                a6 : {mode: "FadeIn", selector: ".products-show-6", stepTime: 500, delayTime: 0},
-                a7 : {mode: "FadeIn", selector: ".products-show-7", stepTime: 500, delayTime: 0}
-            };
-            mainService.ShowWebsite(showProductsData);
+        $scope.Animateprodukty = function () {
+            var showproduktyData = {
+                a1 : {mode: "FadeIn", selector: ".produkty-show-1", stepTime: 500, delayTime: 0},
+                a2 : {mode: "FadeIn", selector: ".produkty-show-2", stepTime: 500, delayTime: 0},
+                a3 : {mode: "FadeIn", selector: ".produkty-show-3", stepTime: 500, delayTime: 0},
+                a4 : {mode: "FadeIn", selector: ".produkty-show-4", stepTime: 500, delayTime: 0},
+                a5 : {mode: "FadeIn", selector: ".produkty-show-5", stepTime: 500, delayTime: 0},
+                a6 : {mode: "FadeIn", selector: ".produkty-show-6", stepTime: 500, delayTime: 0},
+                a7 : {mode: "FadeIn", selector: ".produkty-show-7", stepTime: 500, delayTime: 0}
+            }; 
+            mainService.ShowWebsite(showproduktyData);
         };
 
         angular.element(document).ready(function() {
-            $scope.AnimateProducts();
+            $scope.Animateprodukty();
         });
 
     }]);
 
     /////////////
-    // CONTACT //
+    // kontakt //
     /////////////  
 
-    app.controller('contactController', ['$scope', 'mainService', function($scope, mainService){
+    app.controller('kontaktController', ['$scope', 'mainService', function($scope, mainService){
 
 
         $scope.$parent.menuCenterDropdownMenu = false;
         $scope.$parent.menuMobileMenu = false;
 
-        $scope.AnimateContact = function () {
-            var showProductsData = {
-                a1 : {mode: "FadeIn", selector: ".contact-show-1", stepTime: 500, delayTime: 0},
-                a2 : {mode: "FadeIn", selector: ".contact-show-2", stepTime: 500, delayTime: 0},
-                a3 : {mode: "FadeIn", selector: ".contact-show-3", stepTime: 500, delayTime: 0},
-                a4 : {mode: "FadeIn", selector: ".contact-show-4", stepTime: 500, delayTime: 0}
+        $scope.Animatekontakt = function () {
+            var showproduktyData = {
+                a1 : {mode: "FadeIn", selector: ".kontakt-show-1", stepTime: 500, delayTime: 0},
+                a2 : {mode: "FadeIn", selector: ".kontakt-show-2", stepTime: 500, delayTime: 0},
+                a3 : {mode: "FadeIn", selector: ".kontakt-show-3", stepTime: 500, delayTime: 0},
+                a4 : {mode: "FadeIn", selector: ".kontakt-show-4", stepTime: 500, delayTime: 0}
             };
-            mainService.ShowWebsite(showProductsData);
+            mainService.ShowWebsite(showproduktyData);
         };
 
         angular.element(document).ready(function() {
-            $scope.AnimateContact();
+            $scope.Animatekontakt();
         });
 
     }]);

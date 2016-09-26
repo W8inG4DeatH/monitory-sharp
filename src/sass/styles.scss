@@ -188,7 +188,7 @@ underline {
 
 
 /////////////////////////////////////////////////////////////
-// PRODUCTS //
+// produkty //
 
 .category-menu {
 	width: 100%;
@@ -202,28 +202,28 @@ underline {
 	font-size: 1.5rem;
 }
 
-.container-products {
+.container-produkty {
 	background-color: #ffffff;
 	margin: 2% 3%;
 	padding: 1% 2%;
 }
-.row-products {
+.row-produkty {
 	margin: 2% 0;
 }
  
-.products-title {
+.produkty-title {
 	position: relative;
 	width: 100%;
 	height: 2rem;
 }
-.products-title-element {
+.produkty-title-element {
 	position: absolute;
 	display: inline-block;
 	margin: auto;
 	top: 0;
 	bottom: 0;
 }
-.products-title-text {
+.produkty-title-text {
 	left: 0;
 	right: 0;
 	font-size: 2rem;
@@ -233,50 +233,50 @@ underline {
 	color: $color-global;
 }
 
-.products-title-line {
+.produkty-title-line {
 	width: 10%;
 	height: 1px;
 	background-color: $color-light;
 }
-.products-title-left-line {
+.produkty-title-left-line {
 	left: 0;
 }
-.products-title-right-line {
+.produkty-title-right-line {
 	right: 0;
 }
 
-.products-img {
+.produkty-img {
 	@include transition();
 	@include filter(grayscale(65%));
 	cursor: pointer;
 }
-.products-img-nogray {
+.produkty-img-nogray {
 	@include filter(grayscale(0%));
 }
 
-.products-product-location-desc {
+.produkty-product-location-desc {
 	text-align: center;
 	color: $color-medium;
 	font-size: 1.2rem;
 	margin: 20px 0;
 }
-.products-title {
+.produkty-title {
 	text-align: center;
 	font-size: 2.0rem;
 	font-weight: bolder;
 	padding: 15px;
 	color: $color-global;
 }
-.products-product-desc {
+.produkty-product-desc {
 	color: $color-medium;
 	font-size: 1.5rem;
 	margin: 15px 0;
 }
-.products-product-panel {
+.produkty-product-panel {
 	height: 40px;
 	margin-bottom: 20px;
 }
-.products-btn {
+.produkty-btn {
 	display: inline-block;
 	height: 35px;
 	@include border-radius($color-light,1px,solid,20px,20px);
@@ -311,7 +311,7 @@ underline {
 	color: $color-sharp;
 }
 
-.products-product-title {
+.produkty-product-title {
 	text-align: center;
 	font-size: 2.2rem;
 	margin: 15px 0;
@@ -365,7 +365,7 @@ underline {
 }
 
 
-.contact-title
+.kontakt-title
 {
 	text-align:center;
 	font-size: 2.2rem;
@@ -373,7 +373,7 @@ underline {
 	padding: 10px 15px;
 	color: $color-sharp;
 }
-.contact-desc
+.kontakt-desc
 {
 	text-align:center;
 	font-size: 1.8rem;

@@ -3,30 +3,30 @@
     <h1 class="outsite">Monitory Sharp - Kategorie</h1>
     <div ng-repeat="(id, category) in wwwData.categories" class="container">
         <h2 class="outsite">{{category.label | capitalize}} Sharp</h2>
-        <div class="container-products">
+        <div class="container-produkty">
             <div class="row">
-                <div class="row-products">
-                    <div class="products-title text-center">
-                        <div class="products-title-element products-title-line products-title-left-line"></div><div class="products-title-element products-title-text">{{category.label | uppercase}}</div><div class="products-title-element products-title-line products-title-right-line"></div>
+                <div class="row-produkty">
+                    <div class="produkty-title text-center">
+                        <div class="produkty-title-element produkty-title-line produkty-title-left-line"></div><div class="produkty-title-element produkty-title-text">{{category.label | uppercase}}</div><div class="produkty-title-element produkty-title-line produkty-title-right-line"></div>
                     </div>            
                 </div>                            
             </div>
             <div class="row">
-                <div class="row-products">
-                    <article ng-repeat="(id, product) in shuffleProducts[category.name] | limitTo:3" class="col-xs-12 col-sm-6 col-md-4" ng-class="{'hidden-xs': id==1, 'hidden-xs hidden-sm': id==2}">
+                <div class="row-produkty">
+                    <article ng-repeat="(id, product) in shuffleprodukty[category.name] | limitTo:3" class="col-xs-12 col-sm-6 col-md-4" ng-class="{'hidden-xs': id==1, 'hidden-xs hidden-sm': id==2}">
                     <h3 class="outsite">Monitor Sharp {{product.name}}</h3>
-                        <img ng-click="GoToProduct(category.name,product.name)" ng-mouseenter="productsImgClass='products-img-nogray'" ng-mouseleave="productsImgClass=''" ng-class="productsImgClass" class="img-responsive products-img" ng-srcset="{{imgProductsFolderPath}}{{product.name}}/sharp_{{product.name}}_0.jpg"/>
-                        <div class="products-title"><h4><b>{{product.name}}</b></h4></div>
+                        <img ng-click="GoToProduct(category.name,product.name)" ng-mouseenter="produktyImgClass='produkty-img-nogray'" ng-mouseleave="produktyImgClass=''" ng-class="produktyImgClass" class="img-responsive produkty-img" ng-srcset="{{imgproduktyFolderPath}}{{product.name}}/sharp_{{product.name}}_0.jpg"/>
+                        <div class="produkty-title"><h4><b>{{product.name}}</b></h4></div>
                     </article>
                 </div>                
             </div>
             <div class="row">
-                <div class="row-products">
+                <div class="row-produkty">
                     <hr>                
                 </div>
             </div>
             <div class="row text-center">
-                <div class="products-btn" ng-click="GoToProduct(category.name,null)" ng-mouseenter="SlideUpAndDownChildByClass($event,'.products-btn-inner')"><div class="products-btn-inner">ZOBACZ WIĘCEJ</div></div>
+                <div class="produkty-btn" ng-click="GoToProduct(category.name,null)" ng-mouseenter="SlideUpAndDownChildByClass($event,'.produkty-btn-inner')"><div class="produkty-btn-inner">ZOBACZ WIĘCEJ</div></div>
             </div>
         </div>
     </div>
