@@ -240,11 +240,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -252,11 +252,11 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Kolor obudowy",
@@ -264,7 +264,7 @@
 								},
 								{
 									"label": "Konstrukcja bez wentylatora",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -346,11 +346,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -358,7 +358,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Inne",
@@ -398,15 +398,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -755,11 +755,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -767,11 +767,11 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Kolor obudowy",
@@ -779,7 +779,7 @@
 								},
 								{
 									"label": "Konstrukcja bez wentylatora",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -861,11 +861,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -873,7 +873,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Inne",
@@ -913,15 +913,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -1337,11 +1337,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -1349,11 +1349,11 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Kolor obudowy",
@@ -1361,7 +1361,7 @@
 								},
 								{
 									"label": "Konstrukcja bez wentylatora",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -1443,11 +1443,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -1455,7 +1455,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Inne",
@@ -1495,15 +1495,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -1883,11 +1883,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -1895,11 +1895,11 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Kolor obudowy",
@@ -1907,7 +1907,7 @@
 								},
 								{
 									"label": "Konstrukcja bez wentylatora",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -1989,11 +1989,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -2001,7 +2001,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Inne",
@@ -2041,15 +2041,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -2475,11 +2475,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -2487,11 +2487,11 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Kolor obudowy",
@@ -2499,7 +2499,7 @@
 								},
 								{
 									"label": "Konstrukcja bez wentylatora",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -2581,11 +2581,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -2593,7 +2593,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Inne",
@@ -2633,15 +2633,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -2995,11 +2995,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -3007,11 +3007,11 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Kolor obudowy",
@@ -3019,7 +3019,7 @@
 								},
 								{
 									"label": "Konstrukcja bez wentylatora",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -3101,11 +3101,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -3113,7 +3113,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Inne",
@@ -3153,15 +3153,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -3559,11 +3559,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -3571,11 +3571,11 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Kolor obudowy",
@@ -3583,7 +3583,7 @@
 								},
 								{
 									"label": "Konstrukcja bez wentylatora",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -3665,11 +3665,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -3677,7 +3677,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Inne",
@@ -3717,15 +3717,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -4146,11 +4146,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -4158,11 +4158,11 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Kolor obudowy",
@@ -4170,7 +4170,7 @@
 								},
 								{
 									"label": "Konstrukcja bez wentylatora",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -4252,11 +4252,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -4264,7 +4264,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Inne",
@@ -4304,15 +4304,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -4706,11 +4706,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -4718,11 +4718,11 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Kolor obudowy",
@@ -4730,7 +4730,7 @@
 								},
 								{
 									"label": "Konstrukcja bez wentylatora",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -4812,11 +4812,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -4824,7 +4824,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Inne",
@@ -4864,15 +4864,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -5206,11 +5206,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -5218,11 +5218,11 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Kolor obudowy",
@@ -5252,7 +5252,7 @@
 								},
 								{
 									"label": "Funkcja unieważnienia dotyku dłonią",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Twardość ekranu (H)",
@@ -5304,11 +5304,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -5316,7 +5316,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Inne",
@@ -5356,15 +5356,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -5682,11 +5682,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -5694,11 +5694,11 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Kolor obudowy",
@@ -5728,7 +5728,7 @@
 								},
 								{
 									"label": "Funkcja unieważnienia dotyku dłonią",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Twardość ekranu (H)",
@@ -5780,11 +5780,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -5792,7 +5792,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Inne",
@@ -5832,15 +5832,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -6172,11 +6172,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -6184,11 +6184,11 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Kolor obudowy",
@@ -6218,7 +6218,7 @@
 								},
 								{
 									"label": "Funkcja unieważnienia dotyku dłonią",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Twardość ekranu (H)",
@@ -6270,11 +6270,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -6282,7 +6282,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Inne",
@@ -6322,15 +6322,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -6709,11 +6709,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -6721,11 +6721,11 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Kolor obudowy",
@@ -6755,7 +6755,7 @@
 								},
 								{
 									"label": "Funkcja unieważnienia dotyku dłonią",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Twardość ekranu (H)",
@@ -6807,11 +6807,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -6819,7 +6819,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Inne",
@@ -6859,15 +6859,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -7195,11 +7195,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -7207,11 +7207,11 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Kolor obudowy",
@@ -7219,27 +7219,27 @@
 								},
 								{
 									"label": "Konstrukcja bez wentylatora",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Czujnik jasności",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Funkcja wyświetlania na wielu monitorach - tryb telebimu (funkcja powiększania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Proste łańcuchowe połączenie (tryb multiplikowania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Diagnostyka",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Obsługa oprogramowania sterującego monitorem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -7265,7 +7265,7 @@
 								},
 								{
 									"label": "Funkcja unieważnienia dotyku dłonią",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Twardość ekranu (H)",
@@ -7321,11 +7321,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -7333,7 +7333,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -7373,15 +7373,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -7706,11 +7706,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -7718,11 +7718,11 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Kolor obudowy",
@@ -7730,27 +7730,27 @@
 								},
 								{
 									"label": "Konstrukcja bez wentylatora",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Czujnik jasności",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Funkcja wyświetlania na wielu monitorach - tryb telebimu (funkcja powiększania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Proste łańcuchowe połączenie (tryb multiplikowania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Diagnostyka",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Obsługa oprogramowania sterującego monitorem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -7776,7 +7776,7 @@
 								},
 								{
 									"label": "Funkcja unieważnienia dotyku dłonią",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Twardość ekranu (H)",
@@ -7832,11 +7832,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -7844,7 +7844,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -7884,15 +7884,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -8217,11 +8217,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -8229,11 +8229,11 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Kolor obudowy",
@@ -8241,27 +8241,27 @@
 								},
 								{
 									"label": "Konstrukcja bez wentylatora",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Czujnik jasności",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Funkcja wyświetlania na wielu monitorach - tryb telebimu (funkcja powiększania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Proste łańcuchowe połączenie (tryb multiplikowania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Diagnostyka",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Obsługa oprogramowania sterującego monitorem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -8287,7 +8287,7 @@
 								},
 								{
 									"label": "Funkcja unieważnienia dotyku dłonią",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Twardość ekranu (H)",
@@ -8343,11 +8343,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -8355,7 +8355,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -8395,15 +8395,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -8728,11 +8728,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -8740,11 +8740,11 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Kolor obudowy",
@@ -8752,27 +8752,27 @@
 								},
 								{
 									"label": "Konstrukcja bez wentylatora",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Czujnik jasności",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Funkcja wyświetlania na wielu monitorach - tryb telebimu (funkcja powiększania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Proste łańcuchowe połączenie (tryb multiplikowania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Diagnostyka",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Obsługa oprogramowania sterującego monitorem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -8798,7 +8798,7 @@
 								},
 								{
 									"label": "Funkcja unieważnienia dotyku dłonią",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Twardość ekranu (H)",
@@ -8854,11 +8854,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -8866,7 +8866,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -8906,15 +8906,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -9237,11 +9237,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -9249,11 +9249,11 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Kolor obudowy",
@@ -9261,27 +9261,27 @@
 								},
 								{
 									"label": "Konstrukcja bez wentylatora",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Czujnik jasności",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Funkcja wyświetlania na wielu monitorach - tryb telebimu (funkcja powiększania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Proste łańcuchowe połączenie (tryb multiplikowania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Diagnostyka",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Obsługa oprogramowania sterującego monitorem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -9307,7 +9307,7 @@
 								},
 								{
 									"label": "Funkcja unieważnienia dotyku dłonią",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Twardość ekranu (H)",
@@ -9363,11 +9363,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -9375,7 +9375,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -9415,15 +9415,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -9747,11 +9747,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -9759,11 +9759,11 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Kolor obudowy",
@@ -9771,27 +9771,27 @@
 								},
 								{
 									"label": "Konstrukcja bez wentylatora",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Czujnik jasności",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Funkcja wyświetlania na wielu monitorach - tryb telebimu (funkcja powiększania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Proste łańcuchowe połączenie (tryb multiplikowania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Diagnostyka",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Obsługa oprogramowania sterującego monitorem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -9817,7 +9817,7 @@
 								},
 								{
 									"label": "Funkcja unieważnienia dotyku dłonią",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Twardość ekranu (H)",
@@ -9873,11 +9873,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -9885,7 +9885,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -9925,15 +9925,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -10256,11 +10256,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -10268,11 +10268,11 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Kolor obudowy",
@@ -10280,27 +10280,27 @@
 								},
 								{
 									"label": "Konstrukcja bez wentylatora",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Czujnik jasności",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Funkcja wyświetlania na wielu monitorach - tryb telebimu (funkcja powiększania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Proste łańcuchowe połączenie (tryb multiplikowania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Diagnostyka",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Obsługa oprogramowania sterującego monitorem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -10326,7 +10326,7 @@
 								},
 								{
 									"label": "Funkcja unieważnienia dotyku dłonią",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Twardość ekranu (H)",
@@ -10382,11 +10382,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -10394,7 +10394,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -10434,15 +10434,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -10761,11 +10761,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -10773,11 +10773,11 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Kolor obudowy",
@@ -10785,27 +10785,27 @@
 								},
 								{
 									"label": "Konstrukcja bez wentylatora",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Czujnik jasności",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Funkcja wyświetlania na wielu monitorach - tryb telebimu (funkcja powiększania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Proste łańcuchowe połączenie (tryb multiplikowania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Diagnostyka",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Obsługa oprogramowania sterującego monitorem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -10831,7 +10831,7 @@
 								},
 								{
 									"label": "Funkcja unieważnienia dotyku dłonią",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Twardość ekranu (H)",
@@ -10887,11 +10887,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -10899,7 +10899,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -10939,15 +10939,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -11266,11 +11266,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -11278,11 +11278,11 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Kolor obudowy",
@@ -11290,27 +11290,27 @@
 								},
 								{
 									"label": "Konstrukcja bez wentylatora",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Czujnik jasności",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Funkcja wyświetlania na wielu monitorach - tryb telebimu (funkcja powiększania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Proste łańcuchowe połączenie (tryb multiplikowania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Diagnostyka",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Obsługa oprogramowania sterującego monitorem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -11336,7 +11336,7 @@
 								},
 								{
 									"label": "Funkcja unieważnienia dotyku dłonią",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Twardość ekranu (H)",
@@ -11392,11 +11392,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -11404,7 +11404,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -11444,15 +11444,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -11768,11 +11768,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -11780,11 +11780,11 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Kolor obudowy",
@@ -11792,27 +11792,27 @@
 								},
 								{
 									"label": "Konstrukcja bez wentylatora",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Czujnik jasności",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Funkcja wyświetlania na wielu monitorach - tryb telebimu (funkcja powiększania obrazu)",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Proste łańcuchowe połączenie (tryb multiplikowania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Diagnostyka",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Obsługa oprogramowania sterującego monitorem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -11838,7 +11838,7 @@
 								},
 								{
 									"label": "Funkcja unieważnienia dotyku dłonią",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Twardość ekranu (H)",
@@ -11894,11 +11894,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -11906,7 +11906,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Inne",
@@ -11946,15 +11946,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -12276,11 +12276,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -12288,11 +12288,11 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Kolor obudowy",
@@ -12300,27 +12300,27 @@
 								},
 								{
 									"label": "Konstrukcja bez wentylatora",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Czujnik jasności",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Funkcja wyświetlania na wielu monitorach - tryb telebimu (funkcja powiększania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Proste łańcuchowe połączenie (tryb multiplikowania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Diagnostyka",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Obsługa oprogramowania sterującego monitorem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -12346,7 +12346,7 @@
 								},
 								{
 									"label": "Funkcja unieważnienia dotyku dłonią",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Twardość ekranu (H)",
@@ -12402,11 +12402,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -12414,7 +12414,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Inne",
@@ -12454,15 +12454,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -12785,11 +12785,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -12797,11 +12797,11 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Kolor obudowy",
@@ -12809,27 +12809,27 @@
 								},
 								{
 									"label": "Konstrukcja bez wentylatora",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Czujnik jasności",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Funkcja wyświetlania na wielu monitorach - tryb telebimu (funkcja powiększania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Proste łańcuchowe połączenie (tryb multiplikowania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Diagnostyka",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Obsługa oprogramowania sterującego monitorem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -12855,7 +12855,7 @@
 								},
 								{
 									"label": "Funkcja unieważnienia dotyku dłonią",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Twardość ekranu (H)",
@@ -12911,11 +12911,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -12923,7 +12923,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Inne",
@@ -12963,15 +12963,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -13294,11 +13294,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -13306,11 +13306,11 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Kolor obudowy",
@@ -13318,27 +13318,27 @@
 								},
 								{
 									"label": "Konstrukcja bez wentylatora",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Czujnik jasności",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Funkcja wyświetlania na wielu monitorach - tryb telebimu (funkcja powiększania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Proste łańcuchowe połączenie (tryb multiplikowania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Diagnostyka",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Obsługa oprogramowania sterującego monitorem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -13364,7 +13364,7 @@
 								},
 								{
 									"label": "Funkcja unieważnienia dotyku dłonią",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Twardość ekranu (H)",
@@ -13420,11 +13420,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -13432,7 +13432,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Inne",
@@ -13472,15 +13472,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -13802,11 +13802,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -13814,11 +13814,11 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Kolor obudowy",
@@ -13826,27 +13826,27 @@
 								},
 								{
 									"label": "Konstrukcja bez wentylatora",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Czujnik jasności",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Funkcja wyświetlania na wielu monitorach - tryb telebimu (funkcja powiększania obrazu)",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Proste łańcuchowe połączenie (tryb multiplikowania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Diagnostyka",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Obsługa oprogramowania sterującego monitorem",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Inne",
@@ -13872,7 +13872,7 @@
 								},
 								{
 									"label": "Funkcja unieważnienia dotyku dłonią",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Twardość ekranu (H)",
@@ -13928,11 +13928,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -13940,7 +13940,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -13980,15 +13980,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -14388,11 +14388,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -14400,11 +14400,11 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Kolor obudowy",
@@ -14412,27 +14412,27 @@
 								},
 								{
 									"label": "Konstrukcja bez wentylatora",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Czujnik jasności",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Funkcja wyświetlania na wielu monitorach - tryb telebimu (funkcja powiększania obrazu)",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Proste łańcuchowe połączenie (tryb multiplikowania obrazu)",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Diagnostyka",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Obsługa oprogramowania sterującego monitorem",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Inne",
@@ -14458,7 +14458,7 @@
 								},
 								{
 									"label": "Funkcja unieważnienia dotyku dłonią",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Twardość ekranu (H)",
@@ -14514,11 +14514,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -14526,7 +14526,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Inne",
@@ -14566,15 +14566,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -14891,11 +14891,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -14903,43 +14903,43 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Czujnik jasności",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Funkcja wyświetlania na wielu monitorach - tryb telebimu (funkcja powiększania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Korekcja obrazu ze wględu na grubość ramki",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Funkcja odwracania obrazu",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Zdalne zarządzanie",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Proste łańcuchowe połączenie (tryb multiplikowania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Diagnostyka",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Obsługa oprogramowania sterującego monitorem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -14987,11 +14987,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -14999,7 +14999,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Inne",
@@ -15043,15 +15043,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -15373,11 +15373,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -15385,43 +15385,43 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Czujnik jasności",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Funkcja wyświetlania na wielu monitorach - tryb telebimu (funkcja powiększania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Korekcja obrazu ze wględu na grubość ramki",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Funkcja odwracania obrazu",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Zdalne zarządzanie",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Proste łańcuchowe połączenie (tryb multiplikowania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Diagnostyka",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Obsługa oprogramowania sterującego monitorem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -15469,11 +15469,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -15481,7 +15481,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Inne",
@@ -15525,15 +15525,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -15844,11 +15844,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -15856,43 +15856,43 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Czujnik jasności",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Funkcja wyświetlania na wielu monitorach - tryb telebimu (funkcja powiększania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Korekcja obrazu ze wględu na grubość ramki",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Funkcja odwracania obrazu",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Zdalne zarządzanie",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Proste łańcuchowe połączenie (tryb multiplikowania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Diagnostyka",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Obsługa oprogramowania sterującego monitorem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -15940,11 +15940,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -15952,7 +15952,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Inne",
@@ -15996,15 +15996,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",
@@ -16305,11 +16305,11 @@
 							"elements": [
 								{
 									"label": "Certyfikat pracy w trybie 24/7",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Lokalne przyciemnianie",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Wewnętrzne głośniki (W)",
@@ -16317,43 +16317,43 @@
 								},
 								{
 									"label": "Wejście komputera - Plug and Play",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zarządzanie zasilaniem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Czujnik jasności",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Funkcja wyświetlania na wielu monitorach - tryb telebimu (funkcja powiększania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Korekcja obrazu ze wględu na grubość ramki",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Funkcja odwracania obrazu",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zdalne zarządzanie",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Proste łańcuchowe połączenie (tryb multiplikowania obrazu)",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Diagnostyka",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Obsługa oprogramowania sterującego monitorem",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Inne",
@@ -16401,11 +16401,11 @@
 							"elements": [
 								{
 									"label": "Energy Star",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "CE, raport CB",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Zawartość rtęci (mg)",
@@ -16413,7 +16413,7 @@
 								},
 								{
 									"label": "Obecność ołowiu (zgodność z dyrektywą RoHS)",
-									"value": false
+									"value": "nie"
 								},
 								{
 									"label": "Inne",
@@ -16457,15 +16457,15 @@
 							"elements": [
 								{
 									"label": "Orientacja pozioma",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Orientacja pionowa",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "Ustawienie w poziomie",
-									"value": true
+									"value": "tak"
 								},
 								{
 									"label": "System montażu (VESA/liczba punktów/rozstaw w mm)",

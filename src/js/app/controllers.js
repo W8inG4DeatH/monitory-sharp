@@ -50,6 +50,7 @@
 
             $scope.produkty = [];
             $scope.shuffleprodukty = [];
+            $scope.actualYear = new Date().getFullYear();
             angular.forEach($scope.wwwData.categories, function(category, categoryKey) {
                 $scope.produkty[category.name] = [];
             });
@@ -71,7 +72,7 @@
 
             $scope.imgproduktyFolderPath = './img/produkty/';
 
-            // SLIDER
+            // SLIDER 
             $scope.colorsForSlider = ['#d82c38'];
             $scope.sliderCategoriesColors = [];
             $scope.sliderCategoriesImageNumbers = [];
